@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            The Force Engine
 tagline:          'TBA'
 description:      'TBA'
-url:              /
+url:              https://TheForceEngine.github.io
 baseurl:          /
 
 paginate:         5

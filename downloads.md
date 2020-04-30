@@ -4,4 +4,4 @@ title: Downloads
 ---
 
 TODO: Add downloads once ready.
-[Download](archive/downloadTest.zip)
+[Download](TheForceEngine.github.io/archive/downloadTest.zip)

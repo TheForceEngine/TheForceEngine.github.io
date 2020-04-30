@@ -9,7 +9,7 @@ title:            The Force Engine
 tagline:          'TBA'
 description:      'TBA'
 url:              https://TheForceEngine.github.io
-baseurl:          /
+baseurl:          https://TheForceEngine.github.io
 
 paginate:         5
 

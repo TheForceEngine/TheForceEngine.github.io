@@ -4,4 +4,4 @@ title: Downloads
 ---
 
 TODO: Add downloads once ready.
-[Test download](downloadTest.zip)
+<a href="https://theforceengine.github.io/archive/downloadTest.zip">Download</a>

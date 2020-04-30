@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{ https://theforceengine.github.io/ }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,8 +26,10 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      {% comment %}
+      Add this back in with the correct github repo address.
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      {% endcomment %}
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 

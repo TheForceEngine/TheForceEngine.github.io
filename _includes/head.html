@@ -6,6 +6,7 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
+    {% elsif page.title == "Blog" %}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}

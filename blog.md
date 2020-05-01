@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 ---
+The Force Engine development news and updates.
 
 <div class="posts">
   {% for post in site.posts %}

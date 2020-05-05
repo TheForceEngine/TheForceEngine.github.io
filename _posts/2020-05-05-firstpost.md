@@ -13,3 +13,12 @@ But the Jedi Engine never had a proper source release or reverse engineering eff
 * Cross platform support (though admittadly this last area still needs a lot of work before the first release).
 
 While the GitHub repository has been made public, The Force Engine has not been officially announced and no release has been made. It will be some time before that happens (see the Roadmap).
+
+<script src="https://utteranc.es/client.js"
+    repo="https://github.com/TheForceEngine/TheForceEngine.github.io"
+    issue-term="title"
+    label="Comment"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>

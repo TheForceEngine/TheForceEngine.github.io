@@ -20,5 +20,5 @@ While the GitHub repository has been made public, The Force Engine has not been 
     label="Comment"
     theme="github-light"
     crossorigin="anonymous"
-    async
+    async>
 </script>

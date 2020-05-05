@@ -17,14 +17,6 @@ The Force Engine development news and updates.
 
     {{ post.content }}
   </div>
-   <script src="https://utteranc.es/client.js"
-        repo="https://github.com/TheForceEngine/TheForceEngine.github.io"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-     </script>
   {% endfor %}
 </div>
 

@@ -16,7 +16,7 @@ While the GitHub repository has been made public, The Force Engine has not been 
 
 <script src="https://utteranc.es/client.js"
     repo="https://github.com/TheForceEngine/TheForceEngine.github.io"
-    issue-number="1"
+    issue-term="title"
     label="Comment"
     theme="github-light"
     crossorigin="anonymous"

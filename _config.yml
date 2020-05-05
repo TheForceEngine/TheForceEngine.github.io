@@ -1,7 +1,7 @@
 # Setup
 title:            The Force Engine
 tagline:          'Tag TBA'
-description:      'Description'
+description:      'Modern "Jedi Engine" replacement supporting Dark Forces, Outlaws and the mods.'
 url:              https://TheForceEngine.github.io
 baseurl:          ''
 paginate:         5

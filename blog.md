@@ -16,8 +16,8 @@ The Force Engine development news and updates.
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
-    
-    <script src="https://utteranc.es/client.js"
+  </div>
+   <script src="https://utteranc.es/client.js"
         repo="https://github.com/TheForceEngine/TheForceEngine.github.io"
         issue-term="pathname"
         label="Comment"
@@ -25,7 +25,6 @@ The Force Engine development news and updates.
         crossorigin="anonymous"
         async>
      </script>
-  </div>
   {% endfor %}
 </div>
 

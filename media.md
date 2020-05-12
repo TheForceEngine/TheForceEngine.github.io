@@ -4,7 +4,7 @@ title: Media
 ---
 
 ## Asset Editor / Viewer
-<a href="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/Asset1.jpg"><img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/Asset1.jpg" max-width></a>
+<a href="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/Asset1.jpg"><img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/Asset1.jpg" max-width=400></a>
 
 ![Asset1](screenshots/Asset1.jpg) ![Asset2](screenshots/Asset2.jpg)
 ![Asset3](screenshots/Asset3.jpg) ![Asset4](screenshots/Asset4.jpg)

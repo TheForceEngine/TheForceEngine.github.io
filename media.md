@@ -6,12 +6,12 @@ title: Media
 ## Asset Editor / Viewer
 <table style="width:100%">
   <tr>
-    <th><a href="screenshots/Asset1.jpg" class="inline"><img src="screenshots/Asset1.jpg" alt="Asset1" class="inline" id="screenshot"/></a></th>
-    <th><a href="screenshots/Asset2.jpg" class="inline"><img src="screenshots/Asset2.jpg" alt="Asset2" class="inline" id="screenshot"/></a></th>
+    <th><a href="screenshots/Asset1.jpg" class="inline"><img src="screenshots/Asset1.jpg" alt="Asset1" class="inline"/></a></th>
+    <th><a href="screenshots/Asset2.jpg" class="inline"><img src="screenshots/Asset2.jpg" alt="Asset2" class="inline"/></a></th>
   </tr>
   <tr>
-    <th><a href="screenshots/Asset3.jpg" class="inline"><img src="screenshots/Asset3.jpg" alt="Asset3" class="inline" id="screenshot"/></a></th>
-    <th><a href="screenshots/Asset4.jpg" class="inline"><img src="screenshots/Asset4.jpg" alt="Asset4" class="inline" id="screenshot"/></a></th>
+    <th><a href="screenshots/Asset3.jpg" class="inline"><img src="screenshots/Asset3.jpg" alt="Asset3" class="inline"/></a></th>
+    <th><a href="screenshots/Asset4.jpg" class="inline"><img src="screenshots/Asset4.jpg" alt="Asset4" class="inline"/></a></th>
   </tr>
 </table>
 

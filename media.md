@@ -2,8 +2,11 @@
 layout: page
 title: Media
 ---
+[Asset Editor](#asset-editor)<br>
+[Level Editor](#level-editor)<br>
+[Dark Forces](#dark-forces)
 
-## Asset Editor / Viewer
+## Asset Editor
 <table style="width:100%">
   <tr>
     <th><a href="screenshots/Asset1.jpg" class="inline"><img src="screenshots/Asset1.jpg" alt="Asset1" class="inline"/></a></th>
@@ -30,7 +33,7 @@ title: Media
   </tr>
 </table>
 
-## Dark Forces (Game)
+## Dark Forces
 <table style="width:100%">
   <tr>
     <th><a href="screenshots/DarkForces1.jpg" class="inline"><img src="screenshots/DarkForces1.jpg" alt="DarkForces1" class="inline"/></a></th>

@@ -2,6 +2,7 @@
 layout: page
 title: Media
 ---
+<a id="top"></a>
 [Asset Editor](#asset-editor)<br>
 [Level Editor](#level-editor)<br>
 [Dark Forces](#dark-forces)
@@ -17,6 +18,7 @@ title: Media
     <th><a href="screenshots/Asset4.jpg" class="inline"><img src="screenshots/Asset4.jpg" alt="Asset4" class="inline"/></a></th>
   </tr>
 </table>
+[Top](#top)
 
 ## Level Editor
 <table style="width:100%">
@@ -32,6 +34,7 @@ title: Media
     <th><a href="screenshots/LevelEditor5.jpg" class="inline"><img src="screenshots/LevelEditor5.jpg" alt="LevelEditor5" class="inline"/></a></th>
   </tr>
 </table>
+[Top](#top)
 
 ## Dark Forces
 <table style="width:100%">
@@ -47,3 +50,4 @@ title: Media
     <th><a href="screenshots/DarkForces5.jpg" class="inline"><img src="screenshots/DarkForces5.jpg" alt="DarkForces5" class="inline"/></a></th>
   </tr>
 </table>
+[Top](#top)

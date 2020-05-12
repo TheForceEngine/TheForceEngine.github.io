@@ -4,7 +4,7 @@ title: Media
 ---
 
 ## Asset Editor / Viewer
-<a href="screenshots/Asset1.jpg" class="inline"><img src="screenshots/Asset1.jpg" alt="Asset1" class="inline" id="screenshot"/></a>
+<a href="screenshots/Asset1.jpg" class="inline"><img src="screenshots/Asset1.jpg" alt="Asset1" class="inline" id="screenshot"/></a> <a href="screenshots/Asset2.jpg" class="inline"><img src="screenshots/Asset2.jpg" alt="Asset2" class="inline" id="screenshot"/></a>
 
 ![Asset1](screenshots/Asset1.jpg) ![Asset2](screenshots/Asset2.jpg)
 ![Asset3](screenshots/Asset3.jpg) ![Asset4](screenshots/Asset4.jpg)

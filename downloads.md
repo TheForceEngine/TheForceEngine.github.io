@@ -5,5 +5,5 @@ title: Downloads
 
 Downloads will be added with the first release.
 
-## Test Download - it is just a zipped text file to verify that downloads work.
-[Download](TheForceEngine.github.io/archive/downloadTest.zip)
+### Pre-Release Build Version 0.01.000; Win64
+[TheForceEngine_0_01_000.zip](TheForceEngine_0_01_000.zip)

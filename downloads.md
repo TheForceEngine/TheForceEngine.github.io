@@ -5,5 +5,5 @@ title: Downloads
 
 Current Releases are for testing only, the gameplay is incomplete.
 
-### Pre-Release Build Version 0.01.001; Win64 (Updated)
-[TheForceEngine_0_01_001.zip](archive/TheForceEngine_0_01_001.zip)
+### Pre-Release Build Version 0.01.002; Win64
+[TheForceEngine_0_01_002.zip](archive/TheForceEngine_0_01_002.zip)

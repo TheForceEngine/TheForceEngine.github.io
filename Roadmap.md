@@ -3,7 +3,7 @@ layout: page
 title: Roadmap
 ---
 
-## **November 1, 2020** First Public Release
+## **November 1, 2020** First Official Release
 General
 * The Force Engine UI complete.
 * Direct mod loading from zip files.

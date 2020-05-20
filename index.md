@@ -10,6 +10,8 @@ The Force Engine is a project to reverse engineer and rebuild the Jedi Engine fo
 
 Playing Dark Forces or Outlaws using the Force Engine adds ease of use and modern features such as higher resolutions and modern control schemes such as mouse-look. Using the built-in tools allows for easier modding with more modern UI, greater flexibility and the ability to use enhancements made to the Jedi Engine for Outlaws in custom Dark Forces levels - such as slopes, stacked sectors, per-sector color maps and more.
 
+Note that this project aims to replace the executables but you will **need the original game data** to play. This is not a remake but a way to make the original games easier to play on modern systems, to provide optional improvements such as modern controls and higher resolution rendering and to provide enhanced modding support and tools. If you do not already own Dark Forces and/or Outlaws, you will need to **purchase them** to play them through the Force Engine. Both games are currently available on the Steam and GOG digital stores.
+
 ## Current State
 The project is in a pre-release state. While it shares a legacy with DarkXL, it is a complete rewrite - rebuilt from the ground up with a much greater focus on accuracy. It is much more focused than the XL Engine, focused on being a Jedi Engine replacement/port only - thus full support for Dark Forces and Outlaws. Please check the [Roadmap](Roadmap.md) for more information on release timetable and planned feature-set. It is somewhat conservative - there is a decent chance that the release will be earlier.
 

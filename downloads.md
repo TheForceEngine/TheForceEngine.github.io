@@ -6,7 +6,7 @@ title: Downloads
 Current Releases are for testing only, the gameplay is incomplete.
 
 ### Pre-Release Build Version 0.01.0005; Win64
-[TheForceEngine_0_01_005.zip](archive/TheForceEngine_0_01_005.zip)
+[TheForceEngine_0_01_005.zip](archive/TheForceEngine_0_01_005.zip) <br>
 Changes:
   * PrintScreen will now take screenshots which will be saved in the /Documents/Screenshots/ folder.
   * The "Configure" menu option now opens up configuration menus.

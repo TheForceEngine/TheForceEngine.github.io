@@ -8,7 +8,7 @@ This post concerns the next major **test release**, the DF Classic Renderer Rele
 ## Classic Renderer
 The "Classic Renderer" is the Dos-Dark Forces derived Jedi Engine renderer. This covers the rendering in the 3D view - purely 2D rendering such as UI is basically done except for a few bugs. This renderer involves several key components: walls with overlays (such as switches or signs), flats (floors and ceilings), mask walls (walls with transparent elements such as fences or force fields), sprites and 3D models - with proper light attenuation in different situations.
 
-For a more thorough description of the renderer Dos itself see the work in progress **Dark Forces (DOS) Rendering** series starting with [Dark Forces (DOS) Rendering, Part I](_posts/2020-05-16-DFRender1.md). I will probably post Part 2 within a week or so.
+For a more thorough description of the renderer Dos itself see the work in progress **Dark Forces (DOS) Rendering** series starting with [Dark Forces (DOS) Rendering, Part I](https://theforceengine.github.io/2020/05/16/DFRender1.html). I will probably post Part 2 within a week or so.
 
 ## DF Classic Renderer Release
 The current renderer in the test release is not complete and not fully accurate - there are several issues such as sorting issues with sprites versus walls in a few cases and incorrect sorting with 3D objects versus sprites and walls in general. There are also some issues with wall rendering in some mods - such as "Prelude to Harkov`s Defection" (see the tram/subway). Finally the light falloff is not quite correct (though it is close in many levels), which is probably most obvious in Gromas Mines - the fog effect does not match the original very well in some areas.

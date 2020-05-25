@@ -26,4 +26,4 @@ Note that after the gameplay is more complete there will be another big renderer
 ## Next Steps
 Once the DF Classic Renderer Release is finalized, the next steps are to focus on gameplay elements - fully accurate collision detection and player movement, AI and weapons. These will be broken down into major test releases, in a similar manner as the DF Classic Renderer. 
 
-<a href="https://the-force-engine.freeforums.net/thread/15/df-classic-renderer-release">Add Comment</a>
+<a href="https://the-force-engine.freeforums.net/thread/15/upcoming-df-classic-renderer-release">Add Comment</a>

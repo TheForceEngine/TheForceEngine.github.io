@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DF Classic Renderer Release
+title: Upcoming DF Classic Renderer Release
 ---
 
 This post concerns the next major **test release**, the DF Classic Renderer Release. There may be smaller releases in the meantime, such as bug fixes or quality of life improvements.

@@ -5,9 +5,10 @@ title: Downloads
 
 Current Releases are for testing only, the gameplay is incomplete.
 
-### Pre-Release Build Version 0.01.006; Win64
-[TheForceEngine_0_01_006.zip](archive/TheForceEngine_0_01_006.zip) <br>
+### Pre-Release Build Version 0.01.006-1; Win64
+[TheForceEngine_0_01_0061.zip](archive/TheForceEngine_0_01_0061.zip) <br>
 Changes:
+  * "Hot-fix" due to an error in the registry code not verifying the final source data directory.
   * Fixes a "freeze" in "Prelude to Harkov's Defection" when shooting at certain walls.
   * Fixes hardcoded GOG game source data paths for Dark Forces.
   * Fixes Steam game source data paths for Outlaws.

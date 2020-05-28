@@ -11,6 +11,7 @@ Changes:
   * Fixes a "freeze" in "Prelude to Harkov's Defection" when shooting at certain walls.
   * Fixes hardcoded GOG game source data paths for Dark Forces.
   * Fixes Steam game source data paths for Outlaws.
+  * Outlaws paths are always filled out now if possible, though only Dark Forces is playable.
   * Now uses the registry to find Steam and GOG game paths, making auto-detecting the game data much more robust - similar to Doom ports like ZDoom and Chocolate Doom.
 
 ### Pre-Release Build Version 0.01.005; Win64

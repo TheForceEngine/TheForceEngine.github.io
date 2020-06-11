@@ -10,4 +10,4 @@ The Classic Renderer will also have hardware support, which means faster renderi
 
 The renderer in the current build has issues with low light environments, where the lighting itself doesn't quite match the original. The Classic Renderer fixes this (among other issues) - so I put together a screenshot that shows the Classic Renderer and DosBox side by side. The Force Engine version was resized in Photoshop and cropped so there is some slight distortion and the viewpoints aren't exactly the same but I think you will be able to see that the character of the rendering, lighting and colors match.
 
-<a href="screenshots/ClassicRendererAndDosBox.png" class="inline"><img src="screenshots/ClassicRendererAndDosBox.png" alt="Comparison" class="inline"/></a>
+<a href="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/ClassicRendererAndDosBox.png?raw=true" class="inline"><img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/ClassicRendererAndDosBox.png?raw=true" alt="Comparison" class="inline"/></a>

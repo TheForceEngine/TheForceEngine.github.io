@@ -8,11 +8,11 @@ Dark Forces (DOS) Rendering, Part II
 
 `Note: many images in this post were generated using Desmos, an online graphing calculator.`
 
-This post is the second in a series of posts that take a deep dive into the Jedi renderer as implemented in Dark Forces (DOS). This will continue where the [2020-05-16-DFRender1.md](previous post) left off. At the end of the last post, we had transformed our sector vertices into viewspace, determined which walls were potentially visible and clipped them to the view frustum building "WallSegments" that were ready for rendering.
+This post is the second in a series of posts that take a deep dive into the Jedi renderer as implemented in Dark Forces (DOS). This will continue where [part 1](https://theforceengine.github.io/2020/05/16/DFRender1.html) left off. At the end of the last post, we had transformed our sector vertices into viewspace, determined which walls were potentially visible and clipped them to the view frustum and finally projected them to screenspace building "WallSegments" that were ready for rendering.
 
-As review from the last post, each Wall Segment has been clipped to camera frustum and projected. These Wall Segments are facing the camera and at least partially inside the frustum.
+As review from the last post, each Wall Segment has been clipped to camera frustum and projected. These Wall Segments are facing the camera and at least partially inside the frustum. See the image below
 
-** Image of 2D view frustum and some example lines **
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/images/WallSegments.png?raw=true" alt="Wall Segments" class="inline"/>
 
 ## Wall Draw Flags
 During level load or whenever a sector is updated, some extra setup occurs that determines how the walls will be drawn later. We consider a wall as made up of three parts - top, bottom and middle (top, bot, mid in the code). A solid wall will consist of only the mid part. If the wall is adjoined (connected) to another sector, then it may have a top and/or bottom part.

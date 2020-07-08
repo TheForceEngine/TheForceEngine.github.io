@@ -11,12 +11,13 @@ The following task list are the items required for the release. The biggest rema
 
 - [x] RE Lighting.
 - [x] RE Wall clipping/sorting.
-- [x] RE Wall Rendering.
-- [x] RE Sign Rendering.
-- [x] RE Sky Rendering.
-- [x] RE Flat (floor/ceiling) Rendering.
-- [x] RE Sector Rendering.
+- [x] RE Wall rendering.
+- [x] RE Sign rendering.
+- [x] RE Sky rendering.
+- [x] RE Flat (floor/ceiling) rendering.
+- [x] RE Sector rendering.
 - [x] RE Adjoin/portal traversal.
+- [x] RE Mask Wall rendering.
 - [x] RE Sprite Rendering.
 - [x] RE Sprite/3D Object/Wall sorting.
 - [x] RE Level Geometry loading.

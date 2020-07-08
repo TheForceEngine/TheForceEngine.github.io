@@ -17,35 +17,39 @@ As review from the last post, each Wall Segment has been clipped to camera frust
 ## Wall Draw Flags
 During level load or whenever a sector is updated, some extra setup occurs that determines how the walls will be drawn later. We consider a wall as made up of three parts - top, bottom and middle (top, bot, mid in the code). A solid wall will consist of only the mid part. If the wall is adjoined (connected) to another sector, then it may have a top and/or bottom part.
 
-`WallDrawFlags`<br>
-`  WDF_MID = 0`<br>
-`  WDF_TOP = 1`<br>
-`  WDF_BOT = 2`<br>
+```C++
+WallDrawFlags
+  WDF_MID = 0
+  WDF_TOP = 1
+  WDF_BOT = 2
+```
 
 Simply put if the next sector floor height is higher than the current sector, then WDF_BOT is set. If the next sector ceiling is lower than the current sector the WDF_TOP flag is set. If both are true than WDF_TOP and WDF_BOT are set and if neither are true than draw flags will be WDF_MID - either a solid wall or the floor and ceilings both match between sectors. It is possible to render top and/or bottom and middle parts, but in that case it is a transparent wall which is handled seperately.
 
 In addition to setting up draw flags, the texel height of each part is calculated:<br>
-`Sector* next = wall->nextSector;`<br>
-`Sector* cur  = wall->sector;`<br>
-`if (wall->drawFlags & WDF_TOP)`<br>
-`{`<br>
-`  wall->topTexelHeight = (next->ceilingHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
-`}`<br>
-`if (wall->drawFlags & WDF_BOT)`<br>
-`{`<br>
-`  wall->botTexelHeight = (cur->floorHeight - next->floorHeight) * worldToTexelScale;`<br>
-`}`<br>
-`if (wall->midTex)`<br>
-`{`<br>
-`  if (!(wall->drawFlags & WDF_BOT) && !(wall->drawFlags & WDF_TOP))`<br>
-`    wall->midTexelHeight = (cur->floorHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
-`  else if (!(wall->drawFlags & WDF_BOT))`<br>
-`    wall->midTexelHeight = (cur->floorHeight - next->ceilingHeight) * worldToTexelScale;`<br>
-`  else if (!(wall->drawFlags & WDF_TOP))`<br>
-`    wall->midTexelHeight = (next->floorHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
-`  else`<br>
-`    wall->midTexelHeight = (next->floorHeight - next->ceilingHeight) * worldToTexelScale;`<br>
-`}`<br>
+```C++
+Sector* next = wall->nextSector;
+Sector* cur  = wall->sector;
+if (wall->drawFlags & WDF_TOP)
+{
+  wall->topTexelHeight = (next->ceilingHeight - cur->ceilingHeight) * worldToTexelScale;
+}
+if (wall->drawFlags & WDF_BOT)
+{
+  wall->botTexelHeight = (cur->floorHeight - next->floorHeight) * worldToTexelScale;
+}
+if (wall->midTex)
+{
+  if (!(wall->drawFlags & WDF_BOT) && !(wall->drawFlags & WDF_TOP))
+    wall->midTexelHeight = (cur->floorHeight - cur->ceilingHeight) * worldToTexelScale;
+  else if (!(wall->drawFlags & WDF_BOT))
+    wall->midTexelHeight = (cur->floorHeight - next->ceilingHeight) * worldToTexelScale;
+  else if (!(wall->drawFlags & WDF_TOP))
+    wall->midTexelHeight = (next->floorHeight - cur->ceilingHeight) * worldToTexelScale;
+  else
+    wall->midTexelHeight = (next->floorHeight - next->ceilingHeight) * worldToTexelScale;
+}
+```
 
 In the original code the multiplication with worldToTexelScale is really a left shift by 3 since `worldToTexelScale = 8` but I modified it for clarity. This means that there are 8 texture pixels (texels) per world unit (DFU).
 
@@ -63,8 +67,10 @@ The core "work horse" function used to determine which wall is in front of anoth
 `1: the line segment A does NOT intersect line B`<br>
 
 The math is fairly straight forward (as seen in the original code):
-`segCross = ((A1.x - B0.x)*(B1.y - B0.y) - (A1.y - B0.y)*(B1.x - B0.x)) * ((A0.x - B0.x)*(B1.y-B0.y) - (A0.y - B0.y)*(B1.x - B0.x))`
-`return segCross > 0 ? 1 : 0;`
+```C++
+segCross = ((A1.x - B0.x)*(B1.y - B0.y) - (A1.y - B0.y)*(B1.x - B0.x)) * ((A0.x - B0.x)*(B1.y-B0.y) - (A0.y - B0.y)*(B1.x - B0.x))
+return segCross > 0 ? 1 : 0;
+```
 
 Which is: `(A1-B0)x(B1-B0) * (A0-B0)x(B1-B0)` where x = perp product (aka "2D cross product" - even though that isn't quite accurate mathematically).
 

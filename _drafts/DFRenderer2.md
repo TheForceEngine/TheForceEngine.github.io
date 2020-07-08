@@ -24,27 +24,27 @@ During level load or whenever a sector is updated, some extra setup occurs that 
 
 Simply put if the next sector floor height is higher than the current sector, then WDF_BOT is set. If the next sector ceiling is lower than the current sector the WDF_TOP flag is set. If both are true than WDF_TOP and WDF_BOT are set and if neither are true than draw flags will be WDF_MID - either a solid wall or the floor and ceilings both match between sectors. It is possible to render top and/or bottom and middle parts, but in that case it is a transparent wall which is handled seperately.
 
-In addition to setting up draw flags, the texel height of each part is calculated:
+In addition to setting up draw flags, the texel height of each part is calculated:<br>
 `Sector* next = wall->nextSector;`<br>
 `Sector* cur  = wall->sector;`<br>
 `if (wall->drawFlags & WDF_TOP)`<br>
 `{`<br>
-`	wall->topTexelHeight = (next->ceilingHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
+`  wall->topTexelHeight = (next->ceilingHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
 `}`<br>
 `if (wall->drawFlags & WDF_BOT)`<br>
 `{`<br>
-`	wall->botTexelHeight = (cur->floorHeight - next->floorHeight) * worldToTexelScale;`<br>
+`  wall->botTexelHeight = (cur->floorHeight - next->floorHeight) * worldToTexelScale;`<br>
 `}`<br>
 `if (wall->midTex)`<br>
 `{`<br>
-`	if (!(wall->drawFlags & WDF_BOT) && !(wall->drawFlags & WDF_TOP))`<br>
-`		wall->midTexelHeight = (cur->floorHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
-`	else if (!(wall->drawFlags & WDF_BOT))`<br>
-`		wall->midTexelHeight = (cur->floorHeight - next->ceilingHeight) * worldToTexelScale;`<br>
-`	else if (!(wall->drawFlags & WDF_TOP))`<br>
-`		wall->midTexelHeight = (next->floorHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
-`	else`<br>
-`		wall->midTexelHeight = (next->floorHeight - next->ceilingHeight) * worldToTexelScale;`<br>
+`  if (!(wall->drawFlags & WDF_BOT) && !(wall->drawFlags & WDF_TOP))`<br>
+`    wall->midTexelHeight = (cur->floorHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
+`  else if (!(wall->drawFlags & WDF_BOT))`<br>
+`    wall->midTexelHeight = (cur->floorHeight - next->ceilingHeight) * worldToTexelScale;`<br>
+`  else if (!(wall->drawFlags & WDF_TOP))`<br>
+`    wall->midTexelHeight = (next->floorHeight - cur->ceilingHeight) * worldToTexelScale;`<br>
+`  else`<br>
+`    wall->midTexelHeight = (next->floorHeight - next->ceilingHeight) * worldToTexelScale;`<br>
 `}`<br>
 
 In the original code the multiplication with worldToTexelScale is really a left shift by 3 since `worldToTexelScale = 8` but I modified it for clarity. This means that there are 8 texture pixels (texels) per world unit (DFU).

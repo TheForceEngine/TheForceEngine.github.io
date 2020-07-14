@@ -1,6 +1,7 @@
 ---
 layout: default
 title: TFEM ("TFE Map") Spec [Draft]
+permalink: TFEM_Spec.html
 ---
 *This is an early draft and is not final, some features or elements may be missing.*
 

@@ -1,4 +1,7 @@
-## TFEM ("TFE Map") Spec [Draft]
+---
+layout: post
+title: TFEM ("TFE Map") Spec [Draft]
+---
 *This is an early draft and is not final, some features or elements may be missing.*
 
 The Force Engine will support the Dark Forces LEV format, Outlaws LVT and LVB formats and a super-set format called TFEM ("TFE Map"). Unfortunately the Jedi Engine reads text based data files in a fairly rigid way, meaning that there is no provision for skipping default parameters or adding new unknown parameters or structure. For this reason, the original formats are not very useful for adding new features or for the level editor. This format has some similarities to the UDMF format and is my attempt to "get ahead" of the format mess and allow the same format to be used while adding new features in the future and for the format to be the master format used by tools.

@@ -203,7 +203,8 @@ Sectors: <int>  // List of sectors.
       SoundFloor: <string>
     }
     
-    // Flags are explicity named since numbers can change from game to game. Default for all flags is false, so omit any unused flags.
+    // Flags are explicity named since numbers can change from game to game.
+    // Default for all flags is false, so omit any unused flags.
     // See the Flags section below for an exhaustive list.
     Flags
     {
@@ -256,7 +257,8 @@ Sectors: <int>  // List of sectors.
         
         Flags
         {
-          // Flags are explicity named since numbers can change from game to game. Default for all flags is false, so omit any unused flags.
+          // Flags are explicity named since numbers can change from game to game.
+          // Default for all flags is false, so omit any unused flags.
           // See the Flags section below for an exhaustive list.
           AdjoinMidTexture: <bool>
           FlipHorizontal: <bool>
@@ -292,7 +294,8 @@ Sectors: <int>  // List of sectors.
           DeltaYaw: <float>
           DeltaPitch: <float>
           DeltaRoll: <float>
-          // Flags are explicity named since numbers can change from game to game. Default for all flags is false, so omit any unused flags.
+          // Flags are explicity named since numbers can change from game to game.
+          // Default for all flags is false, so omit any unused flags.
           // See the Flags section below for an exhaustive list.
           Flag_AnimateYaw: <bool>
           Flag_AnimatePitch: <bool>

@@ -83,6 +83,7 @@ Values may take on one of the following formats:
  * ```<int>```  a 32 bit signed integer.
  * ```<float>``` a 32 bit signed floating point number. The number of fractional digits should not exceed 3 in order to avoid numerical drift when loading and saving data.
  * ```<string>``` a variable length NULL terminated string. Any strings with spaces or other whitespace should be enclosed in quotes *"like this example"*.
+ * ```<bool>``` a boolean value, either true or false (1 and 0 will also work).
 
 ### Level format
 ```C++

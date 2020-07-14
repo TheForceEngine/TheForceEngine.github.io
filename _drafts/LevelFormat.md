@@ -5,7 +5,7 @@ title: Future Level Format
 
 When taking breaks from the reverse-engineering work, sometimes I work a bit on the level editor. One area of work is deciding on the editor format and how to expose advanced features to Dark Forces and Outlaws (such as slopes in new Dark Forces levels). So I have been putting together a format "spec" that I am planning on implementing for the level editor at some point before it starts being used for real work.
 
-[TFEM Spec](TFEM_Spec_Draft.md)
+[TFEM Spec](TFEM_Spec.md)
 
 ### Excerpt from the draft
 

@@ -86,78 +86,79 @@ Values may take on one of the following formats:
 ```C++
 Header
 {
-  Version: <float>                     // TFEM version, default = 1.0
-  FeatureSet: <string>                 // Possible values: "Dark Forces", "Outlaws", "TFE"
-  DisplayName: <string>                // Name displayed for the player.
-  SlotName: <string>                   // Name of the level slot the map occupies, game specific.
-  Palettes: <int>                      // Palettes used by the level, ignored when using the Dark Forces featureset.
+  Version: <float>       // TFEM version, default = 1.0
+  FeatureSet: <string>   // Possible values: "Dark Forces", "Outlaws", "TFE"
+  DisplayName: <string>  // Name displayed for the player.
+  SlotName: <string>     // Name of the level slot the map occupies, game specific.
+  Palettes: <int>        // Palettes used by the level, ignored when using the Dark Forces featureset.
   {
     <string>
     <string>
     // ...
   }
-  Colormaps: <int>                     // Colormaps used by the level, ignored when using the Dark Forces featureset.
+  Colormaps: <int>       // Colormaps used by the level, ignored when using the Dark Forces featureset.
   {
     <string>
     <string>
     // ...
   }
-  Music: <string>                      // Main music track to use, ignored when using the Dark Forces featureset.
-  Parallax: <float>, <float>           // Sky parallax for X and Y.
-  Comment: <string>                    // An optional comment that is visible and preserved by tools.
+  Music: <string>             // Main music track to use, ignored when using the Dark Forces featureset.
+  Parallax: <float>, <float>  // Sky parallax for X and Y.
+  Comment: <string>           // An optional comment that is visible and preserved by tools.
 }
 
-Textures: <int>                        // List of textures used by the level (BM for FeatureSet: Dark Forces).
+Textures: <int>  // List of textures used by the level (BM for FeatureSet: Dark Forces).
 {
   <string>           // 0
   <string>           // 1
   // ...
 }
 
-Pods: <int>                            // List of 3D object assets (3DO for FeatureSet: Dark Forces or Outlaws).
+Pods: <int>  // List of 3D object assets (3DO for FeatureSet: Dark Forces or Outlaws).
 {
   <string>           // 0
   <string>           // 1
   // ...
 }
 
-Sprites: <int>                          // List of Sprite assets (WAX for FeatureSet: Dark Forces, NWX for FeatureSet: Outlaws).
+Sprites: <int>  // List of Sprite assets (WAX for FeatureSet: Dark Forces, NWX for FeatureSet: Outlaws).
 {
   <string>           // 0
   <string>           // 1
   // ...
 }
 
-Frames: <int>                          // List of Frame assets (FME for FeatureSet: Dark Forces).
+Frames: <int>  // List of Frame assets (FME for FeatureSet: Dark Forces).
 {
   <string>           // 0
   <string>           // 1
   // ...
 }
 
-Sounds: <int>                          // List of sound assets (VOC for FeatureSet: Dark Forces, WAV for FeatureSet: Outlaws).
+Sounds: <int>  // List of sound assets (VOC for FeatureSet: Dark Forces, WAV for FeatureSet: Outlaws).
 {
   <string>           // 0
   <string>           // 1
   // ...
 }
 
-Sectors: <int>                         // List of sectors.
+Sectors: <int>  // List of sectors.
 {
   Sector  // #0
   {
-    Name: <string>                                 // Sector name, used for INF/scripting.
-    Layer: <int>                                   // Sector layer, default = 0
-    VerticalAdjoin: <int>                          // Sector adjoined to the floor or ceiling (ignored for the Dark Forces featureset).
-    Comment: <string>                              // Comment should be visible and preserved by tools.
+    Name: <string>         // Sector name, used for INF/scripting.
+    Layer: <int>           // Sector layer, default = 0
+    VerticalAdjoin: <int>  // Sector adjoined to the floor or ceiling (ignored for the Dark Forces featureset).
+    Comment: <string>      // Comment should be visible and preserved by tools.
     
     Lighting
     {
-      Ambient: <int>                                 // Sector ambient.
-      MasterOnAmbient: <int>                         // Ambient level when "master on" message has been recieved.
+      Ambient: <int>         // Sector ambient.
+      MasterOnAmbient: <int> // Ambient level when "master on" message has been recieved.
+      
       // Per-sector colormap/palette is ignored for the Dark Forces featureset.
-      Palette: <int>                                 // Palette index
-      Colormap: <int>                                // Colormap index
+      Palette: <int>         // Palette index
+      Colormap: <int>        // Colormap index
     }
     
     Floor
@@ -165,8 +166,10 @@ Sectors: <int>                         // List of sectors.
       // Texture/Overlay Angle is ignored for the Dark Forces featureset.
       // Floor texture: Index - index into the texture list, Offset - texture offset in world units.
       Texture { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      
       // Floor overlay texture (ignored for the Dark Forces featureset).
       Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      
       Height: <float>                                    // Floor height in world units.
       HeightOffset: <float>                              // Offset height, used for liquids and bridges (Second height in Dark Forces).
       Slope { Sector: <int>; Wall: <int>; Angle: <int> } // Floor slope (ignored for the Dark Forces featureset).
@@ -177,8 +180,10 @@ Sectors: <int>                         // List of sectors.
       // Texture/Overlay Angle is ignored for the Dark Forces featureset.
       // Ceiling texture: Index - index into the texture list, Offset - texture offset in world units.
       Texture { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      
       // Ceiling overlay texture (ignored for the Dark Forces featureset).
       Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      
       Height: <float>                                     // Ceiling height in world units.
       Slope { Sector: <int>; Wall: <int>; Angle: <int> }  // Ceiling slope (ignored for the Dark Forces featureset).
     }
@@ -209,21 +214,28 @@ Sectors: <int>                         // List of sectors.
       // ...
     }
     
-    Vertices: <int>                               // Vertices referenced by the sector.
+    Vertices: <int>  // Vertices referenced by the sector.
     {
-      <float>, <float> [, <float>]                // XZ values or XYZ values depending on feature set.
+      <float>, <float> [, <float>]  // XZ values or XYZ values depending on feature set.
       <float>, <float>
       // ...
     }
     
-    Walls: <int>                                  // Walls used by the sector
+    Walls: <int>  // Walls used by the sector
     {
       Wall
       {
-        Indices: <int>, <int>                                   // Vertex indices.
-        TextureMid: { Index: <int>; Offset: <float>, <float>; } // Middle Texture - Index: index into texture table, Offset: UV offset in world units.
-        TextureTop: { Index: <int>; Offset: <float>, <float>; } // Top Texture - Index: index into texture table, Offset: UV offset in world units.
-        TextureBot: { Index: <int>; Offset: <float>, <float>; } // Bottom Texture - Index: index into texture table, Offset: UV offset in world units.
+        Indices: <int>, <int>  // Vertex indices.
+        
+        // Middle Texture - Index: index into texture table, Offset: UV offset in world units.
+        TextureMid: { Index: <int>; Offset: <float>, <float>; }
+        
+        // Top Texture - Index: index into texture table, Offset: UV offset in world units.
+        TextureTop: { Index: <int>; Offset: <float>, <float>; }
+        
+        // Bottom Texture - Index: index into texture table, Offset: UV offset in world units.
+        TextureBot: { Index: <int>; Offset: <float>, <float>; }
+        
         // Overlay Texture (Sign in Dark Forces) - Index: index into texture table, Offset: UV offset in world units.
         TextureOverlay: { Index: <int>; Offset: <float>, <float>; }
         
@@ -232,8 +244,8 @@ Sectors: <int>                         // List of sectors.
         Mirror: <int>  // Wall Id of the adjoined sector. Omit if this is a solid wall.
         
         // Double adjoins are ignored for the Dark Forces featureset.
-        DAdjoin: <int>     // The second sector adjoined at this wall. Omit if this is a solid wall or only has one adjoin.
-        DMirror: <int>     // Wall Id of the second adjoined sector. Omit if this is a solid wall or only has one adjoin.
+        DAdjoin: <int>  // The second sector adjoined at this wall. Omit if this is a solid wall or only has one adjoin.
+        DMirror: <int>  // Wall Id of the second adjoined sector. Omit if this is a solid wall or only has one adjoin.
         
         Comment: <string>  // Optional comment.
         

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: TFEM ("TFE Map") Spec [Draft]
 ---
 *This is an early draft and is not final, some features or elements may be missing.*

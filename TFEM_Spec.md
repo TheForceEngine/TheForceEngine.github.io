@@ -163,20 +163,24 @@ Sectors: <int>                         // List of sectors.
     Floor
     {
       // Texture/Overlay Angle is ignored for the Dark Forces featureset.
-      Texture { Index: <int>; Offset: <float>, <float>; Angle: <float>; }   // Floor texture: Index - index into the texture list, Offset - texture offset in world units.
-      Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }   // Floor overlay texture (ignored for the Dark Forces featureset).
-      Height: <float>                                                       // Floor height in world units.
-      HeightOffset: <float>                                                 // Offset height, used for liquids and bridges (Second height in Dark Forces).
-      Slope { Sector: <int>; Wall: <int>; Angle: <int> }                    // Floor slope (ignored for the Dark Forces featureset).
+      // Floor texture: Index - index into the texture list, Offset - texture offset in world units.
+      Texture { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      // Floor overlay texture (ignored for the Dark Forces featureset).
+      Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      Height: <float>                                    // Floor height in world units.
+      HeightOffset: <float>                              // Offset height, used for liquids and bridges (Second height in Dark Forces).
+      Slope { Sector: <int>; Wall: <int>; Angle: <int> } // Floor slope (ignored for the Dark Forces featureset).
     }
     
     Ceiling
     {
       // Texture/Overlay Angle is ignored for the Dark Forces featureset.
-      Texture { Index: <int>; Offset: <float>, <float>; Angle: <float>; }   // Ceiling texture: Index - index into the texture list, Offset - texture offset in world units.
-      Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }   // Ceiling overlay texture (ignored for the Dark Forces featureset).
-      Height: <float>                                                       // Ceiling height in world units.
-      Slope { Sector: <int>; Wall: <int>; Angle: <int> }                    // Ceiling slope (ignored for the Dark Forces featureset).
+      // Ceiling texture: Index - index into the texture list, Offset - texture offset in world units.
+      Texture { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      // Ceiling overlay texture (ignored for the Dark Forces featureset).
+      Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
+      Height: <float>                                     // Ceiling height in world units.
+      Slope { Sector: <int>; Wall: <int>; Angle: <int> }  // Ceiling slope (ignored for the Dark Forces featureset).
     }
                 
     // Sector physics properties (ignored for the Dark Forces featureset).
@@ -216,20 +220,22 @@ Sectors: <int>                         // List of sectors.
     {
       Wall
       {
-        Indices: <int>, <int>                                       // Vertex indices.
-        TextureMid: { Index: <int>; Offset: <float>, <float>; }     // Middle Texture - Index: index into texture table, Offset: UV offset in world units.
-        TextureTop: { Index: <int>; Offset: <float>, <float>; }     // Top Texture - Index: index into texture table, Offset: UV offset in world units.
-        TextureBot: { Index: <int>; Offset: <float>, <float>; }     // Bottom Texture - Index: index into texture table, Offset: UV offset in world units.
-        TextureOverlay: { Index: <int>; Offset: <float>, <float>; } // Overlay Texture (Sign in Dark Forces) - Index: index into texture table, Offset: UV offset in world units.
-        Light: <int>                                                // Additional wall light, omit if 0.
-        Adjoin: <int>                                               // The sector adjoined at this wall. Omit if this is a solid wall.
-        Mirror: <int>                                               // Wall Id of the adjoined sector. Omit if this is a solid wall.
+        Indices: <int>, <int>                                   // Vertex indices.
+        TextureMid: { Index: <int>; Offset: <float>, <float>; } // Middle Texture - Index: index into texture table, Offset: UV offset in world units.
+        TextureTop: { Index: <int>; Offset: <float>, <float>; } // Top Texture - Index: index into texture table, Offset: UV offset in world units.
+        TextureBot: { Index: <int>; Offset: <float>, <float>; } // Bottom Texture - Index: index into texture table, Offset: UV offset in world units.
+        // Overlay Texture (Sign in Dark Forces) - Index: index into texture table, Offset: UV offset in world units.
+        TextureOverlay: { Index: <int>; Offset: <float>, <float>; }
+        
+        Light: <int>   // Additional wall light, omit if 0.
+        Adjoin: <int>  // The sector adjoined at this wall. Omit if this is a solid wall.
+        Mirror: <int>  // Wall Id of the adjoined sector. Omit if this is a solid wall.
         
         // Double adjoins are ignored for the Dark Forces featureset.
-        DAdjoin: <int>                                              // The second sector adjoined at this wall. Omit if this is a solid wall or only has one adjoin.
-        DMirror: <int>                                              // Wall Id of the second adjoined sector. Omit if this is a solid wall or only has one adjoin.
+        DAdjoin: <int>     // The second sector adjoined at this wall. Omit if this is a solid wall or only has one adjoin.
+        DMirror: <int>     // Wall Id of the second adjoined sector. Omit if this is a solid wall or only has one adjoin.
         
-        Comment: <string>                                           // Optional comment.
+        Comment: <string>  // Optional comment.
         
         Flags
         {

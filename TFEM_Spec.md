@@ -170,9 +170,12 @@ Sectors: <int>  // List of sectors.
       // Floor overlay texture (ignored for the Dark Forces featureset).
       Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
       
-      Height: <float>                                    // Floor height in world units.
-      HeightOffset: <float>                              // Offset height, used for liquids and bridges (Second height in Dark Forces).
-      Slope { Sector: <int>; Wall: <int>; Angle: <int> } // Floor slope (ignored for the Dark Forces featureset).
+      // Floor height in world units.
+      Height: <float>
+      // Offset height, used for liquids and bridges (Second height in Dark Forces).
+      HeightOffset: <float>
+      // Floor slope (ignored for the Dark Forces featureset).
+      Slope { Sector: <int>; Wall: <int>; Angle: <int> }
     }
     
     Ceiling
@@ -184,8 +187,10 @@ Sectors: <int>  // List of sectors.
       // Ceiling overlay texture (ignored for the Dark Forces featureset).
       Overlay { Index: <int>; Offset: <float>, <float>; Angle: <float>; }
       
-      Height: <float>                                     // Ceiling height in world units.
-      Slope { Sector: <int>; Wall: <int>; Angle: <int> }  // Ceiling slope (ignored for the Dark Forces featureset).
+      // Ceiling height in world units.
+      Height: <float>
+      // Ceiling slope (ignored for the Dark Forces featureset).
+      Slope { Sector: <int>; Wall: <int>; Angle: <int> }
     }
                 
     // Sector physics properties (ignored for the Dark Forces featureset).

@@ -177,7 +177,7 @@ Sectors: <int>  // List of sectors.
       // Offset height, used for liquids and bridges (Second height in Dark Forces).
       HeightOffset: <float>
       // Floor slope (ignored for the Dark Forces featureset).
-      Slope { Sector: <int>; Wall: <int>; Angle: <int> }
+      Slope { Sector: <int>; Wall: <int>; Angle: <int>; }
     }
     
     Ceiling
@@ -192,7 +192,7 @@ Sectors: <int>  // List of sectors.
       // Ceiling height in world units.
       Height: <float>
       // Ceiling slope (ignored for the Dark Forces featureset).
-      Slope { Sector: <int>; Wall: <int>; Angle: <int> }
+      Slope { Sector: <int>; Wall: <int>; Angle: <int>; }
     }
                 
     // Sector physics properties (ignored for the Dark Forces featureset).

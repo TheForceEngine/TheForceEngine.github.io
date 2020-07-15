@@ -14,7 +14,7 @@ Zip file or directory containing the following files:
  
 ### Required for Vanilla compatible mods
  * __ModName.GOB / ModName.LAB__ - archive file(s) if using a "classic" mod - contains all assets except for LFD.
- * __ModName.LFD__ - equivalent of dfbrief.lfd, used for briefings.
+ * __ModName.LFD__ - equivalent of dfbrief.lfd, used for briefings; only required if custom briefings are needed.
  
 ### Alternative format for TFE mods, using the ZIP directly as the archive
 Mods may be run directly from folders but it is recommended to run the zip files directly when released and using a plain directory during development. The following sub-directories must be used, though only new content is required. Sub-directories with no content may be omitted. If a file is not found in the mod, then the next mod in the list or base game data will be used.

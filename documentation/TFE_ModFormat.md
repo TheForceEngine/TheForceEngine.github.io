@@ -1,3 +1,9 @@
+---
+layout: default
+title: TFE Mod "Meta-Format"
+permalink: documentation/TFE_ModFormat.html
+---
+
 ## TFE Mod "Meta-Format"
 Zip file containing the following files:
 

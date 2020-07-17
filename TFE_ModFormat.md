@@ -29,6 +29,7 @@ Each main directory may have sub-directories, though assets will have to include
  * __Sprites/*__ - sprites and frames. (WAX, FME, NWX)
  * __Models/*__ - 3D models. (3DO)
  * __Levels/*__ - level files. (geometry, objects, INF)
+ * __Scripts/*__ - script files - allowing the mod to override and/or add custom behaviors.
  * __Palettes/*__ - palettes and colormaps, referenced by Levels/
  * __Sounds/*__ - sound effects files (VOC, WAV).
  * __Music/*__ - midi and OGG music files.

@@ -9,8 +9,19 @@ Zip file or directory containing the following files:
 
 ### Recommended for all mod types
  * __CoverPic[.png;.jpg]__ - either a PNG or JPG, this will be shown as the mod "cover" during selection.
- * __Info.txt__ - summary shown during mod selection, with the option to view the whole description (below). This includes the display name, summary and link.
- * __ModName.txt__ - full mod description
+ * __Info.txt__ - summary shown during mod selection, with the option to view the whole description (below). This includes the display name, summary and link.<br>
+ __File Format__
+ ```C++
+ Name: name of the mod
+ Game: base game that is being modded, i.e. "Dark Forces" or "Outlaws"
+ Author: mod author(s)
+ Version: current version
+ Release: release date
+ Link: original link to the files
+ Summary: a brief summary, save details for the ModName.txt file.
+ ```
+ * __ModName.txt__ - full mod description, the raw text file will be displayed.
+ * __Screenshots/*__ - screenshots that are shown when the mod is selected in the UI, these should be JPG or PNG files. Typically 2 or 3 screenshots are enough.
  
 ### Required for Vanilla compatible mods
  * __ModName.GOB / ModName.LAB__ - archive file(s) if using a "classic" mod - contains all assets except for LFD.

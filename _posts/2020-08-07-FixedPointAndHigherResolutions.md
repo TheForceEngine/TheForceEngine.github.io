@@ -33,7 +33,7 @@ fixed16 mul16(fixed16 x, fixed16 y)
 }
 ```
 
-So what happens when we chain these operations - ```div16(mul16(a,b),c)```? We will look at two cases, one at 320x200 and another at 640x400 and true the same X and Z values.<br>
+So what happens when we chain these operations - ```div16(mul16(a,b),c)```? We will look at two cases, one at 320x200 and another at 640x400 and use the same X and Z values.<br>
 * We will assign ```x = intToFixed(200);``` - since __ONE__ is 65536, this means the fixed point equivalent is 13,107,200.<br>
 * Let's assign ```z = intToFixed(200);``` as well, this vertex will be on the edge of the screen after projection.<br>
 * If we are rendering at 320x200, ```focalLength=intToFixed(160)``` (which is 320/2 for a 90 degree field of view) and at 640x400 ```focalLength=intToFixed(320)```, which are 10,485,760 and 20,971,520 respectively.

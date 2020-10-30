@@ -3,7 +3,12 @@ layout: page
 title: Roadmap
 ---
 
-## **November 1, 2020** First Official Release
+## Update
+I'm sure this is clear already, but the original November 1st release has been pushed back. As is always the case with these kinds of projects, the more you work on it, the more clear the scope and size becomes. The original estimate was based on the development velocity at the time of writing, which of course cannot be consistently maintained for various reasons.
+
+That said, the project is still in progress. But there will be no release in November.
+
+## **Early 2021** First Official Release
 General
 * The Force Engine UI complete.
 * Direct mod loading from zip files.
@@ -51,7 +56,7 @@ The items listed below represent timeframes for major feature sets. Early on the
 
 Early releases focus on finishing the core functionality - Outlaws single player, the editors and then multiplayer.
 
-## Outlaws Single Player (Early December)
+## Outlaws Single Player
 General
 * Bug fixes (to be filled in).
 
@@ -62,13 +67,13 @@ Outlaws
 * Outlaws UI & Gameflow Complete.
 * Outlaws Cutscenes.
 
-## Editors (January)
+## Editors
 Tools
 * Level Editor "complete" (i.e. fully usable).
 * Improvements to asset tools, including the ability to convert assets (such as FBX).
 * The ability to create levels/mods using either the Dark Forces (LEV) or Outlaws (LVT/LVB) format.
 
-## Multiplayer (Febuarary / March)
+## Multiplayer
 Outlaws/Dark Forces
 * Outlaws multiplayer, based on the original game.
 * Dark Forces multiplayer.

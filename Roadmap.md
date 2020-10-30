@@ -8,7 +8,7 @@ I'm sure this is clear already, but the original November 1st release has been p
 
 That said, the project is still in progress. But there will be no release in November.
 
-## **Early 2021** First Official Release
+## **Early to Mid 2021** First Official Release
 General
 * The Force Engine UI complete.
 * Direct mod loading from zip files.

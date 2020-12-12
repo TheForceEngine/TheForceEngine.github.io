@@ -5,6 +5,8 @@ title: Adjustable HUD
 
 Last post I talked about the remaining work for the Classic Renderer and the next steps. In the meantime, based on feedback regarding widescreen, it came to light that just moving the status HUD elements to the edges of the screen in widescreen may not be ideal - especially for ultrawide resolutions. So I decided to implement some basic HUD options, including the ability to move the HUD elements away from the edges. This, of course, appears unnatural since the grapics were designed to sit at the edges of the screen. "Dzierzan" - a member of the discord server - quickly made some art to fix these cutoff edges so I spent a little bit of time to implement an adjustable HUD.
 
+Note that the original assets from Dark Forces are still used, "add ons" are rendered as needed which were cut from Dzierzan's art. This is done to avoid palette issues, make it easier to integrate and avoid directly modifying the existing art.
+
 # Adjustable HUD
 I added a new tab to the System UI Settings dialog in order to adjust the HUD. Like the Graphics tab, as you adjust the HUD settings, you will see the in-game HUD respond immediately, allowing you to easily tweak to taste.
 

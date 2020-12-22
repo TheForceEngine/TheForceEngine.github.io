@@ -13,6 +13,12 @@ Most of the remaining year has been spent reverse-engineering the original DOS r
 
 Once the Classic Renderer is finished, the next task is to properly reverse-engineer the original INF system which, once integrated, will complete the visuals since things like texture offsets and other features will be handled correctly. Once complete, the long overdue "Classic Renderer" release will finally be done.
 
+Death Star (Classic Renderer)
+![Death Star](https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/tfe_gif_Mon-Dec-21-21_14_39-2020_0.gif?raw=true)
+
+Color Correction
+![Color Correction](https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/ColorCorrection.gif?raw=true)
+
 ## Foundation
 The Classic Renderer and fully accurate INF system will lay a strong foundation upon which to rebuild the rest of the game and engine. And, of course, working through the rendering and INF code has and will continue to reveal more about the inner workings of the original systems, the layout of the code and over all program flow. As a result, I expect that the difficulty and complexity of the remaining reverse-engineering work to decrease, meaning we are nearly at the top of the hill.
 

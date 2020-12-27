@@ -2,7 +2,7 @@
 layout: post
 title: TFE Classic Renderer Complete
 ---
-The 3D Object rendering system, derived from the original DOS code, is now working in both 320x200 (fixed-point sub-renderer) and at higher resolutions and in widescreen (floating-piont sub-renderer). This completes the Classic Renderer reverse-engineering and integration project, allowing me to move on to reverse-engineering the INF system.
+The 3D Object rendering system, derived from the original DOS code, is now working in both 320x200 (fixed-point sub-renderer) and at higher resolutions and in widescreen (floating-point sub-renderer). This completes the Classic Renderer reverse-engineering and integration project, allowing me to move on to reverse-engineering the INF system.
 
 ## 3D Object Renderer
 The 3D object renderer in Jedi is basically an entire, mostly self-contained rendering system that integrates fairly well with the sector system. Models can either be drawn as points, though TFE turns these into quads at higher resolutions in order to maintain the same screen coverage, or as polygons. These polygons can either be triangles or quads, though there is little difference between the two forms in practice.
@@ -23,7 +23,7 @@ The Jedi Engine supports multiple directional lights, each with its own directio
 
 The next step is to apply lighting from the camera light source, such as the headlamp (by default this is turned off). This uses a special light source ramp that is embedded in the level's color map. This is a 128 entry table, indexed by the current depth: **depthIndex = min( floor(z * 4), 127 )**; the table itself is inverted. The final value of the camera light for the current depth is: **MAX_LIGHT_LEVEL - (s_lightSourceRamp[depthIndex] + s_worldAmbient)**. Normally this is done per-column or scanline, but in the case of vertex-lighting, it is done per-vertex.
 
-The final step is to apply a falloff value based on distance, similar to the distance-based darkening in Doom or Duke3D. The current depth (Z) value is scaled and then subtracted from the intensity calculated so far. However to avoid the brightness changing to much, the overall lighting value is clamped to a range of [Sector Ambient, 0.875*Sector Ambient].
+The final step is to apply a falloff value based on distance, similar to the distance-based darkening in Doom or Duke3D. The current depth (Z) value is scaled and then subtracted from the intensity calculated so far. However to avoid the brightness changing too much, the overall lighting value is clamped to a range of [Sector Ambient, 0.875*Sector Ambient].
 
 ## Backface Culling
 If the "MFLAG_DRAW_VERTICES" flag is set, then the model will draw the vertices at this point and then the object drawing is complete. Otherwise the renderer moves on to the next step - backface culling. This step has two tasks, 1) determine which polygons are facing towards the camera, which are added to a list of potentially visible polygons and 2) determine the average depth (Z) value for each polygon for later sorting and lighting if flat shading is used ("FLAT" or "TEXTURE").
@@ -37,7 +37,7 @@ At this stage, the code loops through the visible polygons, skipping past any wi
 The required vertex attributes to draw the polygon are copied into flat arrays which will be used directly for several reasons: to avoid indexing into the larger list, and the arrays are mutable, allowing the clipping routines to change and add values without modifying the larger data set. If the shading mode requires texture coordinates, they are copied from the polygon into the array. If vertex shading is required, the intensity values calculated during the Transform and Lighting step are copied.
 
 ### Clipping
-Next polygons are clipped against five (5) frustum planes: near plane (at Z = 1.0), left, right, top, and bottom. In TFE, float-point sub-renderer, the left and right planes are adjusted based on the (potentially) widescreen aspect ratio. The top and bottom planes are computed, taking into account the sheared perspective. Given a convex polygon as input, theresult will be a complex polygon or be discarded - which happens when a polygon is fully behind a plane.
+Next polygons are clipped against five (5) frustum planes: the near plane (at Z = 1.0), left, right, top, and bottom planes. In TFE, float-point sub-renderer, the left and right planes are adjusted based on the (potentially) widescreen aspect ratio. The top and bottom planes are computed, taking into account the sheared perspective. Given a convex polygon as input, the result will be a complex polygon or be discarded - which happens when a polygon is fully behind a plane.
 
 ### Drawing
 If the polygon survives clipping, its vertices are projected into screenspace and then drawing can begin. If flat shading is used, a single color or intensity value is generated for the polygon using the procedure described in the **Lighting** section above. In this case the polygon normal and average Z value is used.

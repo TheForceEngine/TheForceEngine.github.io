@@ -63,7 +63,7 @@ I couldn't resist implementing voxel support as the first experimental feature. 
 You can get the current experimental build from Downloads on [The Force Engine site](https://theforceengine.github.io/downloads.html). Scroll to the bottom, under experimental builds.
 
 ### How to Run
-The setup is the same as normal, unzip the build into a new directory and then run **TheForceEngine.exe**. You will need to setup your Dark Forces data, if it is not auto-detected. If you have run TFE before, it should just work. Next startup the first level, Secbase.
+The setup is the same as normal, unzip the build into a new directory and then run **TheForceEngine.exe**. You will need to setup your Dark Forces data, if it is not auto-detected. If you have run TFE before, it should just work. Next startup the first level, Secbase. **Make sure to either run in widescreen or at higher than 320x200 - otherwise the voxels won't render.**
 
 Once in Secbase, open the console (~ on US keyboards) and type **EnableExperiment**. Hit the same key again to raise the console.
 

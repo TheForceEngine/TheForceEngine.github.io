@@ -38,7 +38,7 @@ The next test release will see Player Control, Physics, Collision detection reve
 Finally, this release will get some real gameplay finished. Logics, such as pickups, and AI should be fully functional after this release, including bosses. The Logics will be scriptable and most likely written as scripts (as the placeholders are now).
 
 ### Weapons
-In this build, weapons will be finished and fully working. This means using ammo, updating the HUD, proper effects in the levels, proper damage and damage falloff. This test release will also cover auto-aim and System UI options to control how much auto-aim you want while playing (from "Dark Forces" to "None).
+In this build, weapons will be finished and fully working. This means using ammo, updating the HUD, proper effects in the levels, proper damage and damage falloff. This test release will also cover auto-aim and System UI options to control how much auto-aim you want while playing (from "Dark Forces" to "None").
 
 ### Dark Forces UI
 In this test release the Dark Forces UI will be finished, including the PDA and cutscenes.

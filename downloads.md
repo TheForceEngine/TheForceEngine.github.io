@@ -17,7 +17,7 @@ These builds are for testing only. While basic rendering, level interactivity, t
 * INF mostly works for vanilla levels but often fails in mods - meaning level interactivity in mods usually doesn't work correctly (and there are a few examples in vanilla levels that don't quite work). The vanilla levels are completable, though most mods are not. The reverse-engineering for INF is currently in progress though, so this will be fixed soon.
 
 ### Timeline
-For more information about when The Force Engine will be useful and what the plans are for 2021, please see the (TFE Update and 2021 Plans Blog Post)[https://theforceengine.github.io/2021/01/18/TFE-Update-2021-Plans.html]
+For more information about when The Force Engine will be useful and what the plans are for 2021, please see the (TFE-Update-and-2021-Plans)[https://theforceengine.github.io/2021/01/18/TFE-Update-2021-Plans.html]
 
 ### Pre-Release Build Version 0.01.006-1; Win64
 [TheForceEngine_0_01_0061.zip](archive/TheForceEngine_0_01_0061.zip) <br>

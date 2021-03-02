@@ -90,11 +90,11 @@ Elevators are the workhorse elements of the INF system. There are 11 core elevat
 * __move ceiling__ - _moves the sector ceiling height._
 * __move floor__ - _moves the sector floor height._
 * __move offset__ - _moves the sector second height._
-* __move wall__ - _translates sector walls horizontally in the direction derived by the _angle_ variable._
-* __rotate wall__ - _rotates sector walls around the _center_ variables by the _angle_ variable._
-* __scroll wall__ - _scrolls the sector wall textures in the direction specified by the _angle_ variable. Note each wall section has separate flags to determine what parts are affected._
-* __scroll floor__ - _scrolls the sector floor texture, again in the direction defined by the _angle_ variable._
-* __scroll ceiling__ - _scrolls the sector ceiling texture by the direction defined by the _angle_ variable._
+* __move wall__ - _translates sector walls horizontally in the direction derived by the angle variable._
+* __rotate wall__ - _rotates sector walls around the center variables by the angle variable._
+* __scroll wall__ - _scrolls the sector wall textures in the direction specified by the angle variable. Note each wall section has separate flags to determine what parts are affected._
+* __scroll floor__ - _scrolls the sector floor texture, again in the direction defined by the angle variable._
+* __scroll ceiling__ - _scrolls the sector ceiling texture by the direction defined by the angle variable._
 * __change light__ - _change the sector light level._
 * __move fc (move floor ceiling)__ - _moves both the floor and ceiling heights of a sector together by the same amount._
 * __change wall light__ - _changes the light offset of any walls in the sector with the correct flag set._

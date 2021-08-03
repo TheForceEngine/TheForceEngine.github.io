@@ -1,4 +1,10 @@
-## 
+<style>
+    table {
+        width: 25%;
+    }
+</style>
+
+# TFE Technical Design
 
 | Contents |
 |:------|

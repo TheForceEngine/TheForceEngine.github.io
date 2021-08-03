@@ -40,9 +40,9 @@ Keep the code simple, implement what is needed and avoid over-generalizing syste
 Avoid hacky or hard to read code when possible. When not possible (such as when dealing with reverse-engineered code or third party libraries), make sure the code is documented sufficiently to be understandable months down the road.
 
 ### Simple Code
-Prefer simple, direct code over layers of abstraction. Code should be shared as a means of compression, to avoid repition, and to ease of programming. Excessive, up front abstractions usually do little to improve maintenence and often make debugging more challenging. This extends to the idea that we should prefer Composition over Inheritance and to keep hierarchies flat as possible.
+Prefer simple, direct code over layers of abstraction. Code should be shared as a means of compression, to avoid repition, and to ease future programming. Excessive, up front abstractions usually do little to improve maintenence and often make debugging more challenging. This extends to the idea that we should prefer Composition over Inheritance and to keep hierarchies flat as possible.
 
-Avoid code that where it is hard to understand what is *really* going on and hard to debug. This means limiting the use of templates, *auto*, and similar constructs. It is generally better to be explicit except in cases where there is a *large* benefit or the nature of the implicit code is self-evident. In other words, reduce hidden complexity.
+Avoid code that is overly complicated, abstracted, or hard to understand what is *really* going on and hard to debug. This means limiting the use of templates, *auto*, and similar constructs. It is generally better to be explicit except in cases where there is a *large* benefit or the nature of the implicit code is self-evident. In other words, reduce hidden complexity.
 
 # Code Structure
 In general, the idea is to organize the code while keeping the tree relatively flat. Deep code trees can make discovery and navigation painful and so the code is organized at a high level in just a few categories. In general, the structure is: `Source/Category/System/leaf files`.

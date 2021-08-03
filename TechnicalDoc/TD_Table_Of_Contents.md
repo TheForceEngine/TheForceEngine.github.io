@@ -4,10 +4,9 @@ title: Table Of Contents
 permalink: TD_Table_Of_Contents.html
 ---
 
-| Contents |
-|:------|
-| [Introduction](#introduction) |
-| [Table Of Contents](#table-of-contents) |
+### Contents
+* [Introduction](#introduction)
+* [Table Of Contents](#table-of-contents)
 
 Prev: [TFE Technical Design](TFE_Technical_Design.md) ... Next: [TFE Design Principles](TFE_Design_Principles.md)
 
@@ -36,8 +35,8 @@ It is meant to be a solid overview of the project and source, so that one can be
 | [Task System](Task_System.md)  | Dark Forces Game Loop | TODO |
 |  INF System |  Logics | |
 |  Renderer  |  Pickups | |
-|  <li>Sector</li> | Projectile System | |
-|  <li>3DO</li> |  Player Controller | |
+|  * Sector | Projectile System | |
+|  * 3DO |  Player Controller | |
 | Collision Detection | | |
 
 ---

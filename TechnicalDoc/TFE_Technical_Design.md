@@ -1,10 +1,14 @@
+---
+layout: default
+title: TFE Technical Design
+permalink: TFE_Technical_Design.html
+---
+
 <style>
     table {
         width: 25%;
     }
 </style>
-
-# TFE Technical Design
 
 | Contents |
 |:------|

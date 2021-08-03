@@ -3,16 +3,14 @@ layout: default
 title: TFE Technical Design
 permalink: TFE_Technical_Design.html
 ---
-<style> table { width: 25%; } </style>
 # TFE Technical Design
 
-| Contents |
-|:------|
-| [About](#about) |
-| [Native Application](#native-application) |
-| [Built-in Modding Tools](#built-in-modding-tools) |
-| [TFE Framework](#tfe-framework) |
-| [Core Game Code](#core-game-code) |
+### Contents
+* [About](#about)
+* [Native Application](#native-application)
+* [Built-in Modding Tools](#built-in-modding-tools)
+* [TFE Framework](#tfe-framework)
+* [Core Game Code](#core-game-code)
 
 Next: [Table Of Contents](TD_Table_Of_Contents.md)
 

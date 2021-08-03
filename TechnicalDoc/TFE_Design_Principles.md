@@ -24,14 +24,14 @@ Next: [Core Loop](TD_Core_Loop.md)
 
 # Core Principles
 ### Accuracy
-Implement the games as they *are* not as a re-imagining. This is why the original game and engine code is being reconstructed from reverse-engineering.
+Implement the games as they *are* not as a re-imagining. This is why the original game and engine code is being reconstructed by reverse-engineering the original executables.
 ### Preservation
 Preserve the original code when possible, even if it means making separate derivative systems to extend it. An example of this is keeping the original fixed-point renderer for Dark Forces, along with all of its limitations, and then building different sub-renderers to extend it without modifying the original functionality.
 ### Performance
 Performance, both in terms of memory and speed, should be considered when writing code and designing systems.
 
 ### Cross Platform
-While not currently adhered to, the goal is to support multiple platforms going forward (Linux, OS X, Windows).
+Support multiple platforms going forward (Linux, OS X, Windows). There is a lot of work to be done here still.
 
 ### KISS
 Keep the code simple, implement what is needed and avoid over-generalizing systems. Implement what we need now, not what we might need a year from now.

@@ -3,7 +3,6 @@ layout: default
 title: Table Of Contents
 permalink: TD_Table_Of_Contents.html
 ---
-<style> table { width: 25%; } </style>
 
 | Contents |
 |:------|

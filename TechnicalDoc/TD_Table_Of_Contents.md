@@ -3,6 +3,7 @@ layout: default
 title: Table Of Contents
 permalink: TD_Table_Of_Contents.html
 ---
+<style> table { width: 25%; } </style>
 
 ### Contents
 * [Introduction](#introduction)
@@ -19,6 +20,7 @@ This will discuss topics such as the rendering system in the Jedi Engine and how
 It is meant to be a solid overview of the project and source, so that one can begin to understand how the system works and where to begin looking at the code for various topics. This page will act as a table of contents - a quick way to access the specific parts required.
 
 # Table Of Contents
+<style> table { width: 100%; } </style>
 
 | TFE | TFE Tools |
 |:---------------|:---------|

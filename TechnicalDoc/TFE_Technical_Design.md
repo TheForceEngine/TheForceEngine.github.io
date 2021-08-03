@@ -12,7 +12,7 @@ Next: [Table Of Contents](TFE_Table_of_contents.md)
 ---
 
 ## About
-![Logo](public/TFE_TitleLogo_Alpha_161.png)
+![Logo](TFE_TitleLogo_Alpha_161.png)
 **The Force Engine** (TFE) is an Open Source project that aims to port the *Dark Forces* and *Outlaws* games to modern operating systems, extend the feature set, and implement modern modding tools. This means that the original data is required - it is not included with the project. The good news is that both games are available for purchase on digital storefronts such as GOG and Steam.
 
 This consists of several components:

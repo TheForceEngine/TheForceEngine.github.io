@@ -35,8 +35,8 @@ It is meant to be a solid overview of the project and source, so that one can be
 | [Task System](Task_System.md)  | Dark Forces Game Loop | TODO |
 |  INF System |  Logics | |
 |  Renderer  |  Pickups | |
-|  * Sector | Projectile System | |
-|  * 3DO |  Player Controller | |
+|  {::nomarkdown}<li>Sector</li>{:/} | Projectile System | |
+|  {::nomarkdown}<li>3DO</li>{:/} |  Player Controller | |
 | Collision Detection | | |
 
 ---

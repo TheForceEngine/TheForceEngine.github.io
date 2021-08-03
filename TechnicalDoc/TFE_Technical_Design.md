@@ -1,4 +1,4 @@
-# TFE Technical Design
+## TFE Technical Design
 
 | Contents |
 |:------|

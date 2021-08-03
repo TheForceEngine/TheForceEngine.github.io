@@ -14,7 +14,7 @@ permalink: TFE_Technical_Design.html
 | [TFE Framework](#tfe-framework) |
 | [Core Game Code](#core-game-code) |
 
-Next: [Table Of Contents](TFE_Table_of_contents.md)
+Next: [Table Of Contents](TD_Table_Of_Contents.md)
 
 ---
 
@@ -44,4 +44,4 @@ From this optional extensions are derived, such as the ability to support higher
 
 ---
 
-Next: [Table Of Contents](TFE_Table_of_contents.md)
+Next: [Table Of Contents](TD_Table_Of_Contents.md)

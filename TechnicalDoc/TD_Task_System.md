@@ -11,6 +11,7 @@ permalink: TD_Task_System.html
 * [Task Functions](#task-functions)
 * [Prioritization](#prioritization)
 
+[Table of Contents](TD_Table_Of_Contents.md)<br>
 Prev: [Jedi Overview](TD_Jedi_Overview.md) ... Next: [Inf System](TD_Inf_System.md)
 
 ---

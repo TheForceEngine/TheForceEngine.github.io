@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: TFE Technical Design
 permalink: TFE_Technical_Design.html
 ---
@@ -9,6 +9,7 @@ permalink: TFE_Technical_Design.html
         width: 25%;
     }
 </style>
+# TFE Technical Design
 
 | Contents |
 |:------|

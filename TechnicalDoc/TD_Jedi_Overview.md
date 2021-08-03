@@ -11,6 +11,7 @@ permalink: TD_Jedi_Overview.html
 * [Features](#features)
 * [Source Code](#source-code)
 
+[Table of Contents](TD_Table_Of_Contents.md)<br>
 Prev: [Mods](TD_Mods.md) ... Next: [Task_System](TD_Task_System.md)
 
 ---

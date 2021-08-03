@@ -5,9 +5,9 @@ permalink: TD_Table_Of_Contents.html
 ---
 <style> table { width: 25%; } </style>
 
-### Contents
-* [Introduction](#introduction)
-* [Table Of Contents](#table-of-contents)
+| Contents |
+|:---------|
+| {::nomarkdown}<ul><li>[Introduction](#introduction)</li><li>[Table Of Contents](#table-of-contents)</li></ul>{:/} |
 
 Prev: [TFE Technical Design](TFE_Technical_Design.md) ... Next: [TFE Design Principles](TFE_Design_Principles.md)
 

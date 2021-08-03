@@ -33,8 +33,8 @@ It is meant to be a solid overview of the project and source, so that one can be
 
 | Jedi Engine | Dark Forces | Outlaws |
 |:---------|:---------|:---------|
-| [Jedi Overview](Jedi_Overview.md) | Dark Forces Overview | Outlaws Overview |
-| [Task System](Task_System.md)  | Dark Forces Game Loop | TODO |
+| [Jedi Overview](TD_Jedi_Overview.md) | Dark Forces Overview | Outlaws Overview |
+| [Task System](TD_Task_System.md)  | Dark Forces Game Loop | TODO |
 |  INF System |  Logics | |
 |  Renderer  |  Pickups | |
 |  {::nomarkdown}<li>Sector</li>{:/} | Projectile System | |

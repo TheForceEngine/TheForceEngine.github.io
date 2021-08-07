@@ -5,13 +5,6 @@ permalink: TFE_Manual.html
 ---
 # The Force Engine Manual
 
-### Contents
-* [Dark Forces In-Game Controls](#dark-forces-in-game-controls)
-
-Next: [Table of Contents](TM_Table_Of_Contents.md)
-
----
-
 TODO - this should be split up into proper pages.
 
 ---

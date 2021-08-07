@@ -46,7 +46,7 @@ TODO - this should be split up into proper pages.
 | Increase screensize (not yet implemented) | Alt + Plus |
 
 ### Automap Controls
-_Automap controls only function when the map is onscreen or when viewing the map in the PDA (not yet implemented)._
+_Automap controls only function when the map is onscreen or when viewing the map in the PDA (PDA not yet implemented)._
 
 | Action | Default Key(s) |
 |:-------|:---------------|

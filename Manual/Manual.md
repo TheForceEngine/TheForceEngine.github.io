@@ -13,7 +13,7 @@ TODO - this should be split up into proper pages.
 ### TFE Specific Controls
 | Action | Default Key(s) |
 |:-------|:---------------|
-| Console toggle | ~ |
+| Console toggle | Tilde |
 | System Menu toggle | Alt + F1 |
 | Toggle between windowed and fullscreen | Alt + Enter |
 | Exit the application immediately | Alt + F4 |
@@ -50,10 +50,10 @@ _Automap controls only function when the map is onscreen or when viewing the map
 |:-------|:---------------|
 | Zoom in | Plus (+/=) |
 | Zoom Out | Minus (-/\_) |
-| Scroll Map Up | ~ + Up Arrow |
-| Scroll Map Down | ~ + Down Arrow |
-| Scroll Map Left | ~ + Left Arrow |
-| Scroll Map Right | ~ + Right Arrow |
+| Scroll Map Up | Tilde + Up Arrow |
+| Scroll Map Down | Tilde + Down Arrow |
+| Scroll Map Left | Tilde + Left Arrow |
+| Scroll Map Right | Tilde + Right Arrow |
 | Move Layer Up | \] |
 | Move Layer Down | \[ |
 

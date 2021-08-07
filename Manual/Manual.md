@@ -91,9 +91,9 @@ _Currently TFE assumes you are using an XBox or similar controller. Improved con
 | Look Up/Down | Right Thumbstick Up/Down |
 | Turn Left/Right | Right Thumbstick Left/Right |
 | Jump or Accept | A |
-| Crouch or Cancel | B |
+| Run or Cancel | B |
 | Use | Y |
-| Run | X |
+| Crouch | X |
 | Shoot (Primary Fire) | Right Trigger |
 | Shoot (Secondary Fire) | Left Trigger |
 | Menu | Menu Button |

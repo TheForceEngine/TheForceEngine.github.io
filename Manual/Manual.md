@@ -104,3 +104,4 @@ _Currently TFE assumes you are using an XBox or similar controller. Improved con
 | Gas Mask toggle | DPad Down |
 | Cycle Weapon Previous | Left Button |
 | Cycle Weapon Next | Right Button |
+| System Menu toggle | Left Thumbstick Press |

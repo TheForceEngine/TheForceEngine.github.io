@@ -64,3 +64,22 @@ _Automap controls only function when the map is onscreen or when viewing the map
 | Move Layer Down | \[ |
 
 ### Player Controls
+_Lean controls have not been implemented. They don't actually **do** anything in-game, other than setting the player roll which is ignored._
+| Action | Default Key(s) |
+|:-------|:---------------|
+| Move Forward | W |
+| Move Backward | S |
+| Strafe Left | A |
+| Strafe Right | D |
+| Turn Left | Left Arrow or Mouse Horizontal Axis |
+| Turn Right | Right Arrow or Mouse Horizontal Axis |
+| Look Up | Page Up or Mouse Vertical Axis |
+| Look Down | Page Down or Mouse Vertical Axis |
+| Center View | C |
+| Run | Shift |
+| Walk Slowly | Caps Lock |
+| Crouch | Left Ctrl |
+| Jump | Spacebar |
+| Use | E |
+| Shoot (Primary Fire) | F or Left Mouse |
+| Shoot (Secondary Fire) | R or Right Mouse |

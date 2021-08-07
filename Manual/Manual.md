@@ -78,6 +78,7 @@ _Lean controls have not been implemented. They don't actually **do** anything in
 | Crouch | Left Ctrl |
 | Jump | Spacebar |
 | Use | E |
+| Select Weapon | 1, 2, 3, ..., 0 |
 | Shoot (Primary Fire) | F or Left Mouse |
 | Shoot (Secondary Fire) | R or Right Mouse |
 
@@ -91,7 +92,7 @@ _Currently TFE assumes you are using an XBox or similar controller. Improved con
 | Look Up/Down | Right Thumbstick Up/Down |
 | Turn Left/Right | Right Thumbstick Left/Right |
 | Jump or Accept | A |
-| Run or Cancel | B |
+| Run or Cancel | B or Left Stick Press |
 | Use | Y |
 | Crouch | X |
 | Shoot (Primary Fire) | Right Trigger |
@@ -104,4 +105,41 @@ _Currently TFE assumes you are using an XBox or similar controller. Improved con
 | Gas Mask toggle | DPad Down |
 | Cycle Weapon Previous | Left Button |
 | Cycle Weapon Next | Right Button |
-| System Menu toggle | Left Thumbstick Press |
+| System Menu toggle | Right Thumbstick Press |
+
+### Cheat Codes
+_Cheat codes always start with __LA__. Note that cheat codes can be entered directly during gameplay, as normal, or typed into the console._
+| Code | Action |
+|:-----|:-------|
+| LACDS | Full map and show objects. |
+| LANTFH | Teleport to the current map center. |
+| LAPOGO | Remove height checks from stepping, walk up high ledges. |
+| LARANDY | Gives weapons supercharge, this acts like the supercharge powerup. |
+| LAIMLAME | Enable god mode, acts like the super shield. |
+| LAPOSTAL | Refills health and shields; refills energy; gives all weapons; gives Googles, Cleats, and the Gasmask; gives all ammo. |
+| LADATA | Shows the player position, player height, and secrets found percentage. |
+| LABUG | Allows the player to crouch down to 0.25 units from the ground, granting a bug-like view. |
+| LAREDLITE | Pauses agent AI, making enemies stand still. |
+| LASKIP | Completes the current level and automatically starts the next. |
+| LABRADY | Refills health and shields; refills energy; gives full ammo for player weapons. |
+| LAUNLOCK | Gives all keys; gives Goggles, Cleats, and the Gas Mask; gives all Goal items (Plans, Nava card, etc.), and all code keys. |
+| LAMAXOUT | Refills health, shields, and energy; gives all weapons with full ammo; gives all keys, goal items, and code keys; gives Goggles, Cleats, and the Gas Mask. |
+
+### Level Skip Cheat Codes
+_Entering a level cheat code will complete the current level and immediately start in the specified level. They are listed in the order that they appear in-game._
+| Code | Action |
+|:-----|:-------|
+| LASECBASE | Secret Base |
+| LATALAY | Talay: Tak Base |
+| LASEWERS | Anoat City |
+| LATESTBASE | Research Facility |
+| LAGROMAS | Gromas Mines |
+| LADTENTION | Detention Center |
+| LARAMSHAD | Ramsees Hed |
+| LAROBOTICS | Robotics Facility |
+| LANARSHADA | Nar Shaddaa |
+| LAJABSHIP | Jabba's Ship |
+| LAIMPCITY | Imperial City |
+| LAFUELSTAT | Fuel Station |
+| LAEXECUTOR | The Executor |
+| LAARC | The Arc Hammer |

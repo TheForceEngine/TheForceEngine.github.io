@@ -15,6 +15,7 @@ Next: [Table of Contents](TM_Table_Of_Contents.md)
 TODO - this should be split up into proper pages.
 
 ---
+
 ## Dark Forces In-Game Controls
 ### TFE Specific Controls
 | Action | Default Key(s) |

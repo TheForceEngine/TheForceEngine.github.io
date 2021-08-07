@@ -11,6 +11,7 @@ TODO - this should be split up into proper pages.
 
 ## Dark Forces In-Game Controls
 ### TFE Specific Controls
+
 | Action | Default Key(s) |
 |:-------|:---------------|
 | Console toggle | Tilde |
@@ -46,6 +47,7 @@ TODO - this should be split up into proper pages.
 
 ### Automap Controls
 _Automap controls only function when the map is onscreen or when viewing the map in the PDA (not yet implemented)._
+
 | Action | Default Key(s) |
 |:-------|:---------------|
 | Zoom in | Plus (+/=) |
@@ -59,6 +61,7 @@ _Automap controls only function when the map is onscreen or when viewing the map
 
 ### Player Controls
 _Lean controls have not been implemented. They don't actually **do** anything in-game, other than setting the player roll which is ignored._
+
 | Action | Default Key(s) |
 |:-------|:---------------|
 | Move Forward | W |

@@ -80,3 +80,27 @@ _Lean controls have not been implemented. They don't actually **do** anything in
 | Use | E |
 | Shoot (Primary Fire) | F or Left Mouse |
 | Shoot (Secondary Fire) | R or Right Mouse |
+
+### Default Controller Mapping (XBox)
+_Currently TFE assumes you are using an XBox or similar controller. Improved controller support will come in the future. Of course, you are free to ignore the controller and use only the keyboard and mouse._
+
+| Action | Default Controller Button/Axis |
+|:-------|:-------------------------------|
+| Move Forward/Back | Left Thumbstick Up/Down |
+| Strafe Left/Right | Left Thumbstick Left/Right |
+| Look Up/Down | Right Thumbstick Up/Down |
+| Turn Left/Right | Right Thumbstick Left/Right |
+| Jump or Accept | A |
+| Crouch or Cancel | B |
+| Use | Y |
+| Run | X |
+| Shoot (Primary Fire) | Right Trigger |
+| Shoot (Secondary Fire) | Left Trigger |
+| Menu | Menu Button |
+| PDA toggle | Window Button |
+| Automap Toggle | DPad Up |
+| Night Vision Googles toggle | DPad Left |
+| Head Lamp toggle | DPad Right |
+| Gas Mask toggle | DPad Down |
+| Cycle Weapon Previous | Left Button |
+| Cycle Weapon Next | Right Button |

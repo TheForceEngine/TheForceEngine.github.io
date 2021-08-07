@@ -109,6 +109,7 @@ _Currently TFE assumes you are using an XBox or similar controller. Improved con
 
 ### Cheat Codes
 _Cheat codes always start with __LA__. Note that cheat codes can be entered directly during gameplay, as normal, or typed into the console._
+
 | Code | Action |
 |:-----|:-------|
 | LACDS | Full map and show objects. |
@@ -127,6 +128,7 @@ _Cheat codes always start with __LA__. Note that cheat codes can be entered dire
 
 ### Level Skip Cheat Codes
 _Entering a level cheat code will complete the current level and immediately start in the specified level. They are listed in the order that they appear in-game._
+
 | Code | Action |
 |:-----|:-------|
 | LASECBASE | Secret Base |

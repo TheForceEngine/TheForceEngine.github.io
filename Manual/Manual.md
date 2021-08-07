@@ -12,7 +12,7 @@ Next: [Table of Contents](TM_Table_Of_Contents.md)
 
 ---
 
-TODO - this should be a proper manual, but I'm going to use it as a scratchpad for now.
+TODO - this should be split up into proper pages.
 
 ---
 ## Dark Forces In-Game Controls
@@ -49,5 +49,18 @@ TODO - this should be a proper manual, but I'm going to use it as a scratchpad f
 | Automap toggle | TAB |
 | Decrease screensize (not yet implemented) | Alt + Minus |
 | Increase screensize (not yet implemented) | Alt + Plus |
+
+### Automap Controls
+_Automap controls only function when the map is onscreen or when viewing the map in the PDA (not yet implemented)._
+| Action | Default Key(s) |
+|:-------|:---------------|
+| Zoom in | Plus (+/=) |
+| Zoom Out | Minus (-/\_) |
+| Scroll Map Up | \` or ~ + Up Arrow |
+| Scroll Map Down | \` or ~ + Down Arrow |
+| Scroll Map Left | \` or ~ + Left Arrow |
+| Scroll Map Right | \` or ~ + Right Arrow |
+| Move Layer Up | \] |
+| Move Layer Down | \[ |
 
 ### Player Controls

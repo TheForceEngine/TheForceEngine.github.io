@@ -72,7 +72,8 @@ while (1)  // <- This is replaced by the function call from the main TFE loop.
 				cutsceneIndex++;	// <- next loop, this goes to the next cutscene or instruction.
 			break;
 			case GMODE_MISSION:
-				// TFE: In Mission becomes a state, but here the Task System will take up the slack (which will act very similarly to the original game).
+				// TFE: In Mission becomes a state, but here the Task System will take up the slack
+				// (which will act very similarly to the original game).
 				// Create the loadMission task, which will then create the main task, etc.
 				// Start the level music.
 				// Read saved game data for this agent and this level.
@@ -83,7 +84,8 @@ while (1)  // <- This is replaced by the function call from the main TFE loop.
 				// Save the game state and level completion info to disk.
 				cutsceneIndex++;	// <- next loop, this goes to the next cutscene or instruction.
 				levelIndex++;
-				setNextLevelByIndex(levelIndex);	// <- prepares the next level for when we get to it after the cutscenes and briefing.
+				// Prepares the next level for when we get to it after the cutscenes and briefing.
+				setNextLevelByIndex(levelIndex);
 			break;
 		}
 	}  // Inner Loop

@@ -3,77 +3,57 @@ layout: page
 title: Roadmap
 ---
 
-## Update
-I'm sure this is clear already, but the original November 1st release has been pushed back. As is always the case with these kinds of projects, the more you work on it, the more clear the scope and size becomes. The original estimate was based on the development velocity at the time of writing, which of course cannot be consistently maintained for various reasons.
+This roadmap has been completely rewritten based on current progress and changes that naturally occur during a long term project. A lot of this is from a recent blog post, but I will be updating it over time and want to have a single place for the information. A few of the entries have estimated release dates, which are subject to change. In-between releases are, obviously, expected to fall in-between the dates but are not estimated. Substantial work towards version 2.0 (Outlaws support) is expected to begin in early 2022 but it is too early to make any meaningful time estimates, though as described in that section, I do expect version 2.0 to be completed much faster than version 1.0.
 
-That said, the project is still in progress. But there will be no release in November.
+- [ ] [Core Game Loop Release](#core-game-loop-release)
+- [ ] [Bug Fixes](#bug-fixes)
+- [ ] [UI and Mission Briefings](#ui-and-mission-briefings)
+- [ ] [Sound](#sound)
+- [ ] [Version 1.0 Release](#version-10-release)
+- [ ] [Voxels](#voxels)
+- [ ] [Tools](#tools)
+- [ ] [Level Editor](#level-editor)
+__These releases are too broad and will be clarified as the project gets closer__
+* [Towards Version 2.0](#towards-version-20)
+* [Perspective and Hardware Renderers](#perspective-and-hardware-renderers)
 
-## **Early to Mid 2021** First Official Release
-General
-* The Force Engine UI complete.
-* Direct mod loading from zip files.
-* Game setup and selection.
-* Keybinding.
-* Quake-style console.
-* Windows support.
-* Linux support (might not have distributed exe).
+# Core Game Loop Release
+### Estimated Release: September 2021
+The Core Game Loop release is still the next planned release. While it has taken longer than I originally planned for, as you can see above it is getting close to the finish line. This release will include saving and loading Dark Forces save game data (meaning your current saves will work), creating and deleting agents, proper saved progression through the game, proper visuals using the reverse-engineered classic renderer, pickups, items, all weapons working correctly, accurate player control, physics and collision detection, accurate level interactivity (INF), full enemy AI, palette effects from picking up objects and getting hurt, all items - such as the gasmask - working correctly, Vue animations, basic controller support, key and button rebinding, mouse and controller sensitivity adjustment.
 
-Engine
-* Support for Dark Forces and Outlaws sector features such as slopes, dual adjoins, vertical adjoins, etc.
-* Software rendering - "classic".
-* Software rendering - "perspective".
-* Hardware rendering - "classic".
-* Hardware rendering - "perspective".
-* OpenGL, audio, mouse/keyboard input, controller input, etc.
+The editors will be temporarily off-line, due to the complete refactor of the code base to properly use the reverse-engineered code. However, they will come back in a future release (see below).
 
-Tools
-* Built-in level editor "preview" (incomplete level editor).
-* Built-in asset viewer.
-* Some built-in asset editing (i.e. export, import, create GOB/LAB, etc.).
+Note, however, with all of this being made available at once there will inevitably be bugs and issues. I consider this to be an Alpha release - since it is not yet feature complete. Missing elements will include: cutscenes, mission briefings, some in-game UI (PDA), iMuse, and there will be some sound inaccuracies.
 
-Dark Forces
-* Dark Forces Complete (Beta).
-* Dark Forces is fully playable, including mods.
-* 100% INF functionality, including mods.
-* Full iMuse implementation with hardware midi support.
-* Full Cutscene implementation.
-* Full Game UI implementation.
-* Full game flow implementation.
-* AI complete using reverse engineered behaviors.
-* Player movement and collision using reverse engineered behavior (i.e. the "real deal").
-* Dark Forces save game support (use your existing save games).
+# Bug Fixes
+There will be plenty of bugs to fix, so this is a placeholder here. This probably won’t be a big release by itself - instead it will be a bunch of smaller “point” releases. This will likely continue as the next releases are being worked on.
 
-Outlaws
-* Outlaws in "tech demo" state (Alpha).
-* Basic level rendering.
-* "OGG" based music playback.
-* Incomplete Game UI and game flow.
-* The ability to play levels and interact based on Dark Forces code. Enemy AI will be incomplete and weapons likely missing.
-* No multiplayer (yet).
+# UI and Mission Briefings
+The next major system will be the in-game UI, especially useful when looking at mission objectives and key codes using the PDA. Once the UI and mission briefings are in place, the game is technically fully playable.
 
-## Releases
-The items listed below represent timeframes for major feature sets. Early on there will likely be many small releases, to fix bugs not caught during testing. However I won't have a feel for the proper release cadance for a while, so any release timeframes are subject to change.
+# Sound
+This release will implement the correct sound falloff and 3D effects and finally fully implement the iMuse system.
 
-Early releases focus on finishing the core functionality - Outlaws single player, the editors and then multiplayer.
+# Version 1.0 Release
+### Estimated Release: December 2021
+With this release, TFE will be a complete replacement for DosBox. I am still on track for completing this by the end of the year. If the Core Game Loop release makes it out in September, then I think this will be very likely to be released as scheduled. However, there is still a chance that it can slip - I think we’ll have a very good idea when the Core Game Loop Release is finished.
 
-## Outlaws Single Player
-General
-* Bug fixes (to be filled in).
+# Voxels
+Quite some time ago now, I implemented an experimental voxel renderer that integrated seamlessly with the Jedi classic renderer. However, there were some loose ends to deal with, such as not supporting the full VOX format and dealing with some palette issues. This release will integrate that code with the main branch and add support for replacing objects with their voxel counterpart.
 
-Outlaws
-* Outlaws Single Player Complete (including single player Mods).
-* Outlaws AI complete.
-* Outlaws Level Interactivity Complete.
-* Outlaws UI & Gameflow Complete.
-* Outlaws Cutscenes.
+# Tools
+The focus of this release is to get the tools working again with the reverse-engineered code. This will include basic functionality like importing and exporting assets, viewing them, etc..
 
-## Editors
-Tools
-* Level Editor "complete" (i.e. fully usable).
-* Improvements to asset tools, including the ability to convert assets (such as FBX).
-* The ability to create levels/mods using either the Dark Forces (LEV) or Outlaws (LVT/LVB) format.
+# Level Editor
+The first release of the full level editor. It might still be missing some planned features, but as of this release it should be fully usable for building real levels and mods.
 
-## Multiplayer
-Outlaws/Dark Forces
-* Outlaws multiplayer, based on the original game.
-* Dark Forces multiplayer.
+# Towards Version 2.0
+Finally, hopefully early next year, I plan on beginning the process of adding Outlaws support to TFE. I don’t yet have any real way of making any time estimates beyond this point, but I expect the reverse-engineering process to proceed at a much quicker rate for Outlaws for several reasons:
+
+* I have become a lot faster at the process by going through the process of reverse-engineering Dark Forces.
+* Outlaws was built from the Dark Forces code base, and shares the same engine. This means a lot of the structures will be the same or substaintally similar.
+* I have a better sense of how to organize the process and reduce re-work and refactoring time.
+
+# Perspective and Hardware Renderers
+Once the Outlaws enhancements to the Jedi Engine are reverse-engineered, I will be in a much better place to tackle the Perspective and Hardware accelerated renderers for TFE.
+

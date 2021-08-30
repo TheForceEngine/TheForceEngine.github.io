@@ -13,7 +13,8 @@ This roadmap has been completely rewritten based on current progress and changes
 - [ ] [Voxels](#voxels)
 - [ ] [Tools](#tools)
 - [ ] [Level Editor](#level-editor)
-__These releases are too broad and will be clarified as the project gets closer__
+
+_These releases are too broad and will be clarified as the project gets closer_
 * [Towards Version 2.0](#towards-version-20)
 * [Perspective and Hardware Renderers](#perspective-and-hardware-renderers)
 

@@ -121,13 +121,11 @@ ul, ol, dl {
 }
 
 .task-list > ul {
-  margin-left: -1rem;
+  padding-left: -1rem;
 }
 
 .task-list > li {
     list-style-type: none;    /* removes disks */
-    list-style-position: outside;
-    margin-left: -1rem;
 }
 
 dt {

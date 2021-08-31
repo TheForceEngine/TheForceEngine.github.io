@@ -120,7 +120,7 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
-ul.task-list {
+.task-list > ul {
   margin: 0;
   border: 0;
 }

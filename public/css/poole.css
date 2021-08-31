@@ -120,6 +120,10 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
+ul.task-list > li {
+    list-style-type: none;    /* removes disks */
+}
+
 dt {
   font-weight: bold;
 }

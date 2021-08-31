@@ -122,6 +122,7 @@ ul, ol, dl {
 
 .task-list > li {
     list-style-type: none;    /* removes disks */
+    margin: -1rem;
 }
 
 dt {

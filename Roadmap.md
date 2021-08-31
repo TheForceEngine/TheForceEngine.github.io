@@ -18,7 +18,7 @@ _These releases are too broad and will be clarified as the project gets closer_
 * [Towards Version 2.0](#towards-version-20)
 * [Perspective and Hardware Renderers](#perspective-and-hardware-renderers)
 
-You can view the overall progress here: [Progress Tracker](https://theforceengine.github.io/ProgressTracker.html)
+You can view the short-term progress here: [Progress Tracker](https://theforceengine.github.io/ProgressTracker.html)
 
 # Core Game Loop Release
 ### Estimated Release: September 2021

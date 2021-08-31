@@ -120,13 +120,13 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
-.task-list > li {
-    list-style-type: none;    /* removes disks */
+.task-list {
+  margin: 0;
+  border: 0;
 }
 
-.task-list-item > li {
-    margin: 0;  /* attempt to remove extra space */
-    border: 0;
+.task-list > li {
+    list-style-type: none;    /* removes disks */
 }
 
 dt {

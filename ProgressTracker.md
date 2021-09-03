@@ -9,7 +9,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 ## 8-30-2021
 - [ ] finish main task integration.
   - [x] integrate automap.
-  - [ ] figure out sin/cos differences, look at table results versus TFE results (causing odd looking circles compared to DOS in the automap).
+  - [x] figure out sin/cos differences, look at table results versus TFE results (causing odd looking circles compared to DOS in the automap).
   - [ ] integrate handlePaletteFx().
   - [ ] integrate hud_drawAndUpdate().
   - [ ] integrate hud_drawHudText().

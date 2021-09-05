@@ -13,8 +13,8 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] integrate handlePaletteFx().
   - [x] integrate hud_drawAndUpdate().
   - [x] integrate hud_drawHudText().
-  - [ ] integrate updateScreensize().
-  - [ ] integrate setupCamera().
+  - [x] integrate updateScreensize().
+  - [x] integrate setupCamera().
   - [ ] integrate drawWorld() - make sure the world draws correctly again.
   - [ ] integrate handleGeneralInput().
 - [ ] finish player task integration.

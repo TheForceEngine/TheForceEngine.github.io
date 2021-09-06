@@ -18,6 +18,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [ ] WTID_STOP_FIRING.
   - [ ] WTID_HOLSTER.
   - [ ] Test and verify shooting and hit effects.
+- [ ] finish cheats.
 
 ## 8-30-2021
 - [x] finish main task integration.

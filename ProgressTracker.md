@@ -16,6 +16,6 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] integrate updateScreensize().
   - [x] integrate setupCamera().
   - [ ] integrate drawWorld() - make sure the world draws correctly again.
-  - [ ] integrate handleGeneralInput().
+  - [x] integrate handleGeneralInput().
 - [ ] finish player task integration.
 - [ ] finish weapon task integration.

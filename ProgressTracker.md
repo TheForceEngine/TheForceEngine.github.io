@@ -8,7 +8,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 
 ## 9-06-2021
 - [ ] finish player task integration.
-  - [ ] integrate handlePlayerMoveControls().
+  - [x] integrate handlePlayerMoveControls().
   - [ ] integrate handlePlayerPhysics().
   - [ ] integrate handlePlayerActions().
   - [ ] integrate handlePlayerScreenFx().

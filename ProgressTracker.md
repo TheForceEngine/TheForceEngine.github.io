@@ -11,7 +11,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] integrate handlePlayerMoveControls().
   - [ ] integrate handlePlayerPhysics().
   - [ ] integrate handlePlayerActions().
-  - [ ] integrate handlePlayerScreenFx().
+  - [x] integrate handlePlayerScreenFx().
 - [ ] finish weapon task integration.
   - [x] WTID_SWITCH_WEAPON (tested).
   - [x] WTID_START_FIRING (untested, covered later).

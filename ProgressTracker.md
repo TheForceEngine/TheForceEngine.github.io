@@ -7,17 +7,21 @@ permalink: ProgressTracker.html
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
 ## 9-06-2021
-- [ ] finish player task integration.
+- [x] finish player task integration.
   - [x] integrate handlePlayerMoveControls().
   - [x] integrate handlePlayerPhysics().
-  - [ ] integrate handlePlayerActions().
+  - [x] integrate handlePlayerActions().
   - [x] integrate handlePlayerScreenFx().
+- [ ] test, verify, debug and fix issues with the integration up to this point.
+  - [ ] collision errors - some adjoins are still impassable.
+  - [ ] inf errors - stops don't hold correctly.
+  - [ ] task errors - there are still some issues with task calling order not matching DOS.
+  - [ ] rendering errors - some switches are misaligned, sometime objects are not properly rendered (even though the sectors are).
 - [ ] finish weapon task integration.
   - [x] WTID_SWITCH_WEAPON (tested).
   - [x] WTID_START_FIRING (untested, covered later).
   - [ ] WTID_STOP_FIRING.
   - [ ] WTID_HOLSTER.
-  - [ ] Test and verify shooting and hit effects.
 - [ ] finish cheats.
 
 ## 8-30-2021

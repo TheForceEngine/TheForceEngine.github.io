@@ -13,7 +13,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] integrate handlePlayerActions().
   - [x] integrate handlePlayerScreenFx().
 - [ ] test, verify, debug and fix issues with the integration up to this point.
-  - [ ] collision errors - some adjoins are still impassable.
+  - [x] collision errors - some adjoins are still impassable.
   - [ ] inf errors - stops don't hold correctly.
   - [ ] task errors - there are still some issues with task calling order not matching DOS.
   - [ ] rendering errors - some switches are misaligned, some objects are not properly rendered (even though the sectors are).

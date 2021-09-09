@@ -16,7 +16,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] collision errors - some adjoins are still impassable.
   - [ ] inf errors - stops don't hold correctly.
   - [x] task errors - there are still some issues with task calling order not matching DOS.
-  - [ ] rendering errors - some switches are misaligned, some objects are not properly rendered (even though the sectors are).
+  - [x] rendering errors - some switches are misaligned, some objects are not properly rendered (even though the sectors are).
 - [ ] finish weapon task integration.
   - [x] WTID_SWITCH_WEAPON (tested).
   - [x] WTID_START_FIRING (untested, covered later).

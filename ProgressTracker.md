@@ -46,7 +46,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] WTID_START_FIRING (untested, covered later).
   - [x] WTID_STOP_FIRING.
   - [ ] WTID_HOLSTER.
-  - [x] Integratec weapon fire functions for: pistol, rifle.
+  - [x] Integrate weapon fire functions for: pistol, rifle.
 - [x] hook up sound system.
   - [x] get the music playing and stopping again.
   - [x] hook up the Jedi Sound API stubs to the TFE sound system. Note: propogation and 3D panning may not match Dark Forces exactly, but this will be handled in a future release.

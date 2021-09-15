@@ -7,8 +7,6 @@ permalink: ProgressTracker.html
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
 ## 9-13-2021
-- [ ] test, verify, debug and fix issues with the integration up to this point.
-  - [ ] inf errors - there are still some minor bugs to find.
 - [x] fix memory errors.
 - [x] memory region support, to allow for clean level changes, de-fragmenting memory, etc.
 - [ ] finish weapon task integration.

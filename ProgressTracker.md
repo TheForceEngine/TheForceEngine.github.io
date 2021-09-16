@@ -15,13 +15,14 @@ This page shows the current list of tasks being worked on, with the most recent 
     - [x] Fist
     - [x] Pistol
     - [x] Rifle
-    - [ ] Thermal Detonator
+    - [x] Thermal Detonator
     - [ ] Repeater
     - [ ] Fusion
     - [x] Mortar
     - [ ] Mine
     - [ ] Concussion
     - [ ] Cannon
+- [x] Player damage and explosion messages.
 - [ ] AI Integration
   - [ ] Mousebot
   - [ ] Exploding Barrel

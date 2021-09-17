@@ -16,7 +16,7 @@ This page shows the current list of tasks being worked on, with the most recent 
     - [x] Pistol
     - [x] Rifle
     - [x] Thermal Detonator
-    - [ ] Repeater
+    - [x] Repeater
     - [ ] Fusion
     - [x] Mortar
     - [ ] Mine

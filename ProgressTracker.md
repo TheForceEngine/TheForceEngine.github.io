@@ -9,6 +9,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 ## 9-13-2021
 - [x] fix memory errors.
 - [x] memory region support, to allow for clean level changes, de-fragmenting memory, etc.
+- [x] fixed sound errors - the code could stop the incorrect sounds, causing them to "cut off".
 - [ ] finish weapon task integration.
   - [ ] WTID_HOLSTER.
   - [ ] Integrate weapon fire functions:

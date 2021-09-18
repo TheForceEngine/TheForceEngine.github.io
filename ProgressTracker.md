@@ -20,7 +20,7 @@ This page shows the current list of tasks being worked on, with the most recent 
     - [x] Repeater
     - [x] Fusion
     - [x] Mortar
-    - [ ] Mine
+    - [x] Mine
     - [ ] Concussion
     - [ ] Cannon
 - [x] Player damage and explosion messages.

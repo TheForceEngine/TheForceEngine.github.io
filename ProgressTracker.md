@@ -21,7 +21,7 @@ This page shows the current list of tasks being worked on, with the most recent 
     - [x] Fusion
     - [x] Mortar
     - [x] Mine
-    - [ ] Concussion
+    - [x] Concussion
     - [ ] Cannon
 - [x] Player damage and explosion messages.
 - [ ] AI Integration

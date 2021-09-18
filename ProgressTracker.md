@@ -12,7 +12,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 - [x] fixed sound errors - the code could stop the incorrect sounds, causing them to "cut off".
 - [ ] finish weapon task integration.
   - [ ] WTID_HOLSTER.
-  - [ ] Integrate weapon fire functions:
+  - [x] Integrate weapon fire functions:
     - [x] Fist
     - [x] Pistol
     - [x] Rifle
@@ -22,7 +22,7 @@ This page shows the current list of tasks being worked on, with the most recent 
     - [x] Mortar
     - [x] Mine
     - [x] Concussion
-    - [ ] Cannon
+    - [x] Cannon
 - [x] Player damage and explosion messages.
 - [ ] AI Integration
   - [ ] Mousebot

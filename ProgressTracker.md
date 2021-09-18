@@ -27,6 +27,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 - [ ] AI Integration
   - [ ] Mousebot
   - [ ] Exploding Barrel
+  - [ ] Land Mine (Pre-placed)
 - [ ] Escape menu, to support level abort/next level.
 - [ ] Finish cheats - level changing cheats are all that is left.
 

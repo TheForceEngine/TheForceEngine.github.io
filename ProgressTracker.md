@@ -12,7 +12,6 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [ ] Actor boilerplate (70% done).
   - [ ] Mousebot
   - [ ] Exploding Barrel
-  - [x] Land Mine (Pre-placed)
   - [ ] Scenery
   - [ ] Troopers (officer, commando, storm trooper).
   - [ ] Flying Enemies (Int Droid, Probe Droid, Remote).

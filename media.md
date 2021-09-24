@@ -2,9 +2,19 @@
 layout: page
 title: Media
 ---
+[Input Settings](#input-settings)<br>
 [Asset Editor](#asset-editor)<br>
 [Level Editor](#level-editor)<br>
 [Dark Forces](#dark-forces)
+
+## Input Settings
+<table style="width:100%">
+  <tr>
+    <th><a href="screenshots/InputMenu1.jpg" class="inline"><img src="screenshots/InputMenu1.jpg" alt="InputMenu1" class="inline"/></a></th>
+    <th><a href="screenshots/InputMenu2.jpg" class="inline"><img src="screenshots/InputMenu2.jpg" alt="InputMenu2" class="inline"/></a></th>
+  </tr>
+</table>
+<a href="https://theforceengine.github.io/media.html">Top</a>
 
 ## Asset Editor
 <table style="width:100%">

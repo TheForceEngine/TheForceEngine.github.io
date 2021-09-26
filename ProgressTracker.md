@@ -9,8 +9,8 @@ This page shows the current list of tasks being worked on, with the most recent 
 ## 9-20-2021
 - [ ] AI Integration
   - [x] Fix-up different types of Actors (some structs should be shared that are not).
-  - [ ] Actor boilerplate (70% done).
-  - [ ] Mousebot
+  - [x] Actor boilerplate.
+  - [x] Mousebot
   - [x] Exploding Barrel
   - [x] Scenery
   - [ ] Troopers (officer, commando, storm trooper).

@@ -13,7 +13,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] Mousebot
   - [x] Exploding Barrel
   - [x] Scenery
-  - [ ] Troopers (officer, commando, storm trooper).
+  - [x] Troopers (officer, commando, storm trooper).
   - [ ] Flying Enemies (Int Droid, Probe Droid, Remote).
   - [ ] Melee Enemies (Gammoreans, Sewer bugs, Dragons).
   - [ ] Other basic enemies.

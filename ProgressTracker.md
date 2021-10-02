@@ -14,7 +14,7 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] Exploding Barrel
   - [x] Scenery
   - [x] Troopers (officer, commando, storm trooper).
-  - [ ] Flying Enemies (Int Droid, Probe Droid, Remote).
+  - [x] Flying Enemies (Int Droid, Probe Droid).
   - [ ] Melee Enemies (Gammoreans, Sewer bugs, Dragons).
   - [ ] Other basic enemies.
   - [ ] Dark Troopers.

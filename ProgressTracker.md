@@ -6,7 +6,7 @@ permalink: ProgressTracker.html
 # Progress Tracker
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
-# 10-04-2021
+## 10-04-2021
 - [ ] AI Integration
   - [ ] Melee Enemies (Sewer bugs, Dragons).
   - [ ] Basic enemies: Remote, Welder.

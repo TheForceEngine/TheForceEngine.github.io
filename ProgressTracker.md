@@ -6,6 +6,16 @@ permalink: ProgressTracker.html
 # Progress Tracker
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
+# 10-04-2021
+- [ ] AI Integration
+  - [ ] Melee Enemies (Sewer bugs, Dragons).
+  - [ ] Basic enemies: Remote, Welder.
+  - [ ] Dark Troopers.
+  - [ ] Bosses (Boba Fett, Phase 3).
+- [ ] Generators.
+- [ ] Escape menu, to support level abort/next level.
+- [ ] Finish cheats - level changing cheats are all that is left.
+
 ## 9-20-2021
 - [ ] AI Integration
   - [x] Fix-up different types of Actors (some structs should be shared that are not).
@@ -15,12 +25,13 @@ This page shows the current list of tasks being worked on, with the most recent 
   - [x] Scenery
   - [x] Troopers (officer, commando, storm trooper).
   - [x] Flying Enemies (Int Droid, Probe Droid).
-  - [ ] Melee Enemies (Gammoreans, Sewer bugs, Dragons).
+  - [x] Turrets.
+  - [x] Gamorrean Guards
+  - [x] Transhodans
+  - [ ] Melee Enemies (Sewer bugs, Dragons).
   - [ ] Other basic enemies.
   - [ ] Dark Troopers.
   - [ ] Bosses (Boba Fett, Phase 3).
-- [ ] Escape menu, to support level abort/next level.
-- [ ] Finish cheats - level changing cheats are all that is left.
 
 ## 9-13-2021
 - [x] fix memory errors.

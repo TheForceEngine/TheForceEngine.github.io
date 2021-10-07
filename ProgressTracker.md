@@ -14,6 +14,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Sliding/Rotating sectors collision issue (i.e. stopping when they are not supposed to).
 - [ ] Continually animating textures too fast when using INF (not water, waterfalls, etc., or animations using the animated texture system, but specifically INF elevators that continuously moves textures in discrete steps, usually animated switches).
 - [ ] Sound effects when using some doors/elevators in Talay even when they are not active. In this case, they don't open, but it suggests an issue with triggering.
+- [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 
 ## 10-04-2021
 - [ ] AI Integration

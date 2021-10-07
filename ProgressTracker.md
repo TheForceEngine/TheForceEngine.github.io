@@ -6,10 +6,18 @@ permalink: ProgressTracker.html
 # Progress Tracker
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
+## Bugs
+- [ ] Probe Droids going "under water" in Anoat City (most likely a sign issue in flyingActorFunc).
+- [ ] AI Actors not walking around enough when hitting walls/ledges, see Ree-Yees in Ramsees Hed.
+- [ ] Fusion Cutter secondary fire too fast.
+- [ ] Sliding/Rotating sectors collision issue (i.e. stopping when they are not supposed to).
+- [ ] Continually animating textures too fast when using INF (not water, waterfalls, etc., or animations using the animated texture system, but specifically INF elevators that continuously moves textures in discrete steps, usually animated switches).
+
 ## 10-04-2021
 - [ ] AI Integration
-  - [ ] Melee Enemies (Sewer bugs, Dragons).
-  - [ ] Basic enemies: Remote, Welder.
+  - [x] Sewer Creatures.
+  - [ ] Kell Dragons.
+  - [ ] Remote, Welder.
   - [ ] Dark Troopers.
   - [ ] Bosses (Boba Fett, Phase 3).
 - [ ] Generators.

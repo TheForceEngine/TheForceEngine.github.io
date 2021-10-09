@@ -19,7 +19,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 ## 10-04-2021
 - [ ] AI Integration
   - [x] Sewer Creatures.
-  - [ ] Kell Dragons.
+  - [x] Kell Dragons.
   - [ ] Remote, Welder.
   - [ ] Dark Troopers.
   - [ ] Bosses (Boba Fett, Phase 3).

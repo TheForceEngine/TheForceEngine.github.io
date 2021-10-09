@@ -19,7 +19,8 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] AI Integration
   - [x] Sewer Creatures.
   - [x] Kell Dragons.
-  - [ ] Remote, Welder.
+  - [x] Welder.
+  - [ ] Remote.
   - [ ] Dark Troopers.
   - [ ] Bosses (Boba Fett, Phase 3).
 - [x] Probe Droids going "under water" in Anoat City (was a sign issue with desired vertical movement).

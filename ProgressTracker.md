@@ -8,7 +8,6 @@ This page shows the current list of tasks being worked on, with the most recent 
 
 ## Bugs
 A note for small bugs I notice while testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
-- [ ] Probe Droids going "under water" in Anoat City (most likely a sign issue in flyingActorFunc).
 - [ ] AI Actors not walking around enough when hitting walls/ledges, see Ree-Yees in Ramsees Hed.
 - [ ] Fusion Cutter secondary fire too fast.
 - [ ] Sliding/Rotating sectors collision issue (i.e. stopping when they are not supposed to).
@@ -23,6 +22,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
   - [ ] Remote, Welder.
   - [ ] Dark Troopers.
   - [ ] Bosses (Boba Fett, Phase 3).
+- [x] Probe Droids going "under water" in Anoat City (most likely a sign issue in flyingActorFunc).
 - [ ] Generators.
 - [ ] Escape menu, to support level abort/next level.
 - [ ] Finish cheats - level changing cheats are all that is left.

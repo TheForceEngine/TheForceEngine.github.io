@@ -22,7 +22,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
   - [ ] Remote, Welder.
   - [ ] Dark Troopers.
   - [ ] Bosses (Boba Fett, Phase 3).
-- [x] Probe Droids going "under water" in Anoat City (most likely a sign issue in flyingActorFunc).
+- [x] Probe Droids going "under water" in Anoat City (was a sign issue with desired vertical movement).
 - [ ] Generators.
 - [ ] Escape menu, to support level abort/next level.
 - [ ] Finish cheats - level changing cheats are all that is left.

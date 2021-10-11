@@ -15,6 +15,18 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Sound effects when using some doors/elevators in Talay even when they are not active. In this case, they don't open, but it suggests an issue with triggering.
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 
+## 10-10-2021
+- [ ] Generator Logic.
+- [ ] Vue Logic.
+- [ ] Escape menu, to support level abort/next level.
+- [ ] Mod Loading.
+- [ ] Fix AI Movement Bugs.
+- [ ] Fix 3DO movement/INF bug.
+- [ ] Fix moving/rotating sector collision INF bug.
+- [ ] Fix texture animation INF bug.
+- [ ] Pre-Release.
+- [ ] Finish cheats - level changing cheats are all that is left.
+
 ## 10-04-2021
 - [ ] AI Integration
   - [x] Sewer Creatures.

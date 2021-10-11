@@ -20,9 +20,11 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
   - [x] Sewer Creatures.
   - [x] Kell Dragons.
   - [x] Welder.
-  - [ ] Remote.
-  - [ ] Dark Troopers.
-  - [ ] Bosses (Boba Fett, Phase 3).
+  - [x] Remote.
+  - [x] Phase 1 Dark Trooper.
+  - [ ] Phase 2 Dark Trooper.
+  - [ ] Phase 3 Dark Trooper.
+  - [ ] Boba Fett.
 - [x] Probe Droids going "under water" in Anoat City (was a sign issue with desired vertical movement).
 - [ ] Generators.
 - [ ] Escape menu, to support level abort/next level.

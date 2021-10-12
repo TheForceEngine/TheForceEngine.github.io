@@ -31,7 +31,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
 - [ ] Fix texture animation INF bug.
 - [ ] Fusion Cutter secondary fire speed (it is too fast).
-- [ ] Elevators do not "crush" corpses (see Ramsees Hed).
+- [ ] Elevators do not "crush" corpses (see Ramsees Hed, this can block progress).
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 
 ### Level Transitions

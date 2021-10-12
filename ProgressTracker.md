@@ -9,6 +9,12 @@ This page shows the current list of tasks being worked on, with the most recent 
 ## Bugs
 A note for small bugs I notice while testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
+- [ ] LAIMLAME cheat does not prevent health damage.
+- [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
+- [ ] Shield pickups seem to have collision with player Thermal Detonators and tend to block them to a certain height. Mortars don't seem to be effected.
+- [ ] Re-check vertical projectile push force on enemies.
+- [ ] Re-check mine triggering (they trigger through closed doors).
+- [ ] Re-check player movement on rotating sectors (see Fuel Station).
 
 ## 10-11-2021
 ### Talay Update
@@ -20,16 +26,19 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Update video running through Talay to demonstrate above work and general progress.
 
 ### Bugs
+- [x] Auto aim kicks in even when enemies aren't in the player's view.
 - [ ] Fix 3DO Second Height Movement/INF Bug.
 - [ ] Fix moving/rotating sector collision INF bug.
 - [ ] Fix texture animation INF bug.
 - [ ] Fusion Cutter secondary fire too fast.
+- [ ] Elevators do not "crush" corpses (see Ramsees Hed).
 - [ ] Fix AI Movement Bugs (noticeable with Ree-Yees in Ramsees Hed).
 
 ### Level Transitions
 - [ ] Escape Menu with Abort/Next Level.
 - [ ] Level transitions.
 - [ ] Level cheats.
+- [ ] LAREDLITE cheat.
 
 ### Pre-Release
 - [ ] Pre-Release Public Build (320x200, 4:3 only).

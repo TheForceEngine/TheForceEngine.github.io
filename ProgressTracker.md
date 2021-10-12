@@ -45,6 +45,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 
 ### Pre-Release
 - [ ] Pre-Release Public Build (320x200, 4:3 only).
+- [ ] Update video running through Nar Shaddaa to show more enemies, if there is time.
 
 ## 10-04-2021
 - [ ] AI Integration

@@ -38,7 +38,10 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Escape Menu with Abort/Next Level.
 - [ ] Level transitions.
 - [ ] Level cheats.
+
+### Other (may slip, Pre-Release build will not be delayed for these).
 - [ ] LAREDLITE cheat.
+- [ ] Finish proper inventory handling in Jabba's Ship.
 
 ### Pre-Release
 - [ ] Pre-Release Public Build (320x200, 4:3 only).

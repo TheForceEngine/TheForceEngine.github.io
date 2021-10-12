@@ -32,7 +32,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Fix texture animation INF bug.
 - [ ] Fusion Cutter secondary fire speed (it is too fast).
 - [ ] Elevators do not "crush" corpses (see Ramsees Hed).
-- [ ] Fix AI Movement Bugs (noticeable with Ree-Yees in Ramsees Hed).
+- [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 
 ### Level Transitions
 - [ ] Escape Menu with Abort/Next Level.

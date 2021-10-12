@@ -28,7 +28,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 ### Bugs
 - [x] Auto aim kicks in even when enemies aren't in the player's view.
 - [ ] Fix 3DO Second Height Movement/INF Bug.
-- [ ] Fix moving/rotating sector collision INF bug.
+- [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
 - [ ] Fix texture animation INF bug.
 - [ ] Fusion Cutter secondary fire speed (it is too fast).
 - [ ] Elevators do not "crush" corpses (see Ramsees Hed).

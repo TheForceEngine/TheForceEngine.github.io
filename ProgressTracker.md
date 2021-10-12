@@ -8,24 +8,31 @@ This page shows the current list of tasks being worked on, with the most recent 
 
 ## Bugs
 A note for small bugs I notice while testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
-- [ ] AI Actors not walking around enough when hitting walls/ledges, see Ree-Yees in Ramsees Hed.
-- [ ] Fusion Cutter secondary fire too fast.
-- [ ] Sliding/Rotating sectors collision issue (i.e. stopping when they are not supposed to).
-- [ ] Continually animating textures too fast when using INF (not water, waterfalls, etc., or animations using the animated texture system, but specifically INF elevators that continuously moves textures in discrete steps, usually animated switches).
-- [ ] Sound effects when using some doors/elevators in Talay even when they are not active. In this case, they don't open, but it suggests an issue with triggering.
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 
 ## 10-10-2021
+### Talay Update
+- [ ] Finish Vue Logic.
 - [ ] Generator Logic.
-- [ ] Vue Logic.
-- [ ] Escape menu, to support level abort/next level.
-- [ ] Mod Loading.
-- [ ] Fix AI Movement Bugs.
-- [ ] Fix 3DO movement/INF bug.
+- [ ] Level complete function.
+- [ ] Fix master-off INF triggering bug (noticeable in Talay).
+- [ ] Fix texturing bug with transparent mid-textures and vertical scaling (noticeable in Talay).
+- [ ] Update video running through Talay to demonstrate above work and general progress.
+
+### Bugs
+- [ ] Fix 3DO Second Height Movement/INF Bug.
 - [ ] Fix moving/rotating sector collision INF bug.
 - [ ] Fix texture animation INF bug.
-- [ ] Pre-Release.
-- [ ] Finish cheats - level changing cheats are all that is left.
+- [ ] Fusion Cutter secondary fire too fast.
+- [ ] Fix AI Movement Bugs (noticeable with Ree-Yees in Ramsees Hed).
+
+### Level Transitions
+- [ ] Escape Menu with Abort/Next Level.
+- [ ] Level transitions.
+- [ ] Level cheats.
+
+### Pre-Release
+- [ ] Pre-Release Public Build (320x200, 4:3 only).
 
 ## 10-04-2021
 - [ ] AI Integration

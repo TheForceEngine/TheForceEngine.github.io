@@ -30,7 +30,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Fix 3DO Second Height Movement/INF Bug.
 - [ ] Fix moving/rotating sector collision INF bug.
 - [ ] Fix texture animation INF bug.
-- [ ] Fusion Cutter secondary fire too fast.
+- [ ] Fusion Cutter secondary fire speed (it is too fast).
 - [ ] Elevators do not "crush" corpses (see Ramsees Hed).
 - [ ] Fix AI Movement Bugs (noticeable with Ree-Yees in Ramsees Hed).
 

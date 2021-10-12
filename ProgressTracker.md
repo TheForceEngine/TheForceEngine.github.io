@@ -11,7 +11,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 - [ ] LAIMLAME cheat does not prevent health damage.
 - [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
-- [ ] Shield pickups seem to have collision with player Thermal Detonators and tend to block them to a certain height. Mortars don't seem to be effected.
+- [ ] Shield pickups seem to have collision with player Thermal Detonators though Mortars don't seem to be effected.
 - [ ] Re-check vertical projectile push force on enemies.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).

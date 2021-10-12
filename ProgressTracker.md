@@ -10,7 +10,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 A note for small bugs I notice while testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 
-## 10-10-2021
+## 10-11-2021
 ### Talay Update
 - [ ] Finish Vue Logic.
 - [ ] Generator Logic.

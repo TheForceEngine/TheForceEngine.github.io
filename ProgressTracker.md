@@ -37,9 +37,9 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 ### Level Transitions
 - [ ] Escape Menu with Abort/Next Level.
 - [ ] Level transitions.
-- [ ] Level cheats.
 
 ### Other (may slip, Pre-Release build will not be delayed for these).
+- [ ] Level cheats.
 - [ ] LAREDLITE cheat.
 - [ ] Finish proper inventory handling in Jabba's Ship.
 

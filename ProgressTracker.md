@@ -15,7 +15,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] Re-check vertical projectile push force on enemies.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).
-- [ ] Phase 1 AI likes to warping (see https://the-force-engine.freeforums.net/post/138)
+- [ ] Phase 1 warping (see https://the-force-engine.freeforums.net/post/138)
 
 ## 10-11-2021
 ### Talay Update

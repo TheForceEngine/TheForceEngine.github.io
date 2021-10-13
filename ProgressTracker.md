@@ -7,7 +7,7 @@ permalink: ProgressTracker.html
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
 ## Bugs
-A note for small bugs I notice while testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
+A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 - [ ] LAIMLAME cheat does not prevent health damage.
 - [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.

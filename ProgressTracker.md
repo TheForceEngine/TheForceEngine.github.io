@@ -22,7 +22,7 @@ A note for small bugs I notice while testing. This is not exhaustive, and there 
 - [ ] Generator Logic.
 - [x] Level complete function.
 - [ ] Fix master-off INF triggering bug (noticeable in Talay).
-- [ ] Fix texturing bug with transparent mid-textures and vertical scaling (noticeable in Talay).
+- [x] Fix texturing bug with transparent mid-textures and vertical scaling (noticeable in Talay).
 - [ ] Update video running through Talay to demonstrate above work and general progress.
 
 ### Bugs

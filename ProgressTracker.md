@@ -22,8 +22,8 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Finish Vue Logic.
 - [ ] Generator Logic.
 - [x] Level complete function.
-- [ ] Fix master-off INF triggering bug (noticeable in Talay).
-- [ ] Fix bug where level-end message and ship return are not triggered.
+- [x] Fix master-off INF triggering bug (noticeable in Talay).
+- [x] Fix bug where level-end message and ship return are not triggered.
 - [x] Fix texturing bug with transparent mid-textures and vertical scaling (noticeable in Talay).
 - [ ] Update video running through Talay to demonstrate above work and general progress.
 

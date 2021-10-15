@@ -20,7 +20,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 ## 10-11-2021
 ### Talay Update
 - [x] Finish Vue Logic.
-- [ ] Generator Logic.
+- [x] Generator Logic.
 - [x] Level complete function.
 - [x] Fix master-off INF triggering bug (noticeable in Talay).
 - [x] Fix bug where level-end message and ship return are not triggered.

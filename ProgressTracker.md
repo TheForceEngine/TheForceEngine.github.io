@@ -37,11 +37,11 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 
 ### Level Transitions
-- [ ] Escape Menu with Abort/Next Level.
-- [ ] Level transitions.
+- [x] Escape Menu with Abort/Next Level.
+- [x] Level transitions.
 
 ### Other (may slip, Pre-Release build will not be delayed for these).
-- [ ] Level cheats.
+- [x] Level cheats.
 - [ ] LAREDLITE cheat.
 - [ ] Finish proper inventory handling in Jabba's Ship.
 

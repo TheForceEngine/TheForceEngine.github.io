@@ -29,9 +29,11 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 
 ### Bugs
 - [x] Auto aim kicks in even when enemies aren't in the player's view.
-- [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
-- [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
 - [x] Fix texture animation INF bug.
+- [ ] Weapon should switch when picking up a better weapon.
+- [ ] The player falls when an elevator is lowering instead of smoothly lowering with it.
+- [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
+- [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
 - [ ] Fusion Cutter secondary fire speed (it is too fast).
 - [ ] Elevators do not "crush" corpses (sometimes blocks completion in Ramsees Hed).
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).

@@ -39,6 +39,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 ### Level Transitions
 - [x] Escape Menu with Abort/Next Level.
 - [x] Level transitions.
+- [x] Player Death, respawning, and failure.
 
 ### Other (may slip, Pre-Release build will not be delayed for these).
 - [x] Level cheats.

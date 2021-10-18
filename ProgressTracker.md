@@ -16,6 +16,8 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 
 ## 10-18-2021
 ### Bugs
+- [x] Missiles and missile packs cannot be picked up.
+- [ ] The concussion rifle looks green while shooting in dark sectors on Nar Shaddaa instead of blue.
 - [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
 - [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
 - [ ] Fusion Cutter secondary fire speed (it is too fast).

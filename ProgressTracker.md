@@ -9,13 +9,29 @@ This page shows the current list of tasks being worked on, with the most recent 
 ## Bugs
 A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
 - [ ] Sometimes "hit effects" trigger too high when shooting enemies.
-- [ ] LAIMLAME cheat does not prevent health damage.
 - [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
-- [ ] Shield pickups seem to have collision with player Thermal Detonators though Mortars don't seem to be effected.
-- [ ] Re-check vertical projectile push force on enemies.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).
 - [ ] Phase 1 teleporting (see https://the-force-engine.freeforums.net/post/138)
+
+## 10-18-2021
+### Bugs
+- [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
+- [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
+- [ ] Fusion Cutter secondary fire speed (it is too fast).
+- [ ] Elevators do not "crush" corpses (sometimes blocks completion in Ramsees Hed).
+- [ ] Re-check vertical projectile push force on enemies.
+- [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
+- [ ] LAIMLAME cheat does not prevent health damage.
+- [ ] Shield pickups seem to have collision with player Thermal Detonators though Mortars don't seem to be effected.
+
+### Other (may slip, Pre-Release build will not be delayed for these).
+- [ ] LAREDLITE cheat.
+- [ ] Finish proper inventory handling in Jabba's Ship.
+
+### Pre-Release
+- [ ] Pre-Release Public Build (320x200, 4:3 only).
+- [ ] Update video running through Nar Shaddaa to show more enemies, if there is time.
 
 ## 10-11-2021
 ### Talay Update
@@ -33,11 +49,6 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Weapon should switch when picking up a better weapon.
 - [x] The player falls when an elevator is lowering instead of smoothly lowering with it.
 - [x] Fix land sound effect playing too often.
-- [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
-- [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
-- [ ] Fusion Cutter secondary fire speed (it is too fast).
-- [ ] Elevators do not "crush" corpses (sometimes blocks completion in Ramsees Hed).
-- [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 
 ### Level Transitions
 - [x] Escape Menu with Abort/Next Level.
@@ -46,12 +57,6 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 
 ### Other (may slip, Pre-Release build will not be delayed for these).
 - [x] Level cheats.
-- [ ] LAREDLITE cheat.
-- [ ] Finish proper inventory handling in Jabba's Ship.
-
-### Pre-Release
-- [ ] Pre-Release Public Build (320x200, 4:3 only).
-- [ ] Update video running through Nar Shaddaa to show more enemies, if there is time.
 
 ## 10-04-2021
 - [ ] AI Integration

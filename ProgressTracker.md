@@ -32,6 +32,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Fix texture animation INF bug.
 - [x] Weapon should switch when picking up a better weapon.
 - [x] The player falls when an elevator is lowering instead of smoothly lowering with it.
+- [x] Fix land sound effect playing too often.
 - [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
 - [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
 - [ ] Fusion Cutter secondary fire speed (it is too fast).

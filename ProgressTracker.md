@@ -18,10 +18,11 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 ### Bugs
 - [x] Missiles and missile packs cannot be picked up.
 - [x] The concussion rifle looks green while shooting in dark sectors on Nar Shaddaa instead of blue.
-- [ ] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
+- [x] Fix moving/rotating sector collision INF bug (blocks completion in Ramsees Hed).
+- [x] Elevators do not "crush" corpses (sometimes blocks completion in Ramsees Hed).
+- [x] Crushers should only affect the player if the player height is less than the original limit, not the limit adjusted for water sectors.
 - [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
 - [ ] Fusion Cutter secondary fire speed (it is too fast).
-- [ ] Elevators do not "crush" corpses (sometimes blocks completion in Ramsees Hed).
 - [ ] Re-check vertical projectile push force on enemies.
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 - [ ] LAIMLAME cheat does not prevent health damage.

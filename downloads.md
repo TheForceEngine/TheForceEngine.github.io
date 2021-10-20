@@ -21,7 +21,7 @@ These builds are for testing only. The following features still do not work:
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
 ### CGL Pre-Release Build Version 0.02.001-47-g2fa28c4
-[TheForceEngine-v0_02_001-45-g9500beb.zip](archive/TheForceEngine-v0_02_0001-47-g2fa28c4.zip) <br>
+[TheForceEngine-v0_02_0001-47-g2fa28c4.zip](archive/TheForceEngine-v0_02_0001-47-g2fa28c4.zip) <br>
 This is a pre-release version of the Core Game Loop Release. In this version 3 enemies are still missing (the Phase 2 Dark Trooper, Boba Fett, and General Mohc) and there are numerous bugs and known issues - including being forced to play in 320x200 since the floating-point sub-renderer had to be removed temporarily due to refactoring.
 #### Known Issues
 Some of these are bugs, others simply haven't been integrated or implemented yet.

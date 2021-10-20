@@ -23,7 +23,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Crushers should only affect the player if the player height is less than the original limit, not the limit adjusted for water sectors.
 - [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
 - [ ] Fusion Cutter secondary fire speed (it is too fast).
-- [ ] Re-check vertical projectile push force on enemies.
+- [x] Re-check vertical projectile push force on enemies.
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 - [ ] LAIMLAME cheat does not prevent health damage.
 - [ ] Shield pickups seem to have collision with player Thermal Detonators though Mortars don't seem to be effected.

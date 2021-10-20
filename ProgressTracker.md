@@ -22,7 +22,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Elevators do not "crush" corpses (sometimes blocks completion in Ramsees Hed).
 - [x] Crushers should only affect the player if the player height is less than the original limit, not the limit adjusted for water sectors.
 - [ ] Fix 3DO Second Height Movement/INF Bug (blocks proper completion in Detention Center).
-- [ ] Fusion Cutter secondary fire speed (it is too fast).
+- [x] Fusion Cutter secondary fire speed (it is too fast).
 - [x] Re-check vertical projectile push force on enemies.
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 - [ ] LAIMLAME cheat does not prevent health damage.

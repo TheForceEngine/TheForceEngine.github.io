@@ -26,6 +26,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Re-check vertical projectile push force on enemies.
 - [x] Music should pause when opening the Escape menu.
 - [x] Shield pickups seem to have collision with player Thermal Detonators though Mortars don't seem to be effected.
+- [x] When creating a new agent, SecBase is automatically selected.
 - [ ] Fix AI Movement Bug when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 - [ ] LAIMLAME cheat does not prevent health damage.
 

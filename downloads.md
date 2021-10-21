@@ -20,6 +20,14 @@ These builds are for testing only. The following features still do not work:
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-55-g4620539
+[TheForceEngine-v02_001-55-g4620539.zip](archive/TheForceEngine-v02_001-55-g4620539.zip) <br>
+* Projectiles no longer collide with pickups, so shields won't block Thermal Detonators.
+* Music will pause when opening up the Escape Menu.
+* Music no longer glitches when going back to the Agent Menu or loading the next level.
+* When creating a new Agent, the first level is automatically selected - avoiding bugs when starting a mission with no level selected.
+* If you create a new agent and then quit the game, the first level will now be selected - avoid the above issue.
+
 ### CGL Pre-Release Build Version 0.02.001-48-g7a8237a
 [TheForceEngine-v0_02_001-48-g7a8237a.zip](archive/TheForceEngine-v02_001-48-g7a8237a.zip) <br>
 This is a "hot-fix" that fixes a possible crash on Jabba's Ship when retrieving your stolen gear.

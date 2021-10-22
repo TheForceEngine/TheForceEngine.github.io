@@ -20,6 +20,13 @@ These builds are for testing only. The following features still do not work:
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-61-gb0b0073
+[TheForceEngine-v02_001-61-gb0b0073.zip](archive/TheForceEngine-v02_001-61-gb0b0073.zip) <br>
+* The console now pauses the game.
+* Cheats can be entered using the console using the "cheat" command. Example: *cheat lacds*
+* Unused console commands have been removed.
+* A few new commands have been added to aid in debugging AI.
+
 ### CGL Pre-Release Build Version 0.02.001-55-g4620539
 [TheForceEngine-v02_001-55-g4620539.zip](archive/TheForceEngine-v02_001-55-g4620539.zip) <br>
 * Projectiles no longer collide with pickups, so shields won't block Thermal Detonators.

@@ -28,7 +28,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Shield pickups seem to have collision with player Thermal Detonators though Mortars don't seem to be effected.
 - [x] When creating a new agent, SecBase is automatically selected.
 - [x] Fix AI Movement Bug for basic enemies when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
-- [ ] Fix the similar AI movement bug for boss enemies.
+- [x] Fix the similar AI movement bug for boss enemies.
 - [ ] LAIMLAME cheat does not prevent health damage.
 
 ### Other (may slip, Pre-Release build will not be delayed for these).

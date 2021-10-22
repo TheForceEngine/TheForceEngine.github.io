@@ -12,7 +12,6 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).
-- [ ] Phase 1 teleporting (see https://the-force-engine.freeforums.net/post/138)
 
 ## 10-18-2021
 ### Bugs
@@ -29,6 +28,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] When creating a new agent, SecBase is automatically selected.
 - [x] Fix AI Movement Bug for basic enemies when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 - [x] Fix the similar AI movement bug for boss enemies.
+- [x] Phase 1 teleporting (see https://the-force-engine.freeforums.net/post/138)
 - [ ] LAIMLAME cheat does not prevent health damage.
 
 ### Other (may slip, Pre-Release build will not be delayed for these).

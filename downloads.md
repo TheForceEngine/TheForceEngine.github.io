@@ -20,6 +20,15 @@ These builds are for testing only. The following features still do not work:
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-66-ge625336
+[TheForceEngine-v0_02_001-66-ge625336.zip](archive/TheForceEngine-v0_02_001-66-ge625336.zip) <br>
+* Fixes a logic error preventing the basic AI enemies from moving around properly, this could cause issues such as spinning in place.
+* Fixes Kell Dragon logic when it loses sight of the player.
+* Clears HUD messages when disabling everything for Jabship.
+* Fixes movement logic issues with the Phase 1 Dark Trooper.
+* Fixes AI teleporting issues, most noticeable with the Phase 1.
+* Fixes precision issue with vec2Length() that was causing the results to lose more precision than DOS.
+
 ### CGL Pre-Release Build Version 0.02.001-61-gb0b0073
 [TheForceEngine-v02_001-61-gb0b0073.zip](archive/TheForceEngine-v02_001-61-gb0b0073.zip) <br>
 * The console now pauses the game.

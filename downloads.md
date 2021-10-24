@@ -20,6 +20,19 @@ These builds are for testing only. The following features still do not work:
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-73-g10a8083
+[TheForceEngine-v0_02_001-73-g10a8083.zip](archive/TheForceEngine-v0_02_001-73-g10a8083.zip) <br>
+This version adds support for input remapping and control settings. This includes:
+* Enable/Disable controller.
+* Controller axis to movement/turning adjustment.
+* Controller sensitivity adjustment.
+* The ability to invert controller axis.
+* Mouse mode - menus only, turning only (which was available in DOS), and full mouse look.
+* Mouse sensitivity.
+* The ability to invert mouse axis.
+* The ability to bind key inputs, controller inputs and mouse inputs to in-game actions.
+* The ability to rebind the console toggle and in-game system menu toggle.
+
 ### CGL Pre-Release Build Version 0.02.001-66-ge625336
 [TheForceEngine-v0_02_001-66-ge625336.zip](archive/TheForceEngine-v0_02_001-66-ge625336.zip) <br>
 * Fixes a logic error preventing the basic AI enemies from moving around properly, this could cause issues such as spinning in place.

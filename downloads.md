@@ -13,7 +13,6 @@ These builds are for testing only. The following features still do not work:
 * There are no mission briefings.
 * You cannot bring up the PDA.
 * Only 320x200 mode works at the moment.
-* The key rebinding menu does not function (though you can bring it up).
 * 3 of the bosses do not work yet (Phase 2 Dark Trooper, Boba Fett, General Mohc).
 * There is no game end.
 

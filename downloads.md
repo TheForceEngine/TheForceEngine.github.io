@@ -26,11 +26,6 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 * Health damage flashes too fast when taking major damage.
 * The System UI doesn't quite work fully.
 * Sound volumes and attenuation do not match DOS.
-* Only 320x200 is supported for now, widescreen and higher resolutions will be coming back soon.
-* Cutscenes do not work.
-* Mission briefings do not work.
-* iMuse does not work - the fight track does not play (but the base track does).
-* You cannot bring up the PDA.
 * The Config option in the Escape menu does nothing.
 
 ### Timeline

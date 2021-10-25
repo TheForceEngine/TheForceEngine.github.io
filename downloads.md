@@ -20,6 +20,11 @@ These builds are for testing only. The following features still do not work:
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-74-g60aa3ec
+[TheForceEngine-v0_02_001-74-g60aa3ec.zip](archive/TheForceEngine-v0_02_001-74-g60aa3ec.zip) <br>
+* Adds the ability to reset input to defaults.
+* Fixes a visual issue due to not clearing the screen when rendering UI.
+
 ### CGL Pre-Release Build Version 0.02.001-73-g10a8083
 [TheForceEngine-v0_02_001-73-g10a8083.zip](archive/TheForceEngine-v0_02_001-73-g10a8083.zip) <br>
 This version adds support for input remapping and control settings. This includes:

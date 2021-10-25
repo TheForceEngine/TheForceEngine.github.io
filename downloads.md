@@ -23,6 +23,7 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 * LAIMLAME does not project you from health damage.
 * LAREDLITE does nothing.
 * The Moudly Crow does not return at the end of Test Base (though the level can still be finished).
+* In-mission Vue animations don't seem to be triggering (Cargo containers in Nar Shaddaa, Tie Fighters on Executor), though pre-mission/post-mission animations are playing.
 * Health damage flashes too fast when taking major damage.
 * The System UI doesn't quite work fully.
 * Sound volumes and attenuation do not match DOS.

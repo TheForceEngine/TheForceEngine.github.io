@@ -16,6 +16,23 @@ These builds are for testing only. The following features still do not work:
 * 3 of the bosses do not work yet (Phase 2 Dark Trooper, Boba Fett, General Mohc).
 * There is no game end.
 
+#### Known Issues
+Some of these are bugs, others simply haven't been integrated or implemented yet.
+* Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
+* Mines trigger through closed doors.
+* LAIMLAME does not project you from health damage.
+* LAREDLITE does nothing.
+* The Moudly Crow does not return at the end of Test Base (though the level can still be finished).
+* Health damage flashes too fast when taking major damage.
+* The System UI doesn't quite work fully.
+* Sound volumes and attenuation do not match DOS.
+* Only 320x200 is supported for now, widescreen and higher resolutions will be coming back soon.
+* Cutscenes do not work.
+* Mission briefings do not work.
+* iMuse does not work - the fight track does not play (but the base track does).
+* You cannot bring up the PDA.
+* The Config option in the Escape menu does nothing.
+
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
@@ -68,28 +85,6 @@ This is a "hot-fix" that fixes a possible crash on Jabba's Ship when retrieving 
 ### CGL Pre-Release Build Version 0.02.001-47-g2fa28c4
 [TheForceEngine-v0_02_001-47-g2fa28c4.zip](archive/TheForceEngine-v0_02_0001-47-g2fa28c4.zip) <br>
 This is a pre-release version of the Core Game Loop Release. In this version 3 enemies are still missing (the Phase 2 Dark Trooper, Boba Fett, and General Mohc) and there are numerous bugs and known issues - including being forced to play in 320x200 since the floating-point sub-renderer had to be removed temporarily due to refactoring.
-#### Known Issues
-Some of these are bugs, others simply haven't been integrated or implemented yet.
-* Sometimes "hit effects" trigger too high when shooting enemies.
-* Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
-* Mines trigger through closed doors.
-* Players slip on rotating sectors.
-* Phase 1 teleports and has trouble when losing sight of the player.
-* Enemies have buggy movement when hitting solid walls, drops, or ledges that are too high.
-* LAIMLAME does not project you from health damage.
-* LAREDLITE does nothing.
-* The Moudly Crow does not return at the end of Test Base (though the level can still be finished).
-* Shield pickups have collision with thermal detonators.
-* Health damage flashes too fast when taking major damage.
-* Probe Droid explosions have a very small radius. 
-* The System UI doesn't quite work fully.
-* Sound volumes and attenuation do not match DOS.
-* Only 320x200 is supported for now, widescreen and higher resolutions will be coming back soon.
-* Cutscenes do not work.
-* Mission briefings do not work.
-* iMuse does not work - the fight track does not play (but the base track does).
-* You cannot bring up the PDA.
-* The Config option in the Escape menu does nothing.
 
 ### Pre-Release Build Version 0.01.006-1; Win64
 [TheForceEngine_0_01_0061.zip](archive/TheForceEngine_0_01_0061.zip) <br>

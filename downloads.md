@@ -16,7 +16,7 @@ These builds are for testing only. The following features still do not work:
 * 3 of the bosses do not work yet (Phase 2 Dark Trooper, Boba Fett, General Mohc).
 * There is no game end.
 
-#### Known Issues
+### Known Issues
 Some of these are bugs, others simply haven't been integrated or implemented yet.
 * Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
 * Mines trigger through closed doors.

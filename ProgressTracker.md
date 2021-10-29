@@ -8,10 +8,27 @@ This page shows the current list of tasks being worked on, with the most recent 
 
 ## Bugs
 A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
-- [ ] Sometimes "hit effects" trigger too high when shooting enemies.
 - [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).
+
+## 10-25-2021
+### Bugs
+- [x] Add missing remote functionality.
+- [x] Cleanup the Classic Renderer and prepare for the reintroduction of high resolution and widescreen support.
+- [ ] Phase 1 Dark Trooper issues when the player is out of sight.
+- [ ] Kell Dragon stops when player overlaps in another layer.
+- [ ] AI Actors can erronenously fit through spaces that the player has to crouch to get through.
+- [ ] Flying AI Actors can clip into the ceiling, making it harder to hit them.
+
+### Other
+- [ ] LAREDLITE cheat.
+- [ ] LAIMLAME cheat does not protect from health damage.
+
+### Finish AI
+- [ ] Phase 2
+- [ ] Boba Fett
+- [ ] General Mohc (Phase 3).
 
 ## 10-18-2021
 ### Bugs
@@ -29,14 +46,11 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Fix AI Movement Bug for basic enemies when reacting to walls, impassable ledges, and drops (noticeable with Ree-Yees in Ramsees Hed).
 - [x] Fix the similar AI movement bug for boss enemies.
 - [x] Phase 1 teleporting (see https://the-force-engine.freeforums.net/post/138)
+- [x] Sometimes "hit effects" trigger too high when shooting enemies.
 - [ ] LAIMLAME cheat does not prevent health damage.
 
-### Other (may slip, Pre-Release build will not be delayed for these).
-- [ ] LAREDLITE cheat.
-
 ### Pre-Release
-- [ ] Pre-Release Public Build (320x200, 4:3 only).
-- [ ] Update video running through Nar Shaddaa to show more enemies, if there is time.
+- [x] Pre-Release Public Builds (320x200, 4:3 only).
 
 ## 10-11-2021
 ### Talay Update

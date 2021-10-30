@@ -32,6 +32,15 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-83-g7836c52
+[TheForceEngine-v0_02_001-83-g7836c52.zip](archive/TheForceEngine-v0_02_001-83-g7836c52.zip) <br>
+* Fixed missing Remote functionality (a sound effect).
+* AI Bug: fixed incorrect random angle offest in actor_offsetTarget().
+* AI Bug: fixed Phase 1 Dark Trooper movement bug when it loses sight of the player.
+* AI Bug: fixed AI collision response bug.
+* AI Bug: fixed bug where AI Actors were considered to be 1.5 units tall for movement collisions, which let them pass through windows and other small areas.
+* Phase 2 Dark Trooper has been integrated, which makes it possible to beat all levels up to Imperial City.
+
 ### CGL Pre-Release Build Version 0.02.001-74-g60aa3ec
 [TheForceEngine-v0_02_001-74-g60aa3ec.zip](archive/TheForceEngine-v0_02_001-74-g60aa3ec.zip) <br>
 * Adds the ability to reset input to defaults.

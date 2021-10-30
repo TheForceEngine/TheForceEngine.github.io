@@ -16,9 +16,9 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 ### Bugs
 - [x] Add missing remote functionality.
 - [x] Cleanup the Classic Renderer and prepare for the reintroduction of high resolution and widescreen support.
-- [ ] Phase 1 Dark Trooper issues when the player is out of sight.
+- [x] Phase 1 Dark Trooper issues when the player is out of sight.
 - [ ] Kell Dragon stops when player overlaps in another layer.
-- [ ] AI Actors can erronenously fit through spaces that the player has to crouch to get through.
+- [x] AI Actors can erronenously fit through spaces that the player has to crouch to get through.
 - [ ] Flying AI Actors can clip into the ceiling, making it harder to hit them.
 
 ### Other
@@ -26,7 +26,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] LAIMLAME cheat does not protect from health damage.
 
 ### Finish AI
-- [ ] Phase 2
+- [x] Phase 2
 - [ ] Boba Fett
 - [ ] General Mohc (Phase 3).
 

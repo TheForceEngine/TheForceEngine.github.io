@@ -23,7 +23,8 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] The player can get stuck on walls instead of smoothly sliding.
 - [x] Player collision jitters more then DOS.
 - [x] The sound when falling into vaccuum or dying in a gas sector is terrible and doesn't match DOS.
-- [ ] Sometimes projectiles miss when they should hit due to crossing multiple sectors.
+- [x] Sometimes projectiles miss when they should hit due to crossing multiple sectors.
+- [x] The weapon vertical pitch offset is slightly incorrect when looking down.
 
 ### Other
 - [ ] LAREDLITE cheat.

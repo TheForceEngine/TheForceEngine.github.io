@@ -20,6 +20,10 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] Kell Dragon stops when player overlaps in another layer.
 - [x] AI Actors can erronenously fit through spaces that the player has to crouch to get through.
 - [ ] Flying AI Actors can clip into the ceiling, making it harder to hit them.
+- [x] The player can get stuck on walls instead of smoothly sliding.
+- [x] Player collision jitters more then DOS.
+- [x] The sound when falling into vaccuum or dying in a gas sector is terrible and doesn't match DOS.
+- [ ] Sometimes projectiles miss when they should hit due to crossing multiple sectors.
 
 ### Other
 - [ ] LAREDLITE cheat.

@@ -32,6 +32,11 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-88-gc18215d
+[TheForceEngine-v0_02_001-88-gc18215d.zip](archive/TheForceEngine-v0_02_001-88-gc18215d.zip) <br>
+* Fixes a projectile collision bug, where projectiles can incorrectly "miss" an object when passing through multiple sectors in the same frame.
+* Fixes a weapon pitch offset rounding error that can cause weapons to be rendered slightly too high on the screen when looking down.
+
 ### CGL Pre-Release Build Version 0.02.001-86-g2822c78
 [TheForceEngine-v0_02_001-86-g2822c78.zip](archive/TheForceEngine-v0_02_001-86-g2822c78.zip) <br>
 * Fixed collision bug where players would get stuck on walls instead of sliding.

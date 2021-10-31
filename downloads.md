@@ -32,6 +32,13 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-86-g2822c78
+[TheForceEngine-v0_02_001-86-g2822c78.zip](archive/TheForceEngine-v0_02_001-86-g2822c78.zip) <br>
+* Fixed collision bug where players would get stuck on walls instead of sliding.
+* Fixed excessive collision jittering.
+* Fixed terrible sound when dying from "gas sectors."
+* Fixed phantom "gas sector" noise when dying.
+
 ### CGL Pre-Release Build Version 0.02.001-83-g7836c52
 [TheForceEngine-v0_02_001-83-g7836c52.zip](archive/TheForceEngine-v0_02_001-83-g7836c52.zip) <br>
 * Fixed missing Remote functionality (a sound effect).

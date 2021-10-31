@@ -10,7 +10,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
 - [ ] The Mouldy Crow return animation is never played in level 4 (but the level is completable anyway).
 - [ ] Executor level does not end correctly - you can reach the end but complete level is never called.
-- [ ] Mid-level VUE animations don't play; see cargo containers in Nar Shaddaa or Tie Fighters in Executor.
+- [ ] Mid-level VUE animations don't play; examples: cargo containers in Nar Shaddaa or Tie Fighters in Executor.
 - [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).

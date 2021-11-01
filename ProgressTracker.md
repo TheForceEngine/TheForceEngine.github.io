@@ -10,6 +10,7 @@ This page shows the current list of tasks being worked on, with the most recent 
 A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).
+- [ ] Hitting with the fist attack is more difficult in TFE than DOS.
 
 ## 11-01-2021
 ### Bugs

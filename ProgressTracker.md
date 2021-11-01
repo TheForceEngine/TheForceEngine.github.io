@@ -8,19 +8,35 @@ This page shows the current list of tasks being worked on, with the most recent 
 
 ## Bugs
 A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
-- [ ] The Mouldy Crow return animation is never played in level 4 (but the level is completable anyway).
-- [ ] Executor level does not end correctly - you can reach the end but complete level is never called.
-- [ ] Mid-level VUE animations don't play; examples: cargo containers in Nar Shaddaa or Tie Fighters in Executor.
-- [ ] Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
 - [ ] Re-check mine triggering (they trigger through closed doors).
 - [ ] Re-check player movement on rotating sectors (see Fuel Station).
+
+## 11-01-2021
+### Bugs
+- [x] Hall of mirror errors in TFE that don't exist in vanilla, see Robotics Facility and Gromas Mines.
+- [x] Specific type of walls not being added to the automap when seen.
+- [ ] The Mouldy Crow return animation is never played in level 4 (but the level is completable anyway).
+- [ ] Mid-level VUE animations don't play; examples: cargo containers in Nar Shaddaa or Tie Fighters in Executor.
+- [ ] Executor level does not end correctly - you can reach the end but complete level is never called.
+- [ ] "Shelves" lowering too soon in Jabba's Ship (see https://the-force-engine.freeforums.net/thread/38/current-bugs).
+- [ ] Kell Dragon stops when player overlaps in another layer.
+- [ ] Enemies aren't killed when they hit "terminal velocity."
+
+### Other
+- [ ] Mod support for TFE.
+- [ ] Missing sound emitting level objects (example: wind sound in Nar Shaddaa).
+- [ ] LAREDLITE cheat.
+- [ ] LAIMLAME cheat does not protect from health damage.
+
+### Finish AI
+- [ ] Boba Fett (WIP)
+- [ ] General Mohc (Phase 3).
 
 ## 10-25-2021
 ### Bugs
 - [x] Add missing remote functionality.
 - [x] Cleanup the Classic Renderer and prepare for the reintroduction of high resolution and widescreen support.
 - [x] Phase 1 Dark Trooper issues when the player is out of sight.
-- [ ] Kell Dragon stops when player overlaps in another layer.
 - [x] AI Actors can erronenously fit through spaces that the player has to crouch to get through.
 - [x] Flying AI Actors can clip into the ceiling, making it harder to hit them.
 - [x] The player can get stuck on walls instead of smoothly sliding.
@@ -29,14 +45,8 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Sometimes projectiles miss when they should hit due to crossing multiple sectors.
 - [x] The weapon vertical pitch offset is slightly incorrect when looking down.
 
-### Other
-- [ ] LAREDLITE cheat.
-- [ ] LAIMLAME cheat does not protect from health damage.
-
 ### Finish AI
 - [x] Phase 2
-- [ ] Boba Fett
-- [ ] General Mohc (Phase 3).
 
 ## 10-18-2021
 ### Bugs

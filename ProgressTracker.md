@@ -19,8 +19,8 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] Mid-level VUE animations don't play; examples: cargo containers in Nar Shaddaa or Tie Fighters in Executor.
 - [ ] Executor level does not end correctly - you can reach the end but complete level is never called.
 - [ ] "Shelves" lowering too soon in Jabba's Ship (see https://the-force-engine.freeforums.net/thread/38/current-bugs).
-- [ ] Kell Dragon stops when player overlaps in another layer.
 - [ ] Enemies aren't killed when they hit "terminal velocity."
+- [ ] Kell Dragon stops when player overlaps in another layer.
 
 ### Other
 - [ ] Mod support for TFE.

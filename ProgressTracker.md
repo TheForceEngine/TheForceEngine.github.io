@@ -17,7 +17,7 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [x] Hall of mirror errors in TFE that don't exist in vanilla, see Robotics Facility and Gromas Mines.
 - [x] Specific type of walls not being added to the automap when seen.
 - [ ] Executor level does not end correctly - you can reach the end but complete level is never called.
-- [ ] The Mouldy Crow return animation is never played in level 4 (but the level is completable anyway).
+- [x] The Mouldy Crow return animation is never played in level 4 (but the level is completable anyway).
 - [ ] Mid-level VUE animations don't play; examples: cargo containers in Nar Shaddaa or Tie Fighters in Executor.
 - [ ] "Shelves" lowering too soon in Jabba's Ship (see [https://the-force-engine.freeforums.net/thread/38/current-bugs]([https://the-force-engine.freeforums.net/thread/38/current-bugs)).
 - [ ] Enemies aren't killed when they hit "terminal velocity."

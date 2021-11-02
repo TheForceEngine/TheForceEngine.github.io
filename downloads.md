@@ -32,6 +32,14 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-93-g070d449
+[TheForceEngine-v0_02_001-93-g070d449.zip](archive/TheForceEngine-v0_02_001-93-g070d449.zip) <br>
+* Fixes HOM artifacts that occur in TFE but not DOS (Gromas, Robotics Facility).
+* Fixes floor/ceiling INF texture transfer.
+* Fixes various crashes in mods.
+* Fixes some walls not being added to the automap when seen.
+* Fixes weapons not be rendered as transparent in some mods.
+
 ### CGL Pre-Release Build Version 0.02.001-88-gc18215d
 [TheForceEngine-v0_02_001-88-gc18215d.zip](archive/TheForceEngine-v0_02_001-88-gc18215d.zip) <br>
 * Fixes a projectile collision bug, where projectiles can incorrectly "miss" an object when passing through multiple sectors in the same frame.

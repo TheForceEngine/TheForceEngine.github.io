@@ -32,6 +32,15 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-98-g4827535
+[TheForceEngine-v0_02_001-98-g4827535.zip](archive/TheForceEngine-v0_02_001-98-g4827535.zip) <br>
+* Executor is now completable (removing the last non-boss progress blocker as far as I know).
+* The Moudly Crow now properly returns at the end of level 4.
+* Player jumping behavior should now match DOS.
+* Players now smoothly lower with second-height based elevators.
+* Fixes corner case where 3DO clipping can produce vertices where z = 0, which causes a crash on Windows.
+* Better handling of malformed data.
+
 ### CGL Pre-Release Build Version 0.02.001-93-g070d449
 [TheForceEngine-v0_02_001-93-g070d449.zip](archive/TheForceEngine-v0_02_001-93-g070d449.zip) <br>
 * Fixes HOM artifacts that occur in TFE but not DOS (Gromas, Robotics Facility).

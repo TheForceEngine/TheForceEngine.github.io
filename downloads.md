@@ -32,6 +32,11 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-106-g6ab2d35
+[TheForceEngine-v0_02_001-106-g6ab2d35.zip](archive/TheForceEngine-v0_02_001-106-g6ab2d35.zip) <br>
+* The LAIMLAME cheat now protects against health damage.
+* Boba Fett is in and it is now possible to complete Imperial City fairly.
+
 ### CGL Pre-Release Build Version 0.02.001-100-g738bf7d
 [TheForceEngine-v0_02_001-100-g738bf7d.zip](archive/TheForceEngine-v0_02_001-100-g738bf7d.zip) <br>
 * If the save game file cannot be copied by TFE, a new file is created. This fixes the issue a few people had with saved games (starting without the pistol and data not being saved).

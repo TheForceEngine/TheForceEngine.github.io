@@ -13,17 +13,12 @@ These builds are for testing only. The following features still do not work:
 * There are no mission briefings.
 * You cannot bring up the PDA.
 * Only 320x200 mode works at the moment.
-* 3 of the bosses do not work yet (Phase 2 Dark Trooper, Boba Fett, General Mohc).
 * There is no game end.
 
 ### Known Issues
 Some of these are bugs, others simply haven't been integrated or implemented yet.
-* Gromas Mines' cliffside near the elevator into the facility has a HOM when you look up.
 * Mines trigger through closed doors.
-* LAIMLAME does not project you from health damage.
 * LAREDLITE does nothing.
-* The Moudly Crow does not return at the end of Test Base (though the level can still be finished).
-* In-mission Vue animations don't seem to be triggering (Cargo containers in Nar Shaddaa, Tie Fighters on Executor), though pre-mission/post-mission animations are playing.
 * Health damage flashes too fast when taking major damage.
 * The System UI doesn't quite work fully.
 * Sound volumes and attenuation do not match DOS.

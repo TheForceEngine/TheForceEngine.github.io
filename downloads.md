@@ -32,6 +32,12 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-107-g5977a8a
+[TheForceEngine-v0_02_001-107-g5977a8a.zip](archive/TheForceEngine-v0_02_001-107-g5977a8a.zip) <br>
+* General Mohc has been integrated.
+* The Mohc boss elevator is now properly handled.
+* Homing missile collision has been fixed.
+
 ### CGL Pre-Release Build Version 0.02.001-106-g6ab2d35
 [TheForceEngine-v0_02_001-106-g6ab2d35.zip](archive/TheForceEngine-v0_02_001-106-g6ab2d35.zip) <br>
 * The LAIMLAME cheat now protects against health damage.

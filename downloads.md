@@ -27,6 +27,15 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-110-gc940ee7
+[TheForceEngine-v0_02_001-110-gc940ee7.zip](archive/TheForceEngine-v0_02_001-110-gc940ee7.zip) <br>
+* Adds a fix to weapon firing with low delta times (high framerates) - it fixes
+an issue where projectiles could pass through near objects in the initial firing frame due
+to a misalignment with the projectile speed and initial instantaneous movement.
+The most obvious result was the punch constantly missing when the framerate is higher than ~70.
+* Fixes a bug where placing landmines was **slightly** too fast.
+* Fixes a bug in the parser that wasn't recognizing empty strings ("") as tokens.
+
 ### CGL Pre-Release Build Version 0.02.001-107-g5977a8a
 [TheForceEngine-v0_02_001-107-g5977a8a.zip](archive/TheForceEngine-v0_02_001-107-g5977a8a.zip) <br>
 * General Mohc has been integrated.

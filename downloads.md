@@ -27,6 +27,13 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-112-gf4c6a81
+[TheForceEngine-v0_02_001-112-gf4c6a81.zip](archive/TheForceEngine-v0_02_001-112-gf4c6a81.zip) <br>
+* Adds support for detecting which display a window is on and using that for fullscreen and refresh rate.
+* Fixes the update when vsync is enabled to detect cases where the refresh rate changed or vsync is not set as expected or changed.
+* Resets the window position if it is not on an active display.
+* Enables DPI-Awareness, which should allow the correct window scaling even if the desktop scale is changed.
+
 ### CGL Pre-Release Build Version 0.02.001-110-gc940ee7
 [TheForceEngine-v0_02_001-110-gc940ee7.zip](archive/TheForceEngine-v0_02_001-110-gc940ee7.zip) <br>
 * Adds a fix to weapon firing with low delta times (high framerates) - it fixes

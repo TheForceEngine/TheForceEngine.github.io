@@ -8,24 +8,28 @@ This page shows the current list of tasks being worked on, with the most recent 
 
 ## Bugs
 A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
-- [ ] Re-check mine triggering (they trigger through closed doors).
-- [ ] Re-check player movement on rotating sectors (see Fuel Station).
-- [ ] Hitting with the fist attack is more difficult in TFE than DOS.
+- [ ] Health damage flashes too fast when taking major damage, like falling.
+- [ ] Mines will trigger through closed doors when the player is in their proximity.
+- [ ] Player slides on rotating sectors which may end up pushing them off. Best observed with Fuel Stations rotating sector area.
+- [ ] LAREDLITE does not work. Putting in the cheat does not show the message and the enemy ai remains active.
+- [ ] (INF) Photo on the left is how this hallway looks in Vanilla/DOS. Right is TFE. TFE's makes the shelves a part of the floor. Also these shouldn't lower until the player opens the door ahead. see https://the-force-engine.freeforums.net/thread/38/current-bugs
+- [ ] Gammorean Guard corpses will slide slightly forward after dying.
+- [ ] Physical damaging enemies will continue to attack you after you are dead, and keep turning the screen red.
+- [ ] Some mid-level VUEs are not triggering, see level 9 Cargo 3do does not move around central area and Tie Fighters on Executor.
+- [ ] Enemies don't die when falling off a ledge (the "terminal velocity" check).
+- [ ] Level 10 Jan Ors does not have proper collision (this also extends to other decorative objects).
+- [ ] (INF) Level 11 The sliding stone puzzle will glitch out after clicking the switch multiple times.
+- [ ] (INF) You should not be able to reactivate an elevator in motion (probably related to the above problem).
+- [ ] https://the-force-engine.freeforums.net/thread/52/dropping-mines-tfe-faster-dos
+- [ ] Sound effect objects are missing (https://the-force-engine.freeforums.net/thread/51/lack-wind-environment-sound-shaddaa).
 
 ## 11-08-2021
 ### Bugs
-- [ ] Mid-level VUE animations don't play; examples: cargo containers in Nar Shaddaa or Tie Fighters in Executor.
-- [ ] "Shelves" lowering too soon in Jabba's Ship (see [https://the-force-engine.freeforums.net/thread/38/current-bugs]([https://the-force-engine.freeforums.net/thread/38/current-bugs)).
-- [ ] Enemies aren't killed when they hit "terminal velocity."
-- [ ] Kell Dragon stops when player overlaps in another layer.
+- [x] Hitting with the fist attack is more difficult in TFE than DOS.
 
 ### CGL Release
-- [ ] Restore high resolution and widescreen support.
+- [x] Restore high resolution and widescreen support.
 - [ ] Mod support for TFE.
-
-### Other
-- [ ] Missing sound emitting level objects (example: wind sound in Nar Shaddaa).
-- [ ] LAREDLITE cheat.
 
 ### Finish AI
 - [x] General Mohc (Phase 3).

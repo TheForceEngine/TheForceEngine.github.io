@@ -7,7 +7,7 @@ permalink: ProgressTracker.html
 This page shows the current list of tasks being worked on, with the most recent week on top. The list shows one week at a time since day-to-day tasks often change depending on what was accomplished previously, shifting priorities, and new discoveries. For more long-term planning, I will still use stand GitHub tasks and milestones. For longer-term plans, please see the [roadmap](Roadmap.html).
 
 ## Bugs
-A note for small bugs noticed during testing. This is not exhaustive, and there will be dedicated time to thoroughly test the game once the features for the release are complete. These bugs can be fixed at any time, and will be moved to the correct list when that happens.
+I have changed this list to include all of the major bugs for version 1.0. Note that some minor bugs have been excluded but remain in the Bugs forum.
 - [ ] Health damage flashes too fast when taking major damage, like falling.
 - [ ] Mines will trigger through closed doors when the player is in their proximity.
 - [ ] Player slides on rotating sectors which may end up pushing them off. Best observed with Fuel Stations rotating sector area.
@@ -17,15 +17,30 @@ A note for small bugs noticed during testing. This is not exhaustive, and there 
 - [ ] Physical damaging enemies will continue to attack you after you are dead, and keep turning the screen red.
 - [ ] Some mid-level VUEs are not triggering, see level 9 Cargo 3do does not move around central area and Tie Fighters on Executor.
 - [ ] Enemies don't die when falling off a ledge (the "terminal velocity" check).
-- [ ] Level 10 Jan Ors does not have proper collision (this also extends to other decorative objects).
-- [ ] (INF) Level 11 The sliding stone puzzle will glitch out after clicking the switch multiple times.
-- [ ] (INF) You should not be able to reactivate an elevator in motion (probably related to the above problem).
-- [ ] https://the-force-engine.freeforums.net/thread/52/dropping-mines-tfe-faster-dos
+- [ ] Some decorations do not have proper collision (see Level 10 Jan Ors).
+- [ ] (INF) You should not be able to reactivate an elevator in motion (causes the sliding puzzle in level 11 to break if clicking on the switch multiple times).
 - [ ] Sound effect objects are missing (https://the-force-engine.freeforums.net/thread/51/lack-wind-environment-sound-shaddaa).
+- [ ] Mines still drop too fast (https://the-force-engine.freeforums.net/thread/52/dropping-mines-tfe-faster-dos).
+
+## 11-15-2021
+### Bugs
+- [ ] The AT-AT model used in some mods is still incorrect (see Dark Tide 2).
+- [ ] Enemies don't die when falling off a ledge (the "terminal velocity" check).
+- [ ] (INF) You should not be able to reactivate an elevator in motion (causes the sliding puzzle in level 11 to break if clicking on the switch multiple times).
+
+### CGL Release
+- [ ] Mod support for TFE.
+- [ ] Finalize release - which includes a GitHub tag and version update.
+
+### Cutscenes & UI Release
+- [ ] Initial work on cutscenes.
 
 ## 11-08-2021
 ### Bugs
 - [x] Hitting with the fist attack is more difficult in TFE than DOS.
+- [x] Compressed loading screens not showing up correctly.
+- [x] 3DO loading with zero-vertex parts.
+- [x] Timing issues when forcing vsync off externally and switching refresh mid-session.
 
 ### CGL Release
 - [x] Restore high resolution and widescreen support.

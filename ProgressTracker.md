@@ -12,7 +12,7 @@ I have changed this list to include all of the major bugs for version 1.0. Note 
 - [ ] Mines will trigger through closed doors when the player is in their proximity.
 - [ ] Player slides on rotating sectors which may end up pushing them off. Best observed with Fuel Stations rotating sector area.
 - [ ] LAREDLITE does not work. Putting in the cheat does not show the message and the enemy ai remains active.
-- [ ] (INF) Photo on the left is how this hallway looks in Vanilla/DOS. Right is TFE. TFE's makes the shelves a part of the floor. Also these shouldn't lower until the player opens the door ahead. see https://the-force-engine.freeforums.net/thread/38/current-bugs
+- [ ] (INF) "Shelves" on Jabba's ship lower too soon. see https://the-force-engine.freeforums.net/thread/38/current-bugs
 - [ ] Gammorean Guard corpses will slide slightly forward after dying.
 - [ ] Physical damaging enemies will continue to attack you after you are dead, and keep turning the screen red.
 - [ ] Some mid-level VUEs are not triggering, see level 9 Cargo 3do does not move around central area and Tie Fighters on Executor.

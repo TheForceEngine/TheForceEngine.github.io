@@ -27,6 +27,13 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-128-gf987b7c
+[TheForceEngine-v0_02_001-128-gf987b7c.zip](archive/TheForceEngine-v0_02_001-128-gf987b7c.zip) <br>
+* High resolution and wide screen support.
+* HUD adjustments are working again.
+* Compressed loading screens now display properly (found in some languages and mods).
+* Fixed a rendering error with some models used by mods.
+
 ### CGL Pre-Release Build Version 0.02.001-112-gf4c6a81
 [TheForceEngine-v0_02_001-112-gf4c6a81.zip](archive/TheForceEngine-v0_02_001-112-gf4c6a81.zip) <br>
 * Adds support for detecting which display a window is on and using that for fullscreen and refresh rate.

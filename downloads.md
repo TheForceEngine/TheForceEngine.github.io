@@ -27,6 +27,10 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-129-gbc44570
+[TheForceEngine-v0_02_001-129-gbc44570.zip](archive/TheForceEngine-v0_02_001-129-gbc44570.zip) <br>
+* Fixes "3D Hologram" rendering when running at a higher resolution and/or widescreen.
+
 ### CGL Pre-Release Build Version 0.02.001-128-gf987b7c
 [TheForceEngine-v0_02_001-128-gf987b7c.zip](archive/TheForceEngine-v0_02_001-128-gf987b7c.zip) <br>
 * High resolution and wide screen support.

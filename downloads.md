@@ -27,6 +27,10 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-134-g22afe3c
+[TheForceEngine-v0_02_001-134-g22afe3c.zip](archive/TheForceEngine-v0_02_001-134-g22afe3c.zip) <br>
+* Fixes 3DO loading that was broken by the previous fix. Now all models should load.
+
 ### CGL Pre-Release Build Version 0.02.001-133-gd444883
 [TheForceEngine-v0_02_001-133-gd444883.zip](archive/TheForceEngine-v0_02_001-133-gd444883.zip) <br>
 * You can exit from the game using Alt+F1, which takes you back to the main menu.

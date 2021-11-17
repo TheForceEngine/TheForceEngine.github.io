@@ -27,6 +27,15 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### CGL Pre-Release Build Version 0.02.001-133-gd444883
+[TheForceEngine-v0_02_001-133-gd444883.zip](archive/TheForceEngine-v0_02_001-133-gd444883.zip) <br>
+* You can exit from the game using Alt+F1, which takes you back to the main menu.
+* Fixes a crash with resolutions with a non-divisible by 4 width; this was causing a crash with Ultra-wide resolutions.
+* Fixes the AT-AT model loading (and presumably others).
+* Fixes a crash in the floating point renderer when caching sectors due to
+a mismatch between sector ID and index. Now the caching system uses the index.
+* Early WIP Mod Loader
+
 ### CGL Pre-Release Build Version 0.02.001-129-gbc44570
 [TheForceEngine-v0_02_001-129-gbc44570.zip](archive/TheForceEngine-v0_02_001-129-gbc44570.zip) <br>
 * Fixes "3D Hologram" rendering when running at a higher resolution and/or widescreen.

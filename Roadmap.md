@@ -38,7 +38,7 @@ The next major system will be the in-game UI, especially useful when looking at 
 This release will implement the correct sound falloff and 3D effects and finally fully implement the iMuse system.
 
 # Version 1.0 Release
-### Estimated Release: December 2021
+### Estimated Release: Late December 2021
 With this release, TFE will be a complete replacement for DosBox. I am still on track for completing this by the end of the year. If the Core Game Loop release makes it out in September, then I think this will be very likely to be released as scheduled. However, there is still a chance that it can slip - I think we’ll have a very good idea when the Core Game Loop Release is finished.
 
 # Voxels

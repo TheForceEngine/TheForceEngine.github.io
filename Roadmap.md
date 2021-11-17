@@ -21,7 +21,7 @@ _These releases are too broad and will be clarified as the project gets closer_
 You can view the short-term progress here: [Progress Tracker](https://theforceengine.github.io/ProgressTracker.html)
 
 # Core Game Loop Release
-### Estimated Release: September 2021
+### Estimated Release: November 2021
 The Core Game Loop release is still the next planned release. While it has taken longer than I originally planned for, as you can see above it is getting close to the finish line. This release will include saving and loading Dark Forces save game data (meaning your current saves will work), creating and deleting agents, proper saved progression through the game, proper visuals using the reverse-engineered classic renderer, pickups, items, all weapons working correctly, accurate player control, physics and collision detection, accurate level interactivity (INF), full enemy AI, palette effects from picking up objects and getting hurt, all items - such as the gasmask - working correctly, Vue animations, basic controller support, key and button rebinding, mouse and controller sensitivity adjustment.
 
 The editors will be temporarily off-line, due to the complete refactor of the code base to properly use the reverse-engineered code. However, they will come back in a future release (see below).

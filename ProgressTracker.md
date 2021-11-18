@@ -24,12 +24,12 @@ I have changed this list to include all of the major bugs for version 1.0. Note 
 
 ## 11-15-2021
 ### Bugs
-- [ ] The AT-AT model used in some mods is still incorrect (see Dark Tide 2).
+- [x] The AT-AT model used in some mods is still incorrect (see Dark Tide 2).
 - [ ] Enemies don't die when falling off a ledge (the "terminal velocity" check).
 - [ ] (INF) You should not be able to reactivate an elevator in motion (causes the sliding puzzle in level 11 to break if clicking on the switch multiple times).
 
 ### CGL Release
-- [ ] Mod support for TFE.
+- [x] Mod support for TFE.
 - [ ] Finalize release - which includes a GitHub tag and version update.
 
 ### Cutscenes & UI Release

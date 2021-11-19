@@ -27,6 +27,20 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### Core Game Loop Release - version 0.7
+[TheForceEngine-v0_70_000.zip](archive/TheForceEngine-v0_70_000.zip) <br>
+* Fixes a bug where opening the System Menu (Alt+F1), and then going to the graphics tab on the Agent Menu would cause the screen to go black.
+* Fixes a bug with floor/ceiling rendering when changing from high resolution to 320x200.
+* The Force Engine now supports loading mods directly from zip files.
+* The Mod Loader now supports loading direct from Zip Files.
+* The Mod Loader now queues up load requests instead of pausing everything to wait.
+* The Mod Loader does a better job of extracting the mod names from their text files.
+* The Mod Loader now displays the original zip or gob file name.
+* The Mod Loader handles longer text files more gracefully.
+* The Mod Loader now supports different views - images, a list of mod names, and a list of mod directories/zip files.
+* Misc small fixes.
+* The version has been changed to 0.7 to better reflect progress towards version 1.0.
+
 ### CGL Pre-Release Build Version 0.02.001-134-g22afe3c
 [TheForceEngine-v0_02_001-134-g22afe3c.zip](archive/TheForceEngine-v0_02_001-134-g22afe3c.zip) <br>
 * Fixes 3DO loading that was broken by the previous fix. Now all models should load.

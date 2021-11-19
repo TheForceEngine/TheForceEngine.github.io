@@ -30,7 +30,7 @@ I have changed this list to include all of the major bugs for version 1.0. Note 
 
 ### CGL Release
 - [x] Mod support for TFE.
-- [ ] Finalize release - which includes a GitHub tag and version update.
+- [x] Finalize release - which includes a GitHub tag and version update.
 
 ### Cutscenes & UI Release
 - [ ] Initial work on cutscenes.

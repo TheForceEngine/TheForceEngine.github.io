@@ -31,6 +31,7 @@ For more information about when The Force Engine will be useful and what the pla
 [TheForceEngine-v0_70_000.zip](archive/TheForceEngine-v0_70_000.zip) <br>
 * Fixes a bug where opening the System Menu (Alt+F1), and then going to the graphics tab on the Agent Menu would cause the screen to go black.
 * Fixes a bug with floor/ceiling rendering when changing from high resolution to 320x200.
+* The Force Engine supports dragging and dropping zip files onto the executable to launch mods.
 * The Force Engine now supports loading mods directly from zip files.
 * The Mod Loader now supports loading direct from Zip Files.
 * The Mod Loader now queues up load requests instead of pausing everything to wait.

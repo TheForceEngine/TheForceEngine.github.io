@@ -5,7 +5,7 @@ title: Roadmap
 
 This roadmap has been completely rewritten based on current progress and changes that naturally occur during a long term project. A lot of this is from a recent blog post, but I will be updating it over time and want to have a single place for the information. A few of the entries have estimated release dates, which are subject to change. In-between releases are, obviously, expected to fall in-between the dates but are not estimated. Substantial work towards version 2.0 (Outlaws support) is expected to begin in early 2022 but it is too early to make any meaningful time estimates, though as described in that section, I do expect version 2.0 to be completed much faster than version 1.0.
 
-- [ ] [Core Game Loop Release](#core-game-loop-release)
+- [x] [Core Game Loop Release](#core-game-loop-release)
 - [ ] [Bug Fixes](#bug-fixes)
 - [ ] [UI and Mission Briefings](#ui-and-mission-briefings)
 - [ ] [Sound](#sound)

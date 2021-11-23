@@ -76,7 +76,7 @@ This is a summary of the rendering pipeline used by the software renderer now. T
   * Keep adjoin screen-space rect for further clipping, culling, and to extend the floor and ceiling quads.
   * The adjoin plane can be used as a near plane for clipping - this means we can just rely on the z-buffer and near plane for clipping, meaning we can use “oblique” clipping.
 
-## Oblique clipping:
+## Oblique clipping
 This has the advantage of not needing a mask, of being well supported on AMD and NVidia, and using the depth-buffer to best advantage, including fast z-culling.
 
 * Draw the current sector - walls, floor and ceiling.

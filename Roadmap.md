@@ -41,6 +41,9 @@ This release will implement the correct sound falloff and 3D effects and finally
 ### Estimated Release: Late December 2021
 With this release, TFE will be a complete replacement for DosBox. I am still on track for completing this by the end of the year. However, there is still a chance that it can slip - I think we’ll have a very good idea when the Core Game Loop Release is finished.
 
+# Mac and Linux Support
+With this release, TFE will gain initial support on Mac and Linux. While the code more or less compiles on Linux (or is pretty close), there is more work to make sure it works well. And the Mac requires its own treatment and testing.
+
 # Voxels
 Quite some time ago now, I implemented an experimental voxel renderer that integrated seamlessly with the Jedi classic renderer. However, there were some loose ends to deal with, such as not supporting the full VOX format and dealing with some palette issues. This release will integrate that code with the main branch and add support for replacing objects with their voxel counterpart.
 

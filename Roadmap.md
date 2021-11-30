@@ -10,6 +10,7 @@ This roadmap has been completely rewritten based on current progress and changes
 - [ ] [UI and Mission Briefings](#ui-and-mission-briefings)
 - [ ] [Sound](#sound)
 - [ ] [Version 1.0 Release](#version-10-release)
+- [ ] [Mac and Linux Support](#mac-and-linux-support)
 - [ ] [Voxels](#voxels)
 - [ ] [Tools](#tools)
 - [ ] [Level Editor](#level-editor)

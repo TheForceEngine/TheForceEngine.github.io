@@ -9,11 +9,6 @@ Current Releases are for testing only, the gameplay is incomplete.
 These builds are for testing only. The following features still do not work:
 * iMuse - only the base track plays.
 * Sound volume and attenuation is inaccurate compared to DOS.
-* Cutscenes do not play.
-* There are no mission briefings.
-* You cannot bring up the PDA.
-* Only 320x200 mode works at the moment.
-* There is no game end.
 
 ### Known Issues
 Some of these are bugs, others simply haven't been integrated or implemented yet.
@@ -22,10 +17,24 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 * Health damage flashes too fast when taking major damage.
 * The System UI doesn't quite work fully.
 * Sound volumes and attenuation do not match DOS.
-* The Config option in the Escape menu does nothing.
 
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
+
+### Core Game Loop Release - version 0.8
+[TheForceEngine-v0_80_000.zip](archive/TheForceEngine-v0_80_000.zip) <br>
+* The Escape menu now supports keyboard shortcuts.
+* The "Configuration" option in the Escape Menu loads the TFE System UI options.
+* PDA now works.
+* Mission Briefings now work.
+* Difficulty level now accurate (no more extra super shields on Medium).
+* Cutscenes play.
+* Better support for tall windows.
+* Fixes a model rotation problem in some mods (like Lava Planet).
+* Fixed a memory overwrite that could lead to a crash.
+
+Known Issues:
+* Cutscene music is not 100% correct, there are late cues and "dead space." This will be corrected in version 0.9 with full iMuse support.
 
 ### Core Game Loop Release - version 0.7
 [TheForceEngine-v0_70_000.zip](archive/TheForceEngine-v0_70_000.zip) <br>

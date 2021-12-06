@@ -21,6 +21,13 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2021, please see the [TFE Roadmap](Roadmap.md)
 
+### Core Game Loop Release - version 0.80.000-4-ga10f68d
+[TheForceEngine-v0_80_000-4-ga10f68d.zip](archive/TheForceEngine-v0_80_000-4-ga10f68d.zip) <br>
+* Improved the accuracy of the cutscene playback speed.
+* Cutscene music plays at full speed.
+* Fixed a crash caused by sprites writing past their bounds.
+* Fixed issue when hitting Return or Escape to move past cutscenes either immediately launching the next level or returning to the Agent Menu.
+
 ### Core Game Loop Release - version 0.8
 [TheForceEngine-v0_80_000.zip](archive/TheForceEngine-v0_80_000.zip) <br>
 * The Escape menu now supports keyboard shortcuts.

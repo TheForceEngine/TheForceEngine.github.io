@@ -37,6 +37,7 @@ There will be plenty of bugs to fix, so this is a placeholder here. This probabl
 The next major system will be the in-game UI, especially useful when looking at mission objectives and key codes using the PDA. Once the UI and mission briefings are in place, the game is technically fully playable.
 
 # Sound
+### Estimated Release: Late December 2021 or Early January 2022
 This release will implement the correct sound falloff and 3D effects and finally fully implement the iMuse system.
 
 # Version 1.0 Release

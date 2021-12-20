@@ -33,13 +33,14 @@ Note, however, with all of this being made available at once there will inevitab
 There will be plenty of bugs to fix, so this is a placeholder here. This probably won’t be a big release by itself - instead it will be a bunch of smaller “point” releases. This will likely continue as the next releases are being worked on.
 
 # UI and Mission Briefings
+### Released December 5, 2021
 The next major system will be the in-game UI, especially useful when looking at mission objectives and key codes using the PDA. Once the UI and mission briefings are in place, the game is technically fully playable.
 
 # Sound
 This release will implement the correct sound falloff and 3D effects and finally fully implement the iMuse system.
 
 # Version 1.0 Release
-### Estimated Release: Late December 2021
+### Estimated Release: Late January 2022
 With this release, TFE will be a complete replacement for DosBox. I am still on track for completing this by the end of the year. However, there is still a chance that it can slip - I think we’ll have a very good idea when the Core Game Loop Release is finished.
 
 # Mac and Linux Support

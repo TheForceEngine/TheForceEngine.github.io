@@ -14,8 +14,6 @@ March will see the release of an early version of the built-in level editor and 
 
 Finally, once the Mac and Linux ports are working and the initial tools have been released it will be time to focusing on adding Outlaws support to TFE. Like I mentioned previously, this will include adding support for Outlaws Jedi enhancements to the level editor and support for Outlaws formats in the asset tools.
 
-![Logo](https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/TFE_TitleLogo_Alpha_161.png?raw=true)
-
 ## 2021 Retrospective
 I thought it would be interesting to look back at the 2021, in terms of TFE, and see how far we have come.
 

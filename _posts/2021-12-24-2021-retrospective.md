@@ -65,7 +65,7 @@ The end of August saw the player controller integrated, as well as initial weapo
 ### Core Game Loop
 During September the core game loop started really coming together. The code was switched to using the original sin/cos tables, which fixed various rendering issues with the Automap, palette based effects were integrated, the HUD code was fully integrated and displayed properly. The classic renderer, reverse-engineered many months prior, was finally properly hooked up. It was finally "real." I could see again - after almost 7 months of most of the game not displaying, because the data was not in place and the renderer not hooked up - there was light.
 
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/IntegrationWork1.jpg" width="600">
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/IntegrationWork1.jpg?raw" width="600">
 
 With so much reverse-engineering work already done and all of the main systems coming online, things started to move quickly from here on out. 
 
@@ -81,7 +81,7 @@ At this point I started to focus on the AI, splitting off the basic actor code I
 ### Input and UI
 TFE needed a system to remap keys to actions, which had been implemented previously. What hadn't been implemented yet is the UI. So the UI was created, though not fully hooked up yet.
 
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/InputMenu1.jpg" width="600">
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/InputMenu1.jpg?raw" width="600">
 
 ### More AI
 Late September saw a lot more AI work, with more reverse-engineering time required as gaps became evident during the integration process. Along with the AI, the Task system was being cleaned up and simplified. Finally the mouse bot was completed, but the AI journey was just getting started.
@@ -116,20 +116,20 @@ On November 14th, I posted the "TFE: Widescreen & High Resolution Rendering" vid
 
 Once the floating-point renderer was complete, it was time to finally prepare for the Core Game Loop release. This involved fixing more menu code, fixing crashes due to resolutions not divisible by 4, fixing various 3DO model rendering bugs. But the biggest new feature was the mod loader - so it would be possible to play mods in TFE.
 
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/ModLoader3.jpg" width="600"><img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/tfe_hotel.jpg" width="600">
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/ModLoader3.jpg?raw" width="600"><img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/tfe_hotel.jpg?raw" width="600">
 
 On the November 18th, **version 0.7** was released and the core game loop was complete.
 
 ### Version 0.8
 With the Core Game Loop complete, it was time to tackle the cutscene system. During this period I also fixed many bugs, cleaned up the renderer code. But most of the time was working through the "Landru" system.
 
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/pdaFinished1.jpg" width="600">
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/pdaFinished1.jpg?raw" width="600">
 
 The Landru system uses its own "actor" model for handling images and sounds. It also has its own sound and music management code. Even the display code is different then the rest of the game. There were numerous systems, such as the fading system, that needed to be converted from DOS-style while loops to state machines.
 
 And, finally, on December 5th, I posted a video and posted the official 0.8 release.
 
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/cutscenes5.jpg" width="600">
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/cutscenes5.jpg?raw" width="600">
 
 ### Today
 That brings us to today. I have been spending the last few weeks reverse-engineering the iMuse system, and prior to that had successfully integrated the game music module that integrates with iMuse.

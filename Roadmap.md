@@ -8,7 +8,7 @@ This roadmap has been completely rewritten based on current progress and changes
 - [x] [Core Game Loop Release](#core-game-loop-release)
 - [ ] [Bug Fixes](#bug-fixes)
 - [x] [UI and Mission Briefings](#ui-and-mission-briefings)
-- [ ] [Sound](#sound)
+- [ ] [Sound](#sound) - _In Progress_
 - [ ] [Version 1.0 Release](#version-10-release)
 - [ ] [GPU Renderer and Voxels](#gpu-renderer-and-voxels)
 - [ ] [Mac and Linux Support](#mac-and-linux-support)

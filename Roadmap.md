@@ -11,8 +11,8 @@ This roadmap has been completely rewritten based on current progress and changes
 - [ ] [Sound](#sound)
 - [ ] [Version 1.0 Release](#version-10-release)
 - [ ] [GPU Renderer and Voxels](#gpu-renderer-and-voxels)
-- [ ] [Tools and Level Editor](#tools)
 - [ ] [Mac and Linux Support](#mac-and-linux-support)
+- [ ] [Tools and Level Editor](#tools)
 
 _These releases are too broad and will be clarified as the project gets closer_
 * [Towards Version 2.0](#towards-version-20)

@@ -16,7 +16,6 @@ This roadmap has been completely rewritten based on current progress and changes
 
 _These releases are too broad and will be clarified as the project gets closer_
 * [Towards Version 2.0](#towards-version-20)
-* [Perspective and Hardware Renderers](#perspective-and-hardware-renderers)
 
 You can view the short-term progress here: [Progress Tracker](https://theforceengine.github.io/ProgressTracker.html)
 
@@ -63,7 +62,3 @@ Finally, hopefully early next year, I plan on beginning the process of adding Ou
 * I have become a lot faster at the process by going through the process of reverse-engineering Dark Forces.
 * Outlaws was built from the Dark Forces code base, and shares the same engine. This means a lot of the structures will be the same or substaintally similar.
 * I have a better sense of how to organize the process and reduce re-work and refactoring time.
-
-# Perspective and Hardware Renderers
-Once the Outlaws enhancements to the Jedi Engine are reverse-engineered, I will be in a much better place to tackle the Perspective and Hardware accelerated renderers for TFE.
-

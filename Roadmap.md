@@ -10,7 +10,7 @@ This roadmap has been completely rewritten based on current progress and changes
 - [x] [UI and Mission Briefings](#ui-and-mission-briefings)
 - [ ] [Sound](#sound) - _In Progress_
 - [ ] [Version 1.0 Release](#version-10-release)
-- [ ] [GPU Renderer and Voxels](#gpu-renderer-and-voxels)
+- [ ] [Voxels](#voxels)
 - [ ] [Mac and Linux Support](#mac-and-linux-support)
 - [ ] [Tools and Level Editor](#tools)
 
@@ -35,29 +35,27 @@ There will be plenty of bugs to fix, so this is a placeholder here. This probabl
 The next major system will be the in-game UI, especially useful when looking at mission objectives and key codes using the PDA. Once the UI and mission briefings are in place, the game is technically fully playable.
 
 # Sound
-### Estimated Release: Second Week of January 2022
-This release will implement the correct sound falloff and 3D effects and finally fully implement the iMuse system.
+### Estimated Release: Mid May, 2022
+This release will implement the correct sound falloff and 3D effects and finally fully implement the iMuse system. Note that the iMuse system has been completed and work on other sound elements is in progress.
 
 # Version 1.0 Release
-### Estimated Release: Late January 2022
-With this release, TFE will be a complete replacement for DosBox. I am still on track for completing this by the end of the year. However, there is still a chance that it can slip - I think we’ll have a very good idea when the Core Game Loop Release is finished.
+### Estimated Release: Late July 2022
+With this release, TFE will be a complete replacement for DosBox. This release will also include the perspective-correct GPU renderer.
 
-# GPU Renderer and Voxels
-### Estimated Release: February
-Originally I was going to hold off on the GPU renderer, but ultimately decided that getting it implemented sooner would be advantageous - both to improve performance when running at high resolutions and refresh rates - and so it can be incrementally updated with Outlaws features. Another big reason is to make it available for the level editor, so it is easier to get exactly the results you see in the editor, in the final game. 
-
+# Voxels
+### Estimated Release: August 2022
 Quite some time ago now, I implemented an experimental voxel renderer that integrated seamlessly with the Jedi classic renderer. However, there were some loose ends to deal with, such as not supporting the full VOX format and dealing with some palette issues. This release will integrate that code with the main branch and add support for replacing objects with their voxel counterpart.
 
 # Mac and Linux Support
-### Estimated Release: Early March
+### Estimated Release: September 2022
 With this release, TFE will gain initial support on Mac and Linux. While the code more or less compiles on Linux (or is pretty close), there is more work to make sure it works well. And the Mac requires its own treatment and testing.
 
 # Tools
-### Estimated Release: Late March
+### Estimated Release: November 2022
 The focus of this release is to get the tools working again with the reverse-engineered code. This will include basic functionality like importing and exporting assets, viewing them, etc. and the first release of the full level editor. It might still be missing some planned features, but as of this release it should be fully usable for building real levels and mods.
 
 # Towards Version 2.0
-Finally, hopefully early next year, I plan on beginning the process of adding Outlaws support to TFE. I don’t yet have any real way of making any time estimates beyond this point, but I expect the reverse-engineering process to proceed at a much quicker rate for Outlaws for several reasons:
+Once version 1.0 is released, I plan on beginning the process of adding Outlaws support to TFE. I don’t yet have any real way of making any time estimates beyond this point, but I expect the reverse-engineering process to proceed at a much quicker rate for Outlaws for several reasons:
 
 * I have become a lot faster at the process by going through the process of reverse-engineering Dark Forces.
 * Outlaws was built from the Dark Forces code base, and shares the same engine. This means a lot of the structures will be the same or substaintally similar.

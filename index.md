@@ -6,21 +6,23 @@ title: Home
 # The Force Engine (TFE)
 
 ## About
-The Force Engine is a project to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - **Dark Forces** and **Outlaws**. The project includes modern, built-in tools, such as a level editor and makes it easy to play **Dark Forces** and **Outlaws** on modern systems as well as the many community **mods** designed to work with the original games.
+The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - **Dark Forces** and **Outlaws**. The project will include modern, built-in tools, such as a level editor and will make it easy to play **Dark Forces** and **Outlaws** on modern systems as well as the many community **mods** designed to work with the original games.
 
-Playing Dark Forces or Outlaws using the Force Engine adds ease of use and modern features such as higher resolutions and modern control schemes such as mouse-look. Using the built-in tools allows for easier modding with more modern UI, greater flexibility and the ability to use enhancements made to the Jedi Engine for Outlaws in custom Dark Forces levels - such as slopes, stacked sectors, per-sector color maps and more.
+Playing Dark Forces or Outlaws using the Force Engine will add ease of use and modern features such as higher resolutions and modern control schemes such as mouse-look. Using the built-in tools will allow for easier modding with more modern UI, greater flexibility and the ability to use enhancements made to the Jedi Engine for Outlaws in custom Dark Forces levels - such as slopes, stacked sectors, per-sector color maps and more.
 
-Note that this project aims to replace the executables but you will **need the original game data** to play. This is **not** a remake but a way to make the original games easier to play on modern systems, to provide optional improvements such as modern controls and higher resolution rendering and to provide enhanced modding support and tools. If you do not already own Dark Forces and/or Outlaws, you will need to **purchase them** to play them using the Force Engine. Both games are currently available on the Steam and GOG digital stores.
+Note that while Dark Forces support is nearly complete (version 0.8), Outlaws is **not** playable yet - the focus so far has been on the framework, Dark Forces support, and JEDI reverse-engineering. However, Outlaws support is planned and will be complete in TFE version 2.0. See **Current State** below.
 
 ## Current State
-The project is in a pre-release state. While it shares a legacy with DarkXL, it is a complete rewrite - rebuilt from the ground up with a much greater focus on accuracy. It is much more focused than the XL Engine, focused on being a Jedi Engine replacement/port only - thus full support for Dark Forces and Outlaws. Please check the [Roadmap](Roadmap.md) for more information on release timetable and planned feature-set. It is somewhat conservative - there is a decent chance that the release will be earlier.
+The project is in a pre-release state, version 0.8. While it shares a legacy with DarkXL, it is a complete rewrite - rebuilt from the ground up with a much greater focus on accuracy. It is much more focused than the XL Engine, focused on being a Jedi Engine replacement/port only - thus full support for Dark Forces and later Outlaws. Please check the [Roadmap](Roadmap.md) for more information on release timetable and planned feature-set.
 
-A lot of the framework for the first release has been implemented but the majority of the focus is currently on the reverse engineering effort. What that means is that this version is incomplete, some elements are still inaccurate and others missing (such as enemy AI). 
-The reason is simple - these elements will be filled in and/or corrected based on the reverse engineering work that is currently underway (and has been for some time). That means that no non-Windows build system is in place (and it is unlikely buildable on anything but Windows at the moment anyway). It also means that high resolution software rendering is slow but that will be corrected within the next few months.
+### Current Release
+The current release is **version 0.8** and only supports Dark Forces. All weapons, AI, items, and other systems function, with the exception of IMuse. You can play through Dark Forces from beginning to end and play some Dark Forces mods. There are still bugs, the music isn't correct, some ambient level sounds are missing, and sound falloff is not accurate.
 
-The project will be properly released once Dark Forces support is complete (full INF, iMuse, all cutscenes, full AI, etc.) and Outlaws support is at "tech demo" status - mainly so that the new Jedi Engine features are in-place even if Outlaws gameplay code is not yet ready. Note that pull requests are very unlikely to be accepted until release because __*the code and even structure will change drastically*__ as the reverse-engineered code is ported from Dark Forces and Outlaws and refactored. Any available builds are __*for testing only*__ and are __not useful__ as a DosBox/Dark.exe replacement.
+### Next Release
+**Version 0.9** is expected to be released soon. This version will have full IMuse support, including music cues and dynamic changes in-game. It will also include missing ambient level sounds, and accurate sound falloff and playback.
 
-This section will be updated near release and contain a better description of the how & whys of this project.
+### Progress Towards Next Release
+IMuse music has recently been completed and work on the sound system is underway.
 
 ## Minimum Requirements for Test Builds
 * Windows 7, 64 bit.

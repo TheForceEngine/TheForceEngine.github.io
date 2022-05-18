@@ -7,7 +7,7 @@ title: iMuse and Sound Release
 Version 0.9 has been a long time coming, taking much longer than originally anticipated. Version 0.9 is focused on sound playback and music accuracy, ambient sound support, and a few bug fixes.
 
 # iMuse
-IMuse (**I**nteractive **Mu**sic **S**treaming **E**ngine) was the last system needed to complete Dark Forces support in TFE. It is the dynamic music system that Lucas Arts developed and used in many of their games such as Monkey Island 2, Tie Fighter and, of course, Dark Forces. See https://en.wikipedia.org/wiki/IMUSE for a general description.
+IMuse (**I**nteractive **Mu**sic **S**treaming **E**ngine) was the last system needed to complete Dark Forces support in TFE. It is the dynamic music system that Lucas Arts developed and used in many of their games such as Monkey Island 2, Tie Fighter and, of course, Dark Forces. See [https://en.wikipedia.org/wiki/IMUSE](https://en.wikipedia.org/wiki/IMUSE) for a general description.
 
 iMuse, as used in Dark Forces for music, is basically scripted Midi - the midi data itself contains *sysex* events, such as jumps (like **goto** in C). The host (Dark Forces game code) can interact with the Imuse playback, such as manually jumping to different places in the midi, changing tracks, or midi files on the fly.
 

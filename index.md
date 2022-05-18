@@ -13,16 +13,13 @@ Playing Dark Forces or Outlaws using the Force Engine will add ease of use and m
 Note that while Dark Forces support is nearly complete (version 0.8), Outlaws is **not** playable yet - the focus so far has been on the framework, Dark Forces support, and JEDI reverse-engineering. However, Outlaws support is planned and will be complete in TFE version 2.0. See **Current State** below.
 
 ## Current State
-The project is in a pre-release state, version 0.8. While it shares a legacy with DarkXL, it is a complete rewrite - rebuilt from the ground up with a much greater focus on accuracy. It is much more focused than the XL Engine, focused on being a Jedi Engine replacement/port only - thus full support for Dark Forces and later Outlaws. Please check the [Roadmap](Roadmap.md) for more information on release timetable and planned feature-set.
+The project is in a pre-release state, version 0.9. While it shares a legacy with DarkXL, it is a complete rewrite - rebuilt from the ground up with a much greater focus on accuracy. It is much more focused than the XL Engine, focused on being a Jedi Engine replacement/port only - thus full support for Dark Forces and later Outlaws. Please check the [Roadmap](Roadmap.md) for more information on release timetable and planned feature-set.
 
 ### Current Release
-The current release is **version 0.8** and only supports Dark Forces. All weapons, AI, items, and other systems function, with the exception of IMuse. You can play through Dark Forces from beginning to end and play some Dark Forces mods. There are still bugs, the music isn't correct, some ambient level sounds are missing, and sound falloff is not accurate.
+The current release is **version 0.9** and only supports Dark Forces. All weapons, AI, items, and all other systems function, including IMuse. You can play through Dark Forces from beginning to end and play some Dark Forces mods. There are still bugs, that will be addressed for version 1.0.
 
 ### Next Release
-**Version 0.9** is expected to be released soon. This version will have full IMuse support, including music cues and dynamic changes in-game. It will also include missing ambient level sounds, and accurate sound falloff and playback.
-
-### Progress Towards Next Release
-IMuse music has recently been completed and work on the sound system is underway.
+**Version 1.0**, though I plan on doing smaller releases as bugs are fixed.
 
 ## Minimum Requirements for Test Builds
 * Windows 7, 64 bit.

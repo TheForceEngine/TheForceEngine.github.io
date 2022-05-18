@@ -25,7 +25,7 @@ Rather than call into the driver directly, the iMuse code sends midi commands to
 
 iMuse is also used for low-level digital audio playback and normalization, linking to the TFE AudioSystem thread for updates in a similar way that midi was implemented. In the original code, the digital audio updated occured in the same interrupt handler as the midi update. The way it worked is that it would query the driver if it was ready for the next set of sound samples (512) and if not, skip the update. For TFE, the iMuse digital audio update is instead called by the low-level audio thread to provide the samples instead. Interestingly iMuse features such as sound fading and triggers work the same way for digital audio as music tracks.
 
-In terms of complexity, iMuse is very similar to the INF system - which is also a psuedo scripted system. Fortunately, iMuse is the last major system needed to support Dark Forces. Except for bug fixes, the reverse-engineering phase for Dark Forces is complete.
+In terms of complexity, iMuse is very similar to the INF system - which is also a pseudo scripted system. Fortunately, iMuse is the last major system needed to support Dark Forces. Except for bug fixes, the reverse-engineering phase for Dark Forces is complete.
 
 # Game Sound
 On top of iMuse, Dark Forces basically implements two sound systems - one for Landru (cutscenes), most likely directly from Tie Fighter, and the other using Dark Forces game data and Jedi math functions to handle in-game sounds. Because there are only 8 ditigal audio channels available, though iMuse (and now TFE) support 16, sound priority is very important and every loaded in-game sound is provided a prority so that you always hear the most important sounds.

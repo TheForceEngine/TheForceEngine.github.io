@@ -28,7 +28,7 @@ iMuse is also used for low-level digital audio playback and normalization, linki
 In terms of complexity, iMuse is very similar to the INF system - which is also a psuedo scripted system. Fortunately, iMuse is the last major system needed to support Dark Forces. Except for bug fixes, the reverse-engineering phase for Dark Forces is complete.
 
 # Game Sound
-On top of iMuse, Dark Forces basically implements two sound systems - one for Landru (cutscenes), most likely directly from Tie Fighter, and the other using Dark Forces game data and Jedi math functions to handle in-game sounds. Because there are only ditigal audio channels available, though iMuse (and now TFE) support 16, sound priority is very important and every loaded in-game sound is provided a prority so that you always hear the most important sounds.
+On top of iMuse, Dark Forces basically implements two sound systems - one for Landru (cutscenes), most likely directly from Tie Fighter, and the other using Dark Forces game data and Jedi math functions to handle in-game sounds. Because there are only 8 ditigal audio channels available, though iMuse (and now TFE) support 16, sound priority is very important and every loaded in-game sound is provided a prority so that you always hear the most important sounds.
 
 The sound falloff in TFE was approximated up to this point, but I knew it would not be accurate. 3D Sound in Dark Forces can be heard from up to 150 units away and will play at full volume at 30 units. Between 30 and 150 units from the eye, the volume is linearly interpolated.
 

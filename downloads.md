@@ -5,21 +5,29 @@ title: Downloads
 
 Current Releases are for testing only, the gameplay is incomplete.
 
-### Warning
-These builds are for testing only. The following features still do not work:
-* iMuse - only the base track plays.
-* Sound volume and attenuation is inaccurate compared to DOS.
-
 ### Known Issues
 Some of these are bugs, others simply haven't been integrated or implemented yet.
 * Mines trigger through closed doors.
 * LAREDLITE does nothing.
 * Health damage flashes too fast when taking major damage.
-* The System UI doesn't quite work fully.
-* Sound volumes and attenuation do not match DOS.
 
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
+
+### iMuse and Sound - version 0.90.000
+[TheForceEngine-v0_80_000-6-g5b663b3.zip](archive/TheForceEngine-v0_90_000.zip) <br>
+* Reverse-engineering of Dark Forces complete (with the obvious exception of going over bits of code again for bugs, or if I ever want to port TFE to DOS - and no that is not happening anytime soon if ever).
+* iMuse system with proper music cues, transitions, and effects. Features like fades and similar effects work the same for both midi and digital audio.
+  * This is where most of the time was spent. iMuse is big and convoluted.
+* Game music with fight/stalk transitions.
+* Game and Cutscene sound system that uses iMuse to play digital audio; which includes proper sound priorities and accurate sound falloff and panning.
+* Level ambient sounds.
+* Sound UI will volume control for Cutscene Music, Sound, and Game music and sound.
+* The ability to enable 16-channel digital audio support in iMuse (it was basically already there in the code, I just had to make some tweaks so it could be changed at runtime). 16-channels is the default but if you disable the option, it reverts back to 8-channels like DOS.
+* The ability to disable fight music if desired.
+* Mouse wheel now bindable.
+* Mouse wheel works on mission briefings and some PDA screens (mission briefing and map).
+* Improved support for System UI scaling for 1440p and 4k.
 
 ### Cutscenes and Game UI Bug Fix Build 2 - version 0.80.000-6-g5b663b3
 [TheForceEngine-v0_80_000-6-g5b663b3.zip](archive/TheForceEngine-v0_80_000-6-g5b663b3.zip) <br>

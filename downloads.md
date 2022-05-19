@@ -14,6 +14,18 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.9x Bug Fix Release 1
+[TheForceEngine-v0_90_000-13-g2b1bc8d.zip](archive/TheForceEngine-v0_90_000-13-g2b1bc8d.zip) <br>
+* Fixes a sound crash when exiting to the main menu while in a level and then starting up a mod.
+* Fixes a Dark Forces bug where music doesn't play in a cutscene on a second viewing in the same session.
+* Fixes a bug when an object has an incorrect class or type on load - it should be skipped.
+* Clean up differences between TFE level loading and DOS.
+* Fixes a bug where the ambient sound index was always 0.
+* Correct screen flash fade lengths for shield and health damage, and pickup flashes.
+* Fix crash when destructible object has no animation 1 - this resulted in numerous crashes.
+* Fix camera sound update.
+* Fix issue that could cause textures to fail to load if one line is bad.
+
 ### iMuse and Sound - version 0.90.000
 [TheForceEngine-v0_90_000.zip](archive/TheForceEngine-v0_90_000.zip) <br>
 * Reverse-engineering of Dark Forces complete (with the obvious exception of going over bits of code again for bugs, or if I ever want to port TFE to DOS - and no that is not happening anytime soon if ever).

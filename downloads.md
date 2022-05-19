@@ -14,7 +14,7 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
 ### 0.9x Bug Fix Release 1
-[TheForceEngine-v0_90_000-13-g2b1bc8d.zip](archive/TheForceEngine-v09_000-13-g2b1bc8d.zip) <br>
+[TheForceEngine-v0_90_000-13-g2b1bc8d.zip](archive/TheForceEngine-v0_09_000-13-g2b1bc8d.zip) <br>
 * Fixes a sound crash when exiting to the main menu while in a level and then starting up a mod.
 * Fixes a Dark Forces bug where music doesn't play in a cutscene on a second viewing in the same session.
 * Fixes a bug when an object has an incorrect class or type on load - it should be skipped.

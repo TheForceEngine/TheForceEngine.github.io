@@ -9,7 +9,6 @@ Current Releases are for testing only, the gameplay is incomplete.
 Some of these are bugs, others simply haven't been integrated or implemented yet.
 * Mines trigger through closed doors.
 * LAREDLITE does nothing.
-* Health damage flashes too fast when taking major damage.
 
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)

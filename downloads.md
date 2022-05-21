@@ -13,6 +13,20 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.9x Bug Fix Release 2
+[TheForceEngine-v0_09_000-15-gc28638a.zip](archive/TheForceEngine-v0_09_000-15-gc28638a.zip) <br>
+* Fixed OBJ_FLAG_HAS_COLLISION, which should be OBJ_FLAG_MOVABLE. This fixes errors such as corpses not moving with rotating sectors.
+* Fixed object collision radii - this fixes a bug where the collision for many objects was too large.
+* Fixed a bug where TFE crashes if there is no briefing.
+* Fixed a bug with collision where a flag was checked - it should only check the collision radius. This fixes a bug where some props did not have collision when they should have.
+* Fixed the default message type for line triggers (which can effect some INF functionality in mods).
+* Fixed several areas while loading INF that could cause crashes with malformed data.
+* Fixed slave "value" - I thought it was fixed point but it is actually an angle.
+* Fixed triggers to accept evt == INF_EVENT_ANY (aka -1), this can also have an effect on INF in mods.
+* Fixed collision issues with moving and rotating walls.
+* Fixed object default flags - this also could cause some objects to not move correctly with rotating or moving sectors.
+* Fixes a bug when decompressing transparent textures (compressed transparent BM) - this fixes bugs such as holograms in Assassination at Nar Shaddaa.
+
 ### 0.9x Bug Fix Release 1
 [TheForceEngine-v0_90_000-13-g2b1bc8d.zip](archive/TheForceEngine-v0_09_000-13-g2b1bc8d.zip) <br>
 * Fixes a sound crash when exiting to the main menu while in a level and then starting up a mod.

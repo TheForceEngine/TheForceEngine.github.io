@@ -13,6 +13,32 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.9x Bug Fix Release 3
+[TheForceEngine-v0_09_000-27-g5f123b0.zip](archive/TheForceEngine-v0_09_000-27-g5f123b0.zip) <br>
+* Fixes a crash that occurs when a cutscene "film" fails to load.
+* Fixes a crash when the top or bottom texture of a wall is null.
+* Frees a digital sound if it fails to setup data, which avoids a bug where all of the channels can be consumed.
+* Fixes a bug where a teleport can fail to be setup correctly if it has an invalid field - this caused a crash in Dark Tide 2 when going into water.
+* For Boba Fett, make double sure the msg is MSG_RUN_TASK before freeing the task after death - which can cause a crash on DT 2.
+* Added support for half-step rounding when a rotating elevator delta is too small (due to high framerate combined with low speed).
+  - This fixes the train in Harkov when running at higher than 90 fps.
+* Fixes a bug where a texture with an blank name wasn't set to default - some mods, like the Dark Tide series, such blank texture names to mane default.bm for some reason. This fixes missing textures and HOM effects.
+* Reduces the velocity jitter threshold by half so the player doesn't get stuck on low friction surfaces when the framerate is high.
+  - This fixes a bug where I got stuck underwater in DT 2 with vsync off.
+* Made time tracking more robust
+  - Ensure that time is purely monotonic.
+  - Disable vsync interval rounding at 120+ fps since it becomes unreliable.
+  - Recheck sync and refresh rate less often to avoid stutters.
+* Fixed a bug where some trigger functions were firing even with the trigger master was off.
+* Fixed a potential crash when iterating through objects in a sector.
+* Reduced external velocity 0 clamping by half to better handle high framerates.
+  - This should reduce sliding on some moving platforms at high framerates.
+* Cleaned up landing animation code, which is now accurate.
+* Cleaned up head/weapon wave code, which is more accurate.
+* Fixed the headlamp calculation which was slightly inaccurate.
+* The cutscene music repeat bug is fixed when canceling from the mission briefing (previously this bug was fixed when entering a mission, exiting out, and then playing the cutscenes again. This bug handles the case where you cancel from the mission briefing).
+* Fixes a crash in DT 1 because sector vertices are NULL.
+
 ### 0.9x Bug Fix Release 2
 [TheForceEngine-v0_09_000-15-gc28638a.zip](archive/TheForceEngine-v0_09_000-15-gc28638a.zip) <br>
 * Fixed OBJ_FLAG_HAS_COLLISION, which should be OBJ_FLAG_MOVABLE. This fixes errors such as corpses not moving with rotating sectors.

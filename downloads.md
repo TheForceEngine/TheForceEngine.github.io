@@ -15,7 +15,7 @@ For more information about when The Force Engine will be useful and what the pla
 
 ### 0.9x Bug Fix Release 4
 [TheForceEngine-v0_09_000-34-gdb7a5c0.zip](archive/TheForceEngine-v0_09_000-34-gdb7a5c0.zip) <br>
-* Fixes Kyle sliding off of moving platforms in some mods, like Dark Tide 1.
+* Fixes Kyle incorrectly sliding off of moving platforms in some mods, like Dark Tide 1.
 * Fixes a bug with animated textures that were not setup correctly - this fixes some switches that did not show up at all in mods, and potentially other animated textures.
 * Fixes a bug where transparent animated textures might show up as opaque, this affected some mods and switches.
 * Fixes a bug where animated texture frames may have a few incorrect/corrupted colors.

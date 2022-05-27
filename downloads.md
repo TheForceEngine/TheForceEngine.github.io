@@ -13,6 +13,22 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.9x Bug Fix Release 5
+[TheForceEngine-v0_09_000-42-g32a941a.zip](archive/TheForceEngine-v0_09_000-42-g32a941a.zip) <br>
+* Fixes additional sign rendering issues if the base wall texture heght is smaller than the switch texture height.
+* Fixed an issue where some switches couldn't be triggered.
+* Fixed a crash if warping to an invalid position.
+* Fixed crash that could be caused by an elevator with a null sound, which caused a crash when blowing up the lava dam in the Lava Planet mod.
+* Fixes bugs with 3DO parsing, which fixes missing 3DOs in mods.
+* Fixes display issue with "tall screen" resolutions (i.e. taller than 4:3).
+* Fixes bug where elevator should remove corpses and continue instead of hitting them and moving back up.
+* Fixes a bug where an elevator thinks there isn't enough room to fits objects incorrect, which fixes the bug in DT 3 where the blue key rises, hits the ceiling and then lowers again.
+* No longer sets 0 channels even when requested - fixes music stopping permanently in Imperial Library.
+* Verifies proper texture frame sizes and uses frame 0 if bad asset - fixes crash in Imperial Library.
+* Fixes a crash that can occur if a mid-texture isn't setup correctly on a solid wall - this fixes the Dark Tide 3 "Droid Deception" level end crash and visuals.
+* Fixes looping VUE animations (such as Nar Shaddaa and Executor).
+* Fixes incorrect 3DO orientations (mostly noticeable in mods).
+
 ### 0.9x Bug Fix Release 4
 [TheForceEngine-v0_09_000-34-gdb7a5c0.zip](archive/TheForceEngine-v0_09_000-34-gdb7a5c0.zip) <br>
 * Fixes Kyle incorrectly sliding off of moving platforms in some mods, like Dark Tide 1.

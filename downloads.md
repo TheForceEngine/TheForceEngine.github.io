@@ -14,7 +14,7 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
 ### 0.9x Bug Fix Release 5
-[TheForceEngine-v0_09_000-42-g32a941a.zip](archive/TheForceEngine-v0_09_000-42-g32a941a.zip) <br>
+[TheForceEngine-v0_09_000-42-g32a941a-2.zip](archive/TheForceEngine-v0_09_000-42-g32a941a-2.zip) <br>
 * Fixes additional sign rendering issues if the base wall texture heght is smaller than the switch texture height.
 * Fixed an issue where some switches couldn't be triggered.
 * Fixed a crash if warping to an invalid position.

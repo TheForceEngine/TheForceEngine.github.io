@@ -13,7 +13,7 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
 ### 0.91 Bug Fix Release 6
-[TheForceEngine-v0_91_000.zip](archive/TheForceEngine-v0_91_000.zip) <br>
+[TheForceEngine-v0_91_000-1-ge1aa3da.zip](archive/TheForceEngine-v0_91_000-1-ge1aa3da.zip) <br>
 * Added optional extended adjoin limits - this fixes HOM issues in most mods due to engine limits if enabled (default).
 * Added optional crosshair support (defaults to off).
 * Fixed 3DO lighting to match DOS.

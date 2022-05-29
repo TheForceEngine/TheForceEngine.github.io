@@ -7,7 +7,6 @@ Current Releases are for testing only, the gameplay is incomplete.
 
 ### Known Issues
 Some of these are bugs, others simply haven't been integrated or implemented yet.
-* Mines trigger through closed doors.
 * LAREDLITE does nothing.
 
 ### Timeline

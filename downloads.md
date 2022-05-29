@@ -23,7 +23,7 @@ For more information about when The Force Engine will be useful and what the pla
 * Fixed the pitch offset calculation (it was slightly off before) - this makes shots fired up and and more accurate.
 * Improved Escape menu button hover offsets.
 * Fixed a bug where it was possible to not have a mission selected on the Agent Menu, causing a crash if beginning the mission.
-* Fixed a bug where completion of the final level wasn't shown.
+* Fixed a bug where completion of the final level wasn't shown on the Agent Menu.
 * Fixed a bug where level complete status wasn't saved when hitting Quit to DOS instead of Next Level.
 * Fixed a bug where land mines were triggering through doors and similar situations.
 * Fixed a bug where death effects kept occuring even after reaching 0 health - this fixes the repeating death sounds on damage floors.

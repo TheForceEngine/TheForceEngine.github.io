@@ -13,6 +13,22 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.91 Bug Fix Release 6
+[TheForceEngine-v0_91_000.zip](archive/TheForceEngine-v0_91_000.zip) <br>
+* Added optional extended adjoin limits - this fixes HOM issues in most mods due to engine limits if enabled (default).
+* Added optional crosshair support (defaults to off).
+* Fixed 3DO lighting to match DOS.
+* Fixed a 3DO gouraud shading clipping bug when using the floating point renderer (which caused streaking artifacts).
+* Fixed differences between DOS and TFE 3DO/sector clipping.
+* Switched to correct pitch to offset calculation (it was slightly off before) - this makes shots fired up and and more accurate.
+* Improved Escape menu button hover offsets.
+* Fixed a bug where it was possible to not have a mission selected on the Agent Menu, causing a crash if beginning the mission.
+* Fixed a bug where completion of the final level wasn't shown.
+* Fixed a bug where level complete status wasn't saved when hitting Quit to DOS instead of Next Level.
+* Fixed a bug where land mines were triggering through doors and similar situations.
+* Fixed a bug where death effects kept occuring even after reaching 0 health - this fixes the repeating death sounds on damage floors.
+* Enemies now die properly if they fall too far.
+
 ### 0.9x Bug Fix Release 5
 [TheForceEngine-v0_09_000-42-g32a941a-2.zip](archive/TheForceEngine-v0_09_000-42-g32a941a-2.zip) <br>
 * Fixes additional sign rendering issues if the base wall texture heght is smaller than the switch texture height.

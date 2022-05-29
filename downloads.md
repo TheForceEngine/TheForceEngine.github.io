@@ -20,7 +20,7 @@ For more information about when The Force Engine will be useful and what the pla
 * Fixed 3DO lighting to match DOS.
 * Fixed a 3DO gouraud shading clipping bug when using the floating point renderer (which caused streaking artifacts).
 * Fixed differences between DOS and TFE 3DO/sector clipping.
-* Switched to correct pitch to offset calculation (it was slightly off before) - this makes shots fired up and and more accurate.
+* Fixed the pitch offset calculation (it was slightly off before) - this makes shots fired up and and more accurate.
 * Improved Escape menu button hover offsets.
 * Fixed a bug where it was possible to not have a mission selected on the Agent Menu, causing a crash if beginning the mission.
 * Fixed a bug where completion of the final level wasn't shown.

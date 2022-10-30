@@ -5,10 +5,6 @@ title: Downloads
 
 Current Releases are for testing only, the gameplay is incomplete.
 
-### Known Issues
-Some of these are bugs, others simply haven't been integrated or implemented yet.
-* LAREDLITE does nothing.
-
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 

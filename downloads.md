@@ -8,6 +8,10 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.92.000-1-ga6fbcac
+[TheForceEngine-v0.92.000-1-ga6fbcac.zip](archive/TheForceEngine-v0.92.000-1-ga6fbcac.zip) <br>
+* Fixes a crash when exiting the PDA and immediately firing a weapon.
+
 ### 0.92 GPU Renderer Beta Release
 [TheForceEngine-v0_92_000.zip](archive/TheForceEngine-v0_92_000.zip) <br>
 * Beta release of the GPU Renderer.

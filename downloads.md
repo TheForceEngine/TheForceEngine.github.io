@@ -12,6 +12,12 @@ Some of these are bugs, others simply haven't been integrated or implemented yet
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.92 GPU Renderer Beta Release
+[TheForceEngine-v0_92_000.zip](archive/TheForceEngine-v0_92_000.zip) <br>
+* Beta release of the GPU Renderer.
+* Feature to enable or disable autoaim in **Game Settings**.
+* Bug fixes.
+
 ### 0.91 Bug Fix Release 6
 [TheForceEngine-v0_91_000-1-ge1aa3da.zip](archive/TheForceEngine-v0_91_000-1-ge1aa3da.zip) <br>
 * Added optional extended adjoin limits - this fixes HOM issues in most mods due to engine limits if enabled (default).

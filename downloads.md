@@ -8,6 +8,10 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.92.000-2-g3156e26
+[TheForceEngine-v0.92.000-2-g3156e26.zip](archive/TheForceEngine-v0.92.000-2-g3156e26.zip) <br>
+* Fixes a crash on exit.
+
 ### 0.92.000-1-ga6fbcac
 [TheForceEngine-v0.92.000-1-ga6fbcac.zip](archive/TheForceEngine-v0.92.000-1-ga6fbcac.zip) <br>
 * Fixes a crash when exiting the PDA and immediately firing a weapon.

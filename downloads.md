@@ -8,6 +8,12 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.92.000-3-g9d01b27
+[TheForceEngine-v0.92.000-3-g9d01b27.zip](archive/TheForceEngine-v0.92.000-3-g9d01b27.zip) <br>
+Fixes several GPU Renderer issues with adjoins. This fixes:
+* Incorrect rendering of search lights in Imperial City.
+* HOM artifacts when looking out windows in the main building of Imperial City.
+
 ### 0.92.000-2-g3156e26
 [TheForceEngine-v0.92.000-2-g3156e26.zip](archive/TheForceEngine-v0.92.000-2-g3156e26.zip) <br>
 * Fixes a crash on exit.

@@ -8,6 +8,16 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-1-g9b1a71e8 Save System Release
+[TheForceEngine-v0.93.000-1-g9b1a71e8.zip](archive/TheForceEngine-v0.93.000-1-g9b1a71e8.zip) <br>
+* Save System / Quicksaves
+* Fixed a "random" crash caused by invalid addressing in the sound system.
+* Fixed an issue with level progress not being preserved if you exited immediately after completing a level.
+* Fixed pitch issues with turrets, they should look much more accurate now.
+* Fixed mouse speed issues with the in-game menus.
+* Improved the responsiveness of the PDA menu.
+* And many other minor fixes.
+
 ### 0.92.000-3-g9d01b27
 [TheForceEngine-v0.92.000-3-g9d01b27.zip](archive/TheForceEngine-v0.92.000-3-g9d01b27.zip) <br>
 Fixes several GPU Renderer issues with adjoins. This fixes:

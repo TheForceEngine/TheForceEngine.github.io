@@ -8,6 +8,12 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-11-gc9beb48b
+[TheForceEngine-v0.93.000-11-gc9beb48b.zip](archive/TheForceEngine-v0.93.000-11-gc9beb48b.zip) <br>
+* Fixed an INF bug where non-players objects LEAVING a sector did not send an correct INF message.
+* Fixed a long standing bug on Jabba's Ship.
+* Fixed a crash caused when blowing up a mine with explosives after a load when the mine had multiple logics.
+
 ### 0.93.000-10-g19520b50
 [TheForceEngine-v0.93.000-10-g19520b50.zip](archive/TheForceEngine-v0.93.000-10-g19520b50.zip) <br>
 * Fixed a bug where INF files would not load unless the first uncommented line was the version. This caused the INF in level 3 of the DF 96 mod to fail to load INF.

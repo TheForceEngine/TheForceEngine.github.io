@@ -8,6 +8,14 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-10-g19520b50
+[TheForceEngine-v0.93.000-10-g19520b50.zip](archive/TheForceEngine-v0.93.000-10-g19520b50.zip) <br>
+* Fixed a bug where INF files would not load unless the first uncommented line was the version. This caused the INF in level 3 of the DF 96 mod to fail to load INF.
+* Fixed a bug with the LANTFH cheat where the player would not teleport to the correct height.
+* Fixed a bug where the Datatape would stay in the player's inventory once acquired.
+* No longer plays cutscenes when skipping to a specific level, like DOS.
+* The recticle no longer shows up over the in-game UI when first enabled on the main menu.
+
 ### 0.93.000-1-g9b1a71e8 Save System Release
 [TheForceEngine-v0.93.000-1-g9b1a71e8.zip](archive/TheForceEngine-v0.93.000-1-g9b1a71e8.zip) <br>
 * Save System / Quicksaves

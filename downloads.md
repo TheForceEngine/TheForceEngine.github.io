@@ -8,6 +8,10 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-14-g80f9ca12
+[TheForceEngine-v0.93.000-14-g80f9ca12.zip](archive/TheForceEngine-v0.93.000-14-g80f9ca12.zip) <br>
+* Fixes a save issue with the INF adjoin command. For saves where adjoin commands have already been executed, the data is "fixed up" to avoid crashes but adjoins may be missing until adjoin commands replace them or the level is restarted.
+
 ### 0.93.000-11-gc9beb48b
 [TheForceEngine-v0.93.000-11-gc9beb48b.zip](archive/TheForceEngine-v0.93.000-11-gc9beb48b.zip) <br>
 * Fixed an INF bug where non-players objects LEAVING a sector did not send an correct INF message.

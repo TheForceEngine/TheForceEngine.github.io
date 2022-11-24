@@ -15,6 +15,7 @@ For more information about when The Force Engine will be useful and what the pla
 * Fixed a bug where the Datatape would stay in the player's inventory once acquired.
 * No longer plays cutscenes when skipping to a specific level, like DOS.
 * The recticle no longer shows up over the in-game UI when first enabled on the main menu.
+* Fixed an INF elevator issue, where the move type could be changed at a stop. This made it possible to keep activating elevators and doors even between stops.
 
 ### 0.93.000-1-g9b1a71e8 Save System Release
 [TheForceEngine-v0.93.000-1-g9b1a71e8.zip](archive/TheForceEngine-v0.93.000-1-g9b1a71e8.zip) <br>

@@ -8,6 +8,14 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-18-gf2459f1a
+[TheForceEngine-v0.93.000-18-gf2459f1a.zip](archive/TheForceEngine-v0.93.000-18-gf2459f1a.zip) <br>
+* Changed the "offscreen target" to use the system allocator which fixes allocation errors with 4k or high resolutions, causes Escape menu crashes.
+* Fixes a collision bug when dealing with custom "collision functions" - this fixes a bug on Detention Center where both walls blow up instead of just the targeted wall.
+* Fixed the PDA timing when running at high framerates.
+* Added mouse wheel movement accumulation so that scrolling or zooming using the mouse wheel in the PDA is much smoother.
+* Fixed a bug where animated texture references were incorrectly modified when saving - which caused the textures to flash (but could cause worse problems).
+
 ### 0.93.000-14-g80f9ca12
 [TheForceEngine-v0.93.000-14-g80f9ca12.zip](archive/TheForceEngine-v0.93.000-14-g80f9ca12.zip) <br>
 * Fixes a save issue with the INF adjoin command. For saves where adjoin commands have already been executed, the data is "fixed up" to avoid crashes but adjoins may be missing until adjoin commands replace them or the level is restarted.

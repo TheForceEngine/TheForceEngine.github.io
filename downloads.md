@@ -9,7 +9,7 @@ Current Releases are for testing only, the gameplay is incomplete.
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
 ### 0.93.000-19-g023a90da
-[TheForceEngine-v0.93.000-19-g023a90da.zip](archive/TheForceEngine-v0.93.000-18-gf2459f1a.zip) <br>
+[TheForceEngine-v0.93.000-19-g023a90da.zip](archive/TheForceEngine-v0.93.000-19-g023a90da.zip) <br>
 * Fixes a bug with duplicate animated textures which would break switches and animated textures, making mods like Dark Tide 1 unplayable.
 
 ### 0.93.000-18-gf2459f1a

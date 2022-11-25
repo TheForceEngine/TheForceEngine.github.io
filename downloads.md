@@ -10,7 +10,7 @@ For more information about when The Force Engine will be useful and what the pla
 
 ### 0.93.000-18-gf2459f1a
 [TheForceEngine-v0.93.000-18-gf2459f1a.zip](archive/TheForceEngine-v0.93.000-18-gf2459f1a.zip) <br>
-* Changed the "offscreen target" to use the system allocator which fixes allocation errors with 4k or high resolutions, causes Escape menu crashes.
+* Changed the "offscreen target" to use the system allocator which fixes allocation errors with 4k or high resolutions, which caused Escape menu crashes.
 * Fixes a collision bug when dealing with custom "collision functions" - this fixes a bug on Detention Center where both walls blow up instead of just the targeted wall.
 * Fixed the PDA timing when running at high framerates.
 * Added mouse wheel movement accumulation so that scrolling or zooming using the mouse wheel in the PDA is much smoother.

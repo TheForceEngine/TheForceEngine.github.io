@@ -8,6 +8,15 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-25-g31035a60
+[TheForceEngine-v0.93.000-25-g31035a60.zip](archive/TheForceEngine-v0.93.000-25-g31035a60.zip) <br>
+* Fixes a bug with determining max object size in a sector, which caused an elevator in Dark Tide 1 to fail to move.
+* Fixed a few minor general bugs.
+* Fixed a minor Phase 3 AI bug with turning radius.
+* The Phase 3 homing missiles now move at half speed to match DosBox (the value in TFE was correct according to the code, but during gameplay they move at half that speed).
+* Numerous fixes to the Boba Fett AI. It is still "broken" - but it is broken in the same way as DOS. (If you set BOBA_FACE_PLAYER = 1 in the code, the AI feels much better - but that isn't vanilla DOS behavior).
+* General AI cleanup.
+
 ### 0.93.000-19-g023a90da
 [TheForceEngine-v0.93.000-19-g023a90da.zip](archive/TheForceEngine-v0.93.000-19-g023a90da.zip) <br>
 * Fixes a bug with duplicate animated textures which would break switches and animated textures, making mods like Dark Tide 1 unplayable.

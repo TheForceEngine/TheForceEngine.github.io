@@ -8,6 +8,12 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-27-gb2c03e72
+[TheForceEngine-v0.93.000-27-gb2c03e72.zip](archive/TheForceEngine-v0.93.000-27-gb2c03e72.zip) <br>
+* Fixes a GPU Renderer crash when the camera is almost exactly on top of a wall vertex.
+* Fixes an ambient sound issue, where ambient sounds would fail to play when loading from a save.
+
+
 ### 0.93.000-25-g31035a60
 [TheForceEngine-v0.93.000-25-g31035a60.zip](archive/TheForceEngine-v0.93.000-25-g31035a60.zip) <br>
 * Fixes a bug with determining max object size in a sector, which caused an elevator in Dark Tide 1 to fail to move.

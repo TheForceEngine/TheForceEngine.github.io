@@ -8,6 +8,13 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-29-gecb23784
+[TheForceEngine-v0.93.000-29-gecb23784.zip](archive/TheForceEngine-v0.93.000-29-gecb23784.zip) <br>
+* Fixes incorrect lighting for full bright sectors when using the GPU renderer. Example: outdoor lighting on Robotics Facility.
+* Fixes a bug that causes projectiles to disappear incorrectly (seen when trying to hit a switch with the Dark Trooper weapon on the Arc Hammer level).
+* Fixes the PDA using the incorrect palette in some cases (such as DT 4).
+* Cleans up palette flashes when usin the GPU renderer, when closing the PDA or first loading a level or save.
+
 ### 0.93.000-27-gb2c03e72
 [TheForceEngine-v0.93.000-27-gb2c03e72.zip](archive/TheForceEngine-v0.93.000-27-gb2c03e72.zip) <br>
 * Fixes a GPU Renderer crash when the camera is almost exactly on top of a wall vertex.

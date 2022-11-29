@@ -8,6 +8,18 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-38-g4b44e54c
+[TheForceEngine-v0.93.000-38-g4b44e54c.zip](archive/TheForceEngine-v0.93.000-38-g4b44e54c.zip) <br>
+* Added audio startup logging to help troubleshoot issues.
+* Fixes a crash on DT 4 due to invalid data (adjoin commands effecting out of range walls).
+* Fixes slow speed caused by dying after using the LABUG cheat.
+* Preserve the UI toggle across levels like DOS.
+* Fixes weapon rendering when running at 320x200 using the GPU renderer.
+* HUD messages now display when running at 320x200 using the GPU renderer.
+* Resolution and aspect ratio changes work correctly while using the GPU renderer.
+* The player no longer moves when scrolling the map.
+* The GPU Renderer cache is now updated when changing renderers on the fly.
+
 ### 0.93.000-29-gecb23784
 [TheForceEngine-v0.93.000-29-gecb23784.zip](archive/TheForceEngine-v0.93.000-29-gecb23784.zip) <br>
 * Fixes incorrect lighting for full bright sectors when using the GPU renderer. Example: outdoor lighting on Robotics Facility.

@@ -8,6 +8,18 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.93.000-41-gee470c37
+[TheForceEngine-v0.93.000-41-gee470c37.zip](archive/TheForceEngine-v0.93.000-41-gee470c37.zip) <br>
+* Escape menu now has a grayscale background when using the GPU renderer.
+* Avoid loading MacOS X gob file references, this allows some demos to load that failed before.
+* Fixed a crash when an empty WAX cell is encountered in the GPU Renderer.
+* Fixes a crash when trying to draw an empty string.
+* Fixes a crash when trying to use a NULL palette.
+* Fixes a crash when gamePaths are not set in jedi.lvl
+* Fixes an issue with reading the '#' character in sector names.
+* Fixes a crash when an object gets pushed out of the level by a moving elevator - this fixes a crash seen in DT 3, level 1.
+* Added support to the parser for comments only at the beginning of a line.
+
 ### 0.93.000-38-g4b44e54c
 [TheForceEngine-v0.93.000-38-g4b44e54c.zip](archive/TheForceEngine-v0.93.000-38-g4b44e54c.zip) <br>
 * Added audio startup logging to help troubleshoot issues.

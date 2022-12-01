@@ -18,7 +18,6 @@ For more information about when The Force Engine will be useful and what the pla
 * Fixes a crash when gamePaths are not set in jedi.lvl
 * Fixes an issue with reading the '#' character in sector names.
 * Fixes a crash when an object gets pushed out of the level by a moving elevator - this fixes a crash seen in DT 3, level 1.
-* Added support to the parser for comments only at the beginning of a line.
 
 ### 0.93.000-38-g4b44e54c
 [TheForceEngine-v0.93.000-38-g4b44e54c.zip](archive/TheForceEngine-v0.93.000-38-g4b44e54c.zip) <br>

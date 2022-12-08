@@ -8,6 +8,23 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.94.000
+[TheForceEngine-v0.94.000.zip](archive/TheForceEngine-v0.94.000.zip) <br>
+* Improves the accuracy of the grayscale filter on the Escape menu when the GPU renderer is being used.
+* When saving, the edit box now properly limits the name length when typing instead of cutting it off.
+* Added directions to the Input Menu.
+* It is now possible to unbind keys/buttons in the Input Menu.
+* Fixed HUD scaling options when using the GPU Renderer.
+* Community provided endcap graphics are now used when the HUD elements are moved away from the edges of the screen.
+* Added edit boxes and +/- buttons to the HUD scale and offset options for easier and more precise control.
+* Added a *Game* option that optionally improves Boba Fett's AI by making him try to face the player more often when attacking.
+* Fixes a crash that can happen when using the Quick load hotkey during a cutscene or on the Agent Menu.
+* Added the ability to disable sound on menus, which will improve the experience for those with certain midi setups.
+* The Config settings always show the background, not just when setting up graphics.
+* The floor number is properly drawn on the PDA map.
+* Fixed a bug where an inaccessible mission can be selected on the agent menu.
+* Added the missing confirmation prompts to the Escape Menu, including hotkeys.
+
 ### 0.93.000-41-gee470c37
 [TheForceEngine-v0.93.000-41-gee470c37.zip](archive/TheForceEngine-v0.93.000-41-gee470c37.zip) <br>
 * Escape menu now has a grayscale background when using the GPU renderer.

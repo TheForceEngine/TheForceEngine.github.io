@@ -8,6 +8,12 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.94.000-1-g2550a4e7
+[TheForceEngine-v0.94.000-1-g2550a4e7.zip](archive/TheForceEngine-v0.94.000-1-g2550a4e7.zip) <br>
+* Fixed missing sound and crash when disabling sound in menus and then returning exiting to the main menu and starting the game again.
+* Fixed Input menu length to show the whole list of weapon bindings again.
+* Restored "weapon previous" behavior which was somehow removed at some point.
+
 ### 0.94.000
 [TheForceEngine-v0.94.000.zip](archive/TheForceEngine-v0.94.000.zip) <br>
 * Improves the accuracy of the grayscale filter on the Escape menu when the GPU renderer is being used.

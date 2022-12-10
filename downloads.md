@@ -8,6 +8,16 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.94.000-11-g5b56a8a3
+[TheForceEngine-v0.94.000-11-g5b56a8a3.zip](archive/TheForceEngine-v0.94.000-11-g5b56a8a3.zip) <br>
+* Fixed an issue where cutscenes can play the incorrect sound effect.
+* Lowered the priority of the Secret Found message slightly so that important messages, like the revive pickup, show through.
+* Cleaned up log and console messages - even low priority messages are captured and iMuse noise has been removed.
+* Pausing should work now without hanging notes when using certain midi devices.
+* Fixed a GPU Renderer bug where having exactly 8 clip planes caused no clipping to occur.
+* Fixed a Software Renderer bug that could incorrectly clip walls in some rare cases.
+* HUD text now has the correct aspect ratio when scaling at higher resolutions.
+
 ### 0.94.000-1-g2550a4e7
 [TheForceEngine-v0.94.000-1-g2550a4e7.zip](archive/TheForceEngine-v0.94.000-1-g2550a4e7.zip) <br>
 * Fixed missing sound and crash when disabling sound in menus and then returning exiting to the main menu and starting the game again.

@@ -8,6 +8,15 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.94.000-13-g119c90c7
+[TheForceEngine-v0.94.000-13-g119c90c7.zip](archive/TheForceEngine-v0.94.000-13-g119c90c7.zip) <br>
+* Fixed a crash when hitting "escape" while the console is open.
+* Fixed a bug where the cursor would disppear if opening and closing the console on the main menu.
+* Escape now closes the console, as expected.
+* The Escape Menu cannot be opened if the console is open.
+* Escape always closes the Escape Menu if it is bound to a different key, though that key will also close it as expected.
+* HUD elements now have their own horizontal offset, so it is easier to fine-tune HUD placement.
+
 ### 0.94.000-11-g5b56a8a3
 [TheForceEngine-v0.94.000-11-g5b56a8a3.zip](archive/TheForceEngine-v0.94.000-11-g5b56a8a3.zip) <br>
 * Fixed an issue where cutscenes can play the incorrect sound effect.

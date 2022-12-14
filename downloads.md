@@ -10,15 +10,15 @@ For more information about when The Force Engine will be useful and what the pla
 
 ### 0.94.000-31-gaef577f5
 [TheForceEngine-v0.94.000-31-gaef577f5.zip](archive/TheForceEngine-v0.94.000-31-gaef577f5.zip) <br>
-* Update the credits and manual.
+* Updated the credits and manual.
 * Removed unused documentation.
-* Fixed a bug where music doesn't play correct when starting a level cutscene for some levels, such as Hoerby level 1.
-* When blitting a Delt into a bitmap, skip out of range columns. This fixes a bug in Hoerby Trilogy text crawl.
+* Fixed a bug where music doesn’t play correctly when starting a level cutscene for some levels, such as Hoerby level 1.
+* When blitting a Delt into a bitmap, skip out-of-range columns. This fixes a bug in the Hoerby Trilogy text crawl.
 * Fixed a bug where the camera offset was inverted, which kept the camera height clamping from working correctly - so it could go underground or underwater in some cases.
 * Fixed a bug where hitting escape when the console is open did not unpause the game.
 * Mods should only be listed once.
 * Fixed sky alignment for both vanilla and cylindrical sky projections.
-* Fixeda bug where the top or bottom sky adjoin would cover the entire wall, blocking the view of objects outside or causing a wall to look like sky.
+* Fixed a bug where the top or bottom sky adjoin would cover the entire wall, blocking the view of objects outside or causing a wall to look like the sky.
 * Fixed custom cutscenes sometimes using the incorrect sounds, such as the final cutscene in the Hoerby Trilogy.
 
 ### 0.94.000-13-g119c90c7

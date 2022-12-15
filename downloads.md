@@ -8,6 +8,13 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.94.000-35-ge74b3249
+[TheForceEngine-v0.94.000-35-ge74b3249.zip](archive/TheForceEngine-v0.94.000-35-ge74b3249.zip) <br>
+* Fixed conditionals for corpse removal. This fixes a bug where elevators were rebounding off of pickups incorrectly. This fixes a possible softlock in Ramsees Hed as well as a potential rendering issue in DT 3.
+* Nudge transparent mid-textures so they tend to show up in front of objects in the covered sector (fixes z-fighting in DT 1, inside the sandcrawler).
+* Fix z-fighting when the floor is higher than the ceiling. This fixes z-fighting in Detention Center (the large door to one of the cell blocks) and DT 3 among other levels.
+* Partial fix to the overlapping/intersecting adjoin bug, which fixes the HOM issue on Jabba's Ship.
+
 ### 0.94.000-31-gaef577f5
 [TheForceEngine-v0.94.000-31-gaef577f5.zip](archive/TheForceEngine-v0.94.000-31-gaef577f5.zip) <br>
 * Updated the credits and manual.

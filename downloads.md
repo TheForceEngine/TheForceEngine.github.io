@@ -8,6 +8,16 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 0.94.000-38-g1b42c2a9
+[TheForceEngine-v0.94.000-38-g1b42c2a9-1.zip](archive/TheForceEngine-v0.94.000-38-g1b42c2a9-1.zip) <br>
+* Fixed sky offsets for sky adjoins, they were using the current instead of next sector.
+* Fixed an issue where an adjoin is treated as a sky when it shouldn't be.
+* Fixed the issue with overlapping/intersecting adjoins causing HOM.
+* Renamed the GPU Renderer in the UI so it is more clear.
+* It is now possible to use Escape or the System UI combo to close the Input config
+like the others, unless the key binding window is open.
+* Fixed a crash in a mod due to a bad animated texture asset.
+
 ### 0.94.000-35-ge74b3249
 [TheForceEngine-v0.94.000-35-ge74b3249.zip](archive/TheForceEngine-v0.94.000-35-ge74b3249.zip) <br>
 * Fixed conditionals for corpse removal. This fixes a bug where elevators were rebounding off of pickups incorrectly. This fixes a possible softlock in Ramsees Hed as well as a potential rendering issue in DT 3.

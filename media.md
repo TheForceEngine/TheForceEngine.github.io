@@ -2,16 +2,31 @@
 layout: page
 title: Media
 ---
-[Input Settings](#input-settings)<br>
+[Dark Forces and Mods](#dark-forces-and-mods)<br>
 [Asset Editor](#asset-editor)<br>
-[Level Editor](#level-editor)<br>
-[Dark Forces](#dark-forces)
+[Level Editor](#level-editor)
 
-## Input Settings
+## Dark Forces and Mods
 <table style="width:100%">
   <tr>
-    <th><a href="screenshots/InputMenu1.jpg" class="inline"><img src="screenshots/InputMenu1.jpg" alt="InputMenu1" class="inline"/></a></th>
-    <th><a href="screenshots/InputMenu2.jpg" class="inline"><img src="screenshots/InputMenu2.jpg" alt="InputMenu2" class="inline"/></a></th>
+    <th><a href="screenshots/media1.jpg" class="inline"><img src="screenshots/media1.jpg" alt="media1" class="inline"/></a></th>
+    <th><a href="screenshots/media2.jpg" class="inline"><img src="screenshots/media2.jpg" alt="media2" class="inline"/></a></th>
+  </tr>
+  <tr>
+    <th><a href="screenshots/media3.jpg" class="inline"><img src="screenshots/media3.jpg" alt="media3" class="inline"/></a></th>
+    <th><a href="screenshots/media4.jpg" class="inline"><img src="screenshots/media4.jpg" alt="media4" class="inline"/></a></th>
+  </tr>
+  <tr>
+    <th><a href="screenshots/media5.jpg" class="inline"><img src="screenshots/media5.jpg" alt="media5" class="inline"/></a></th>
+    <th><a href="screenshots/media6.jpg" class="inline"><img src="screenshots/media6.jpg" alt="media6" class="inline"/></a></th>
+  </tr>
+  <tr>
+    <th><a href="screenshots/media7.jpg" class="inline"><img src="screenshots/media7.jpg" alt="media7" class="inline"/></a></th>
+    <th><a href="screenshots/media8.jpg" class="inline"><img src="screenshots/media8.jpg" alt="media8" class="inline"/></a></th>
+  </tr>
+  <tr>
+    <th><a href="screenshots/media9.jpg" class="inline"><img src="screenshots/media9.jpg" alt="media9" class="inline"/></a></th>
+    <th><a href="screenshots/media10.jpg" class="inline"><img src="screenshots/media10.jpg" alt="media10" class="inline"/></a></th>
   </tr>
 </table>
 <a href="https://theforceengine.github.io/media.html">Top</a>
@@ -41,22 +56,6 @@ title: Media
   </tr>
   <tr>
     <th><a href="screenshots/LevelEditor5.jpg" class="inline"><img src="screenshots/LevelEditor5.jpg" alt="LevelEditor5" class="inline"/></a></th>
-  </tr>
-</table>
-<a href="https://theforceengine.github.io/media.html">Top</a>
-
-## Dark Forces
-<table style="width:100%">
-  <tr>
-    <th><a href="screenshots/DarkForces1.jpg" class="inline"><img src="screenshots/DarkForces1.jpg" alt="DarkForces1" class="inline"/></a></th>
-    <th><a href="screenshots/DarkForces2.jpg" class="inline"><img src="screenshots/DarkForces2.jpg" alt="DarkForces2" class="inline"/></a></th>
-  </tr>
-  <tr>
-    <th><a href="screenshots/DarkForces3.jpg" class="inline"><img src="screenshots/DarkForces3.jpg" alt="DarkForces3" class="inline"/></a></th>
-    <th><a href="screenshots/DarkForces4.jpg" class="inline"><img src="screenshots/DarkForces4.jpg" alt="DarkForces4" class="inline"/></a></th>
-  </tr>
-  <tr>
-    <th><a href="screenshots/DarkForces5.jpg" class="inline"><img src="screenshots/DarkForces5.jpg" alt="DarkForces5" class="inline"/></a></th>
   </tr>
 </table>
 <a href="https://theforceengine.github.io/media.html">Top</a>

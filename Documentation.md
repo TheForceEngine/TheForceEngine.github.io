@@ -20,23 +20,23 @@ In Dark Forces while playing in a mission, by default **Escape** will bring up t
 Dark Forces has many controls and options - such as a **headlamp** to see in dark areas, a **gas mask** (once you find the item) to survive in certain areas and more. Check the **Input** menu, under **Settings**, to see all of the possible actions. You can also rebind the actions to different keys and buttons, adjust mouse and controller sensitivity, change the mouse mode - which controls mouselook options, and more.
 
 ## Menu Options
-**Start**
+### Start
 Starts the currently selected game.
 
-**Manual**
+### Manual
 Opens up this manual.
 
-**Credits**
+### Credits
 Displays the credits screen, which shows both individual contributors and libraries used with appropriate links.
 
-**Settings**
+### Settings
 Change settings such as source game data, graphics options, change sound volume, etc.
 
-**Mods**
+### Mods
 Select a mod to play, uses the currently selected game as the base. To get mods to show up in this menu, copy the zip files to the Mods/ directory found in your TFE directory. It is recommended that you leave each mod in the zip file, but if you wisth to extract the files, the mod will need to be in its own directory, under Mods/. For example, you might have a directory called `TFE_Install/Mods/Dark Tide 2/` which contains the Dark Tide 2 GOB, LFD and other files.
 
-**Editor**
+### Editor
 Open the built-in editors. Note that the editors are currently disabled due to large changes code structure changes that were required during development. The editors will be returning soon, however, so the option remains in the menu.
 
-**Exit**
+### Exit
 Exit the application.

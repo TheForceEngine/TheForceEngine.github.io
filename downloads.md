@@ -8,6 +8,14 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 1-RC-1  Version 1 Release Candidate 1
+[TheForceEngine-v1-RC-1.zip](archive/TheForceEngine-v1-RC-1.zip) <br>
+* Fixed the "no wall" case so it handles different floor and ceiling textures. This fixes the skybox rendering issues in the *Asteroid* mod.
+* The Escape menu buttons should be adjusted based on art changes for different languages.
+* Fixed a bug where projectiles would disappear while riding an elevator. This fixes an elevator that "eats projectiles" in the *Assassination on Narshadda* mod.
+* Dark Tide AT-ST turrets now shoot more reliably like DOS, which fixes Dark Tide turret issues, such as the AT-ST in Dark Tide 2.
+* Added optional autorun as a quality of life feature.
+
 ### 0.94.000-38-g1b42c2a9
 [TheForceEngine-v0.94.000-38-g1b42c2a9-1.zip](archive/TheForceEngine-v0.94.000-38-g1b42c2a9-1.zip) <br>
 * Fixed sky offsets for sky adjoins, they were using the current instead of next sector.

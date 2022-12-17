@@ -3,7 +3,13 @@ layout: page
 title: Documentation
 ---
 ## Installation
-To "install" The Force Engine, unzip the archive into its own directory, such as `C:/Games/TFE/`. You can place mod zip files or directories into the `Mods/` directory within the TFE directory. Then simply run `TheForceEngine.exe` and if you have Dark Forces installed using GOG or Steam it should automatically find it. See *Getting Started* below. Note that TFE stores saves, set up info, screenshots, log files, and similar items under `Documents/TheForceEngine/`. A portable installation option, where all data is kept in the local directory, is planned for the future.
+To "install" The Force Engine, unzip the archive into its own directory, such as `C:/Games/TFE/`. You can place mod zip files or directories into the `Mods/` within the TFE directory. Then simply run `TheForceEngine.exe` and if you have Dark Forces installed using GOG or Steam it should automatically find it. See *Getting Started* below. Note that TFE stores saves, set up info, screenshots, log files, and similar items under `Documents/TheForceEngine/`. A portable installation option, where all data is kept in the local directory, is planned for the future.
+
+## Minimum Requirements
+* Windows 7, 64-bit
+* GPU with OpenGL 3.3 or better compatibility
+
+*Note that there are plans to lower the requirements for using the classic software renderer in the future. However, the minimum requirements for GPU Renderer support are here to stay. For now only OpenGL is supported, which might limit the use of some older Intel integrated GPUs that would otherwise be capable. There are near-term plans to add DirectX 10/11, Vulkan, and maybe Metal render backends which should enable more GPUs to run the engine efficiently.*
 
 ## Getting Started
 The current version of The Force Engine does not yet support Outlaws, that it is planned for version 2.0. You will find references to Outlaws in the TFE UI - such as the game data source. However the game is not yet playable.
@@ -16,11 +22,11 @@ Once your game source data is setup, select your Game to play - Dark Forces is t
 Once you Start a game, you will be interfacing with the original game's UI. If you want to change settings, such as Graphics, Sound or Control options, or Save or Load a saved game, select the **Config** option in the Escape Menu or use the **Alt + F1** shortcut. This will also allow you to return to the main menu (quitting the game) so you can quickly change mods or in the future, change games. Most Graphics options will change the way the game is displayed immediately, which is a great way of tweaking the settings to your liking while seeing the results.
 
 ## Controlling Dark Forces
-By default **Alt + F1** brings up the System UI and settings, **Alt + F5** will quick save if possible, and **Alt + F9** will quick load. Note that these bindings can be changed in the Input settings. There is also a console available, the default key is **`** or **~** depending on your region.
+By default **Alt + F1** brings up the System UI and settings, **Alt + F5** will quick save if possible, and **Alt + F9** will quick load. Note that these bindings can be changed in the Input settings. There is also a console available, the default key is *`* or *~* depending on your region.
 
-In Dark Forces while playing in a mission, by default **Escape** will bring up the menu and **F1** will bring up the PDA. By bringing up the menu and selecting **Config**, you can save or load your game, change settings, or exit the game and return to the main menu. By bringing up the PDA, you get access to the mission briefing, objectives screen, your **inventory** (needed for looking at **keycards** in certain levels, such as the **Dention Center**), your weapon loadout, and the map.
+In Dark Forces while playing in a mission, **Escape** will bring up the menu and **F1** will bring up the PDA. By bringing up the menu and selecting **Config**, you can save or load your game, change settings, or exit the game and return to the main menu. By bringing up the PDA, you get access to the mission briefing, objectives screen, your **inventory** (needed for looking at **keycards** in certain levels, such as the **Dention Center**), your weapon loadout, and the map.
 
-Dark Forces has many controls and options - such as a **headlamp** to see in dark areas, a **gas mask** (once you find the item) to survive in certain areas and more. Check the **Input** menu, under **Settings**, to see all of the possible actions. You can also rebind the actions to different keys and buttons, adjust mouse and controller sensitivity, change the mouse mode - which controls mouselook options, and more.
+Dark Forces has many controls and options - such as a **headlamp** to see in dark areas, a **gas mask** (once you find the item) to survive in deadly gas and more. Check the **Input** menu, under **Settings**, to see all of the possible actions. You can also rebind the actions to different keys and buttons, adjust mouse and controller sensitivity, change the mouse mode - which controls mouselook options, and more.
 
 ## Menu Options
 ### Start

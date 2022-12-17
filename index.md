@@ -13,7 +13,7 @@ title: Home
 * Extended Limits - TFE, by default, will support much higher limits than the original game which removes most of the HOM (Hall of Mirrors) issues in advanced mods.
 * Full input binding, mouse sensitivity adjustment, and controller support. Note, however, that menus currently require the mouse.
 * Optional Quality of Life improvements, such as full mouselook, aiming reticle, improved Boba Fett AI, autorun, and more.
-* A new save system that works seamlessly with the exiting checkpoint and lives system. You can ignore it entirely, use it just as an exit save so you don't have to play long user levels in one sitting, or full save and load with quicksaves like Doom or Duke Nukem 3D.
+* A new save system that works seamlessly with the existing checkpoint and lives system. You can ignore it entirely, use it just as an exit save so you don't have to play long user levels in one sitting, or full save and load with quicksaves like Doom or Duke Nukem 3D.
 * Optional and quality of life features, even mouselook, can be disabled if you want the original experience. Play in 320x200, turn the mouse mode (Input menu) to Menus only or horizontal, and enable the Classic (software) renderer - and it will look and play just like DOS, but with a higher framerate and without needing to adjust cycles in DosBox.
 
 ## About

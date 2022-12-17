@@ -8,6 +8,10 @@ Current Releases are for testing only, the gameplay is incomplete.
 ### Timeline
 For more information about when The Force Engine will be useful and what the plans are for 2022, please see the [TFE Roadmap](Roadmap.md)
 
+### 1-RC-3  Version 1 Release Candidate 3
+[TheForceEngine-v1-RC-3.zip](archive/TheForceEngine-v1-RC-3.zip) <br>
+* Adjusted the point at which rotating sectors run at double rate in order to handle very slow rotations at high framerates. At some point the train in Harkov stopped working but only in release, with vsync enabled.
+
 ### 1-RC-2  Version 1 Release Candidate 2
 [TheForceEngine-v1-RC-2.zip](archive/TheForceEngine-v1-RC-2.zip) <br>
 * Fixes a crash when a cutscene cannot fully load.

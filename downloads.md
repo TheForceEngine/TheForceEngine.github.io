@@ -3,7 +3,9 @@ layout: page
 title: Downloads
 ---
 
-Generally it is a good idea to download the latest available version. Previous builds are mainly for archival purposes. When downloading a new version, simply copying over an existing install will work fine. Note that there are no automatic downloads and TFE does not currently connect to the internet in any way. However, optional autodownloads and similar features will be added later. This means that you will need to check for new version manually for now.
+Generally it is a good idea to download the latest available version. Previous builds are mainly for archival purposes. When downloading a new version, simply copying over an existing install will work fine. Note that there are no automatic downloads and TFE does not currently connect to the internet in any way. However, optional features such as checking for the latest version, directly downloading new versions and mods, and similar features will be added later.
+
+This means that you will need to check for new versions of TFE manually for now.
 
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.

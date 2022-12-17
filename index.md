@@ -27,7 +27,7 @@ Dark Forces support is complete, but Outlaws is **not** playable yet - the focus
 Full support for **Dark Forces** has been completed. You can play through the entire game, with all AI, weapons, items, and functionality working as expected. While the project shares a legacy with DarkXL, it is a complete rewrite - rebuilt from the ground up with a much greater focus on accuracy. It is much more focused than the XL Engine, focused on being a Jedi Engine replacement/port only - thus full support for Dark Forces and later Outlaws. Please check the [Roadmap](Roadmap.md) for more information.
 
 ### Current Release
-The current release only supports Dark Forces. All weapons, AI, items, and all other systems function, including IMuse. You can play through Dark Forces from beginning to end and even play Dark Forces mods. As with any project of this nature, there may be bugs and system specific issues. If you run into any bugs that cannot be reproduced in the DOS version, please post them on the forums or GitHub.
+The current release only supports Dark Forces. All weapons, AI, items, and all other systems function, including IMuse. You can play through Dark Forces from beginning to end and play existing Dark Forces mods. As with any project of this nature, there may be bugs and system specific issues - if you run into any bugs that cannot be reproduced in the DOS version, please post them on the forums or GitHub.
 
 ## Cross-platform Support
 After version 1.0, one of the next big things to tackle is official Linux and Mac support. I expect proper support to become available early in 2023.

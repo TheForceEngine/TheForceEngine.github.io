@@ -3,7 +3,7 @@ layout: page
 title: Documentation
 ---
 ## Installation
-To "install" The Force Engine, unzip the archive into its own directory, such as `C:/Games/TFE/`. You can place mod zip files or directories into the `Mods/` directory within the TFE directory. Then simply run `TheForceEngine.exe` and if you have Dark Forces installed using GOG or Steam it should automatically find it. See *Getting Started* below. Note that TFE stores saves, set up info, screenshots, logging, and similar items under `Documents/TheForceEngine/`. A portable installation option, where all data is kept in the local directory, is planned for the future.
+To "install" The Force Engine, unzip the archive into its own directory, such as `C:/Games/TFE/`. You can place mod zip files or directories into the `Mods/` directory within the TFE directory. Then simply run `TheForceEngine.exe` and if you have Dark Forces installed using GOG or Steam it should automatically find it. See *Getting Started* below. Note that TFE stores saves, set up info, screenshots, log files, and similar items under `Documents/TheForceEngine/`. A portable installation option, where all data is kept in the local directory, is planned for the future.
 
 ## Getting Started
 The current version of The Force Engine does not yet support Outlaws, that it is planned for version 2.0. You will find references to Outlaws in the TFE UI - such as the game data source. However the game is not yet playable.

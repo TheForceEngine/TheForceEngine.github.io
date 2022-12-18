@@ -10,6 +10,14 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### 1-RC-4  Version 1 Release Candidate 4
+[TheForceEngine-v1-RC-4.zip](archive/TheForceEngine-v1-RC-4.zip) <br>
+* Fixed a bug where enemies didn't always freeze on death - this caused some enemies like Gamorean Guards to slide around excessively.
+* Creatures no longer move towards the player after falling to their deaths.
+* Fixed missing "air friction" - which wasn't accounted for before due to an error (only affects enemies).
+* Fixed a bug where if night vision is enabled when exiting a level, the increased lighting effect is visible in the next level.
+* Fixed an endless pause when pressing escape while in a level, then pressing Alt+F1, exiting to the main menu and then starting a new mission.
+
 ### 1-RC-3  Version 1 Release Candidate 3
 [TheForceEngine-v1-RC-3.zip](archive/TheForceEngine-v1-RC-3.zip) <br>
 * Adjusted the point at which rotating sectors run at double rate in order to handle very slow rotations at high framerates. At some point the train in Harkov stopped working but only in release, with vsync enabled.

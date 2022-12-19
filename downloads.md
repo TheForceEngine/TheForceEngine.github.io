@@ -10,6 +10,9 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.0
+[TheForceEngine-v1.00.000.zip](archive/TheForceEngine-v1.00.000.zip) <br>
+
 ### 1-RC-4  Version 1 Release Candidate 4
 [TheForceEngine-v1-RC-4.zip](archive/TheForceEngine-v1-RC-4.zip) <br>
 * Fixed a bug where enemies didn't always freeze on death - this caused some enemies like Gamorean Guards to slide around excessively.

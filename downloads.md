@@ -2,6 +2,7 @@
 layout: page
 title: Downloads
 ---
+**A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces.
 
 Generally it is a good idea to download the latest available version. Previous builds are mainly for archival purposes. When downloading a new version, simply copying over an existing install will work fine. Note that there are no automatic downloads and TFE does not currently connect to the internet in any way. However, optional features such as checking for the latest version, directly downloading new versions and mods, and similar features will be added later.
 

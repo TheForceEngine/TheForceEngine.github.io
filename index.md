@@ -29,6 +29,13 @@ Full support for **Dark Forces** has been completed. You can play through the en
 ### Current Release
 The current release only supports Dark Forces. All weapons, AI, items, and all other systems function, including IMuse. You can play through Dark Forces from beginning to end and play existing Dark Forces mods. As with any project of this nature, there may be bugs and system specific issues - if you run into any bugs that cannot be reproduced in the DOS version, please post them on the forums or GitHub.
 
+### Upcoming Graphical Features
+One thing that ex-DarkXL players, or people who haven't really followed the project up until now, should be aware of is that the focus on TFE has been on core functionality and accuracy. So some of the eye candy that DarkXL offered is still not available - such as texture filtering, dynamic lighting, and bloom. Even the TFE GPU (OpenGL) Renderer uses 8-bit color and color maps for lighting. When looking straight ahead, there is very little difference between the software and GPU renderers in most cases (other than performance and the sky depending on settings) - and this is by design.
+
+The good part is that sprite/object clipping issues with floors and ceilings that usually affect hardware renderers are not present, so you don't get issues like objects clipping with the ground or being hidden because they are placed too low. And the GPU Renderer does provide perspective-correct pitch and the ability to look almost straight up and down, depending on settings, allowing for a more comfortable experience using mouselook.
+
+That said a true color option, which will enable optional texture filtering, will be coming in early 2023. And there are plans to add dynamic lighting and bloom options as well.
+
 ## Cross-platform Support
 After version 1.0, one of the next big things to tackle is official Linux and Mac support. I expect proper support to become available early in 2023.
 

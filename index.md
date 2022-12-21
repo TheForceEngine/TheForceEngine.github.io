@@ -4,7 +4,7 @@ title: Home
 ---
 
 # The Force Engine (TFE)
-**A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) - has information on how to legally purchase Dark Forces.
+**A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces.
 
 
 ## Current Features

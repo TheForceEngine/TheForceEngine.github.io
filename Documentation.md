@@ -5,6 +5,12 @@ title: Documentation
 ## Installation
 To "install" The Force Engine, unzip the archive into its own directory, such as `C:/Games/TFE/`. You can place mod zip files or directories into the `Mods/` within the TFE directory. Then simply run `TheForceEngine.exe` and if you have Dark Forces installed using GOG or Steam it should automatically find it. See *Getting Started* below. Note that TFE stores saves, set up info, screenshots, log files, and similar items under `Documents/TheForceEngine/`. A portable installation option, where all data is kept in the local directory, is planned for the future.
 
+### Issues
+* If TFE does not start, you may need to install the VC++ Redistributable Package. Install the latest version, x64 only.
+https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+* If you can a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*
+
 ## Minimum Requirements
 * Windows 7, 64-bit
 * GPU with OpenGL 3.3 or better compatibility

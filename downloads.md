@@ -25,7 +25,7 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * Shows a configuation menu on the first run where you can set either Vanilla or Modern defaults.
 * Fixed Escape Menu background stretching when using the GPU Renderer with widescreen disabled.
 * Fixed divide by zero crashes in the projectile code.
-* The GPU Renderer honors fullbright and opaque/transparent flags for signs and sign textures.
+* The GPU Renderer now honors fullbright and opaque/transparent flags for signs and sign textures.
 * Fixed a flags issue in the explosion code, where explosions could effect some things they are not supposed to.
 * Fixed the thermal detonator damage the player takes, they were taking too much.
 * Added a custom deadzone setting and proper deadzone sensitivity scaling.

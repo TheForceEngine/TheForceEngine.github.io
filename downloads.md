@@ -12,7 +12,7 @@ This means that you will need to check for new versions of TFE manually for now.
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
 ### Version 1.01
-[TheForceEngine-v1.01.000.zip](archive/TheForceEngine-v1.01.000.zip) <br>
+[TheForceEngine-v1.01.001.zip](archive/TheForceEngine-v1.01.001.zip) <br>
 * Improved robustness against sound system setup errors.
 * Added --nosound commandline to disable digital sound (music still plays).
 * Draw "no data" message in large red letters so it is obvious.

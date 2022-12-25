@@ -3,9 +3,9 @@ layout: page
 title: Roadmap
 ---
 
-## Version 1.0 Release
+## Version 1.0 Release [Released]
 ### Release: December 19, 2022
-With this release, TFE will be a complete replacement for DosBox. This release will also include the perspective-correct GPU renderer.
+With this release, TFE will is a complete replacement for DosBox for most players. This release includes the perspective-correct GPU renderer. This milestone has been successfully reached.
 
 ## Tools
 ### Estimated Release: Early 2023

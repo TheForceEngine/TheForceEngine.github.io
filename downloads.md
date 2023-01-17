@@ -11,6 +11,11 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.02.000-1-g7ec69bb1
+[TheForceEngine-v1.02.000-1-g7ec69bb1.zip](archive/TheForceEngine-v1.02.000-1-g7ec69bb1.zip) <br>
+* Changes the default audio outputs back to the 1.01 default.
+* Adds buttons to the Sound Menu to reset audio outputs.
+
 ### Version 1.02
 [TheForceEngine-v1.02.000.zip](archive/TheForceEngine-v1.02.000.zip) <br>
 **Quality of Life Features**

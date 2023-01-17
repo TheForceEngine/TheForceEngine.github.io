@@ -11,6 +11,49 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.02
+[TheForceEngine-v1.02.000.zip](archive/TheForceEngine-v1.02.000.zip) <br>
+**Quality of Life Features**
+* Alt+Enter will toggle fullscreen in addition to F11.
+* Frame limit options added to the Graphics UI.
+* **Load** added to the main menu.
+* The Mod Loader will now return to the main menu if escape is hit.
+* The Mod Loader will close mod descriptions is escape is hit.
+* A System Menu has been added with two options:
+  * An option to return to the main menu if you Quit a game.
+  * An option to return to the Mod Loader if you Quit, if you loaded a mod (assuming the first option is enabled).
+* The Audio system will try multiple sound APIs, including Direct Sound, if the default fails.
+* You can now select the output audio and midi devices.
+
+**Bug Fixes**
+* Fixed a crash when playing Evacuation of Hoth custom level due to a frame scenery object being destroyed.   
+* Fixed a bug where levels wouldn't load if they had spaces in front of certain keywords - such as Mission 2 of Don Sielke's.
+* Fixed a bug where items would be despawned in some cases where the sector heights were too small.
+* Fixed a bug where briefings could be skipped in some mods due to an order of operations error.
+* Fixed a bug where sprites didn't always light up correctly when attacking.
+* Fixed a bug where the Probe Droid would stay fullbright after firing.
+* Fixed a bug where autoaim wasn't working with 3D objects like turrets and welders.
+* Fixed a bug where autoaim targeted farther away items instead of closer items in some cases.
+* Fixed a bug where the player could save while dying and then be invulnerable on load until they healed.
+* Fixed crashes when INF sectors don't exist in custom maps.
+* Fixed a bug where jumping up to sector second heights isn't as forgiving in TFE as DOS, resulting in custom level progression issues.
+* 3DO PLANE projection when using the GPU Renderer now matches the software renderer for non-flat polygons.
+* Fixed a bug where the top and bottom textures were drawn even with the "no wall" flag set instead of showing the sky when using the GPU Renderer.
+* Fixed a bug with crouch jumping that kept the player from fitting into small places, blocking progression in Boba Fett's Revenge and other custom levels.
+* Fixed bugs with exterior adjoins that caused walls to be incorrectly drawn where there should only be sky.
+* Fixed a bug with INF messages using invalid delay values behaving different in TFE than DOS, making switches in some custom levels work incorrectly.
+* Fixed a bug with invalid INF message types (such as "done") being treated different than DOS, breaking different triggers and elevators in custom levels.
+* Fixed bugs with Gas Mask rendering when using the GPU Renderer at 320x200 resolution.
+* It is now possible to hold ALT and move, and use ALT for crouch and slow actions.
+* Improve Mod Loader text file parsing so it can be reliably extract the mod names.
+* Improved PDA input and fixed layer keys being swapped.
+* Fixed another PDA input issue, where the mouse location could effect hotkey results.
+* Fixed a bug with keyboard input on the Agent menu, where scrolling downward would not wrap if all levels are complete.
+* Secret Percentage update after loading from a save, fixed LADATA save percentage issue.
+* The GPU renderer now properly emulates several stretching mid-texture effects (these worked in the software renderer).
+* Fixed a sky texture offset bug using the GPU renderer that caused the incorrect part of the sky to show up in part of Stars End.
+* Saved games with no name given are now assigned a default name, so that they can be selected and loaded.
+
 ### Version 1.01
 [TheForceEngine-v1.01.001.zip](archive/TheForceEngine-v1.01.001.zip) <br>
 * Improved robustness against sound system setup errors.

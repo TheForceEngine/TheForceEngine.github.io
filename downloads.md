@@ -12,7 +12,7 @@ This means that you will need to check for new versions of TFE manually for now.
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
 ### Version 1.02.000-6-g779b9745
-[TheForceEngine-v1.02.000-6-g779b9745.zip](archive/TheForceEngine-v1.02.000-6-g779b9745.zip) <br>
+[TheForceEngine-v1.02.000-6-g779b9745-1.zip](archive/TheForceEngine-v1.02.000-6-g779b9745-1.zip) <br>
 * Fixed a bug where the mouse buttons wouldn't work if ALT is being held.
 * Replaced single dots on the automap when diamonds that scale with resolution when using the GPU Renderer.
 * When typing cheats into the console, they no longer need to be prefaced with cheat. So instead of `cheat LAMAXOUT` you can type `LAMAXOUT`.

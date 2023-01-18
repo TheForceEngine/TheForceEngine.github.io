@@ -11,6 +11,15 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.02.000-6-g779b9745
+[TheForceEngine-v1.02.000-6-g779b9745.zip](archive/TheForceEngine-v1.02.000-6-g779b9745.zip) <br>
+* Fixed a bug where the mouse buttons wouldn't work if ALT is being held.
+* Replaced single dots on the automap when diamonds that scale with resolution when using the GPU Renderer.
+* When typing cheats into the console, they no longer need to be prefaced with cheat. So instead of `cheat LAMAXOUT` you can type `LAMAXOUT`.
+* Added a new cheat code: `LAFLY` - when active, the player is not affected by gravity and can fly up using jump and down by using crouch.
+* Added a new cheat code: `LANOCLIP` - when active, the player will pass through walls and adjoins regardless of collision.
+* Added a new cheat code: `LATESTER` - this is short hand for activating `LAREDLITE, LAIMLAME, LAFLY, LANOCLIP`.
+
 ### Version 1.02.000-1-g7ec69bb1
 [TheForceEngine-v1.02.000-1-g7ec69bb1.zip](archive/TheForceEngine-v1.02.000-1-g7ec69bb1.zip) <br>
 * Changes the default audio outputs back to the 1.01 default.

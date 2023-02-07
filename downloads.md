@@ -12,11 +12,14 @@ This means that you will need to check for new versions of TFE manually for now.
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
 ### Version 1.08.000
-[TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
+**Windows Build** [TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
 This build contains most of the features slated for version 1.10, with the only major missing feature being internal midi synth support. This marks the version "official" TFE version with Linux support.
 
 #### Note For Linux Users
-There are not any Linux binaries being built at this time, so if you want to run TFE on Linux, you need to build from source. To do so, please visit the GitHub repository, grab the latest release, and follow the build and run instructions in the README.
+Linux is now supported but it requires additional setup. For now, you will need to compile from the source in order to run Linux. You will also need to set up your own midi server, assuming you don't have midi hardware. **Version 1.10 will have integrated midi synthesis options**, which will remove the midi server requirement. For more information, see the Linux section of the GitHub [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md).
+
+In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. Think of version 1.08 as "Linux Early Access." If you don't want to compile the code or setup a midi server, it might be better to use Windows for now or wait for version 1.10. 
+
 * [GitHub Repository](https://github.com/luciusDXL/TheForceEngine)
 * [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md)
 

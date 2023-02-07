@@ -41,10 +41,12 @@ The good part is that sprite/object clipping issues with floors and ceilings tha
 That said a true color option, which will enable optional texture filtering, will be coming in early 2023. And there are plans to add dynamic lighting and bloom options as well.
 
 ## Cross-platform Support
-After version 1.0, one of the next big things to tackle is official Linux and Mac support. I expect proper support to become available early in 2023.
+Linux is now supported but it requires additional setup. For now, you will need to compile from source in order to run Linux. You will also need to setup your own midi server, assuming you don't have a midi hardware. **Version 1.10 will have integrated midi synthesis options**, which will remove the midi server requirement. For more information, the Downloads page includes links and further instructions.
+
+In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. Think of version 1.08 as "Linux Early Access." If you don't want to compile the code or setup a midi server, it might be better to use Windows for now or wait for version 1.10.
 
 ## Minimum Requirements
-* Windows 7, 64 bit.
+* Windows 7, 64 bit / modern Linux Distro.
 * OpenGL 3.3
 
 Note that there are plans to lower the requirements for using the classic software renderer in the future. However, the minimum requirements for GPU Renderer support are here to stay. For now only OpenGL is supported, which might limit the use of some older Intel integrated GPUs that would otherwise be capable. There are near-term plans to add DirectX 10/11, Vulkan, and maybe Metal render backends which should enable more GPUs to run the engine efficiently.

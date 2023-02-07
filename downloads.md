@@ -11,7 +11,7 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
-### Version 1.00.000
+### Version 1.08.000
 [TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
 This build contains most of the features slated for version 1.10, with the only major missing feature being internal midi synth support. This marks the version "official" TFE version with Linux support.
 * Changed "activated" to "toggle" to better match existing cheat messages.

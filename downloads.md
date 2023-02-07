@@ -13,6 +13,7 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 
 ### Version 1.00.000
 [TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
+This build contains most of the features slated for version 1.10, with the only major missing feature being internal midi synth support. This marks the version "official" TFE version with Linux support.
 * Changed "activated" to "toggle" to better match existing cheat messages.
 * Fixed a HOM issue in Executor.
 * Added a proper FPS counter which can be enabled in the graphics menu.

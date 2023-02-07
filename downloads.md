@@ -11,6 +11,23 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.00.000
+[TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
+* Changed "activated" to "toggle" to better match existing cheat messages.
+* Fixed a HOM issue in Executor.
+* Added a proper FPS counter which can be enabled in the graphics menu.
+* Renamed "energy" to "battery power".
+* Official Linux support added.
+* Updated the README with Linux build and run instructions.
+* Removed the unique 3DO model limit.
+* Fixed font rendering bugs (lack of language-specific symbols) due to using signed 8-bit characters instead of unsigned.
+* Dark Forces menu shortcuts now work correctly for different languages.
+* Fixed the Gamorrean Guard attack delay - they were attacking much more often than in vanilla.
+* Fixed the Sewer Creature attack and search delays, they were slightly longer than vanilla (meaning it attacked less often than it should have).
+* Midi selection in the Sound menu now works correctly.
+* The Escape menu now uses the correct palette, fixing issues with some languages and mods.
+* Fixed a crash when a WAX did not have the appropriate animation in certain areas of the AI code.
+
 ### Version 1.02.000-6-g779b9745
 [TheForceEngine-v1.02.000-6-g779b9745-1.zip](archive/TheForceEngine-v1.02.000-6-g779b9745-1.zip) <br>
 * Fixed a bug where the mouse buttons wouldn't work if ALT is being held.

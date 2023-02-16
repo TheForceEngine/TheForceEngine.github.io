@@ -5,6 +5,8 @@ title: Documentation
 ## Installation
 To "install" The Force Engine, unzip the archive into its own directory, such as `C:/Games/TFE/`. You can place mod zip files or directories into the `Mods/` within the TFE directory. Then simply run `TheForceEngine.exe` and if you have Dark Forces installed using GOG or Steam it should automatically find it. See *Getting Started* below. Note that TFE stores saves, set up info, screenshots, log files, and similar items under `Documents/TheForceEngine/`. A portable installation option, where all data is kept in the local directory, is planned for the future.
 
+If you want to use custom sound fonts, copy the "sf2" files into the `SoundFonts/` directory under TFE.
+
 ### Issues
 * If TFE does not start, you may need to install the VC++ Redistributable Package. Install the latest version, x64 only.
 [https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)
@@ -12,7 +14,7 @@ To "install" The Force Engine, unzip the archive into its own directory, such as
 * If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*
 
 ## Minimum Requirements
-* Windows 7, 64-bit
+* Windows 7, 64-bit or modern Linux distro
 * GPU with OpenGL 3.3 or better compatibility
 
 *Note that there are plans to lower the requirements for using the classic software renderer in the future. However, the minimum requirements for GPU Renderer support are here to stay. For now only OpenGL is supported, which might limit the use of some older Intel integrated GPUs that would otherwise be capable. There are near-term plans to add DirectX 10/11, Vulkan, and maybe Metal render backends which should enable more GPUs to run the engine efficiently.*

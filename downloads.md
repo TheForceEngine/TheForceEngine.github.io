@@ -12,7 +12,7 @@ This means that you will need to check for new versions of TFE manually for now.
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
 ### Version 1.09.100
-**Windows Build** [TheForceEngine-v1.09.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.000/TheForceEngine-v1.09.000.zip) <br>
+**Windows Build** [TheForceEngine-v1.09.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.100/TheForceEngine-v1.09.100.zip) <br>
 **Source Code** [v1.09.000.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.000.tar.gz) <br>
 Hotfix release that addresses critical issues with version 1.09.
 

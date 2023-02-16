@@ -11,6 +11,26 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.000
+**Windows Build** [TheForceEngine-v1.09.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.000/TheForceEngine-v1.09.000.zip) <br>
+**Source Code** [v1.09.000.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.000.tar.gz) <br>
+This build adds both Sound Font (sf2) and OPL3 midi synthesis. External midi is no longer required on Linux. Note that midi settings will be reset with this build, if you want to change from the default (OPL3 emulation) - than use the Sound menu.
+
+* Implemented midi device types to support system midi as well as midi synthesis.
+* Implemented support for midi synthesis using Sound Fonts (sf2).
+* Implemented support for midi synthesis using OPL3 emulation and the iMuse OPL driver.
+* Implemented the ability to change midi devices and outputs during gameplay, the game music is restarted as needed.
+* Added Roland SC-55 and AWE64 sound fonts.
+* Added support for 800p in the resolution list for the Steam Deck.
+* Update the Readme to reflect that external midi is no longer required on Linux.
+* The midi device now defaults to OPL3.
+* Reduced stack size requirements in the audio system to fix issues on Steam Deck.
+* Linux/CMake: also install the Mods and SoundFonts folders.
+* Linux/Paths: look for support data in the executable directory too.
+* CMake: gitVersion: do nothing if Git is not available.
+* Linux: name executable "theforceengine"
+* Add comments categorizing keywords and noting those which are not implemented.
+
 ### Version 1.08.000
 **Windows Build** [TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
 This build contains most of the features slated for version 1.10, with the only major missing feature being internal midi synth support and better Linux packaging. This marks the version "official" TFE version with Linux support.

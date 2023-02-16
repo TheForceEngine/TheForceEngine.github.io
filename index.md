@@ -7,7 +7,7 @@ title: Home
 **A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces. TFE is **not** a remaster, it is essentially a source port designed to run the *original* game natively on modern systems with quality of life improvements and optional enhancements. Dark Forces and Outlaws are owned by Disney and are still active, commercial products. The IP is owned solely by Disney.
 
 ## Current Version
-Version 1.08
+Version 1.09
 
 ## Current Features
 * Full Dark Forces support, including mods. Outlaws support is coming in version 2.0.
@@ -18,6 +18,7 @@ Version 1.08
 * Full input binding, mouse sensitivity adjustment, and controller support. Note, however, that menus currently require the mouse.
 * Optional Quality of Life improvements, such as full mouselook, aiming reticle, improved Boba Fett AI, autorun, and more.
 * A new save system that works seamlessly with the existing checkpoint and lives system. You can ignore it entirely, use it just as an exit save so you don't have to play long user levels in one sitting, or full save and load with quicksaves like Doom or Duke Nukem 3D.
+* OPL3 emulation and Sound Font 2 midi synthesis support.
 * Optional and quality of life features, even mouselook, can be disabled if you want the original experience. Play in 320x200, turn the mouse mode (Input menu) to Menus only or horizontal, and enable the Classic (software) renderer - and it will look and play just like DOS, but with a higher framerate and without needing to adjust cycles in DosBox.
 
 ## About

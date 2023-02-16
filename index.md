@@ -42,9 +42,7 @@ The good part is that sprite/object clipping issues with floors and ceilings tha
 That said a true color option, which will enable optional texture filtering, will be coming in early 2023. And there are plans to add dynamic lighting and bloom options as well.
 
 ## Cross-platform Support
-Linux is now supported but it requires additional setup. For now, you will need to compile from source in order to run Linux. You will also need to setup your own midi server, assuming you don't have a midi hardware. **Version 1.10 will have integrated midi synthesis options**, which will remove the midi server requirement. For more information, the Downloads page includes links and further instructions.
-
-In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. Think of version 1.08 as "Linux Early Access." If you don't want to compile the code or setup a midi server, it might be better to use Windows for now or wait for version 1.10.
+Linux is now supported but it requires additional setup. For now, you will need to compile from source in order to run Linux. For more information, the Downloads page includes links and further instructions. In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. Think of version 1.09 as "Linux Early Access." If you don't want to compile the code, it might be better to use Windows for now or wait for version 1.10.
 
 ## Minimum Requirements
 * Windows 7, 64 bit / modern Linux Distro.

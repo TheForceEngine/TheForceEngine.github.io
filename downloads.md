@@ -16,6 +16,15 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 **Source Code** [v1.09.000.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.000.tar.gz) <br>
 This build adds both Sound Font (sf2) and OPL3 midi synthesis. External midi is no longer required on Linux. Note that midi settings will be reset with this build, if you want to change from the default (OPL3 emulation) - than use the Sound menu.
 
+#### Note For Linux Users
+Linux is now supported but it requires additional setup. For now, you will need to compile from the source in order to run Linux. For more information, see the Linux section of the GitHub [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md).
+
+In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. **If you don't want to compile the code, it might be better to use Windows for now or wait for version 1.10.**
+
+* [GitHub Repository](https://github.com/luciusDXL/TheForceEngine)
+* [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md)
+
+**Changes**
 * Implemented midi device types to support system midi as well as midi synthesis.
 * Implemented support for midi synthesis using Sound Fonts (sf2).
 * Implemented support for midi synthesis using OPL3 emulation and the iMuse OPL driver.
@@ -34,14 +43,6 @@ This build adds both Sound Font (sf2) and OPL3 midi synthesis. External midi is 
 ### Version 1.08.000
 **Windows Build** [TheForceEngine-v1.08.000.zip](archive/TheForceEngine-v1.08.000.zip) <br>
 This build contains most of the features slated for version 1.10, with the only major missing feature being internal midi synth support and better Linux packaging. This marks the version "official" TFE version with Linux support.
-
-#### Note For Linux Users
-Linux is now supported but it requires additional setup. For now, you will need to compile from the source in order to run Linux. You will also need to set up your own midi server, assuming you don't have midi hardware. **Version 1.10 will have integrated midi synthesis options**, which will remove the midi server requirement. For more information, see the Linux section of the GitHub [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md).
-
-In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. Think of version 1.08 as "Linux Early Access." **If you don't want to compile the code or setup a midi server, it might be better to use Windows for now or wait for version 1.10.**
-
-* [GitHub Repository](https://github.com/luciusDXL/TheForceEngine)
-* [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md)
 
 **Changes**
 * Changed "activated" to "toggle" to better match existing cheat messages.

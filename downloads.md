@@ -11,6 +11,29 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.200
+**Windows Build** [TheForceEngine-v1.09.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.200/TheForceEngine-v1.09.200.zip) <br>
+**Source Code** [v1.09.200.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.200.zip)
+
+A small bug fix release with fixes backported from the "True Color Renderer" branch, as well as other fixes. The "True Color Renderer" release will be the next major build.
+
+* Fixed a bug where IR Vision state wasn't properly saved and loaded.
+* Fixed a bug where IR Goggles would stay active after respawning from death.
+* Fixed a bug where the player could pick up items while dead.
+* Fixed a bug where the player could use cheats, such as LAPOSTAL, to resurrect from death.
+* The "About" tab in the Settings menu now works correctly.
+* Added an option, enabled by default, to ignore the INF limit. When enabled, there is no hard coded limit to the number of INF items that a level can have.
+* Fixed a "hang" (infinite loop) if an invalid INF sector class is used in a level. This fixed the hang in "STEALTH.GOB".
+* Fixed the spelling of the LARAMSHED cheat.
+* Fixed a crash that occured in the mod loader if files cannot be loaded from a zip file.
+* Fixed a bug in the mod loader where stale text would be shown for a mod without a valid text file or description.
+* Fixed bugs with the way mousebots would die, removing the up to 1 second delay that could happen.
+* Fixed 3DO lighting bugs in the software renderer.
+* Added an option, enabled by default, to fix the normal calculation in 3DOs in some cases.
+* Portal traversal optimizations.
+* Greatly reduced the number of memory allocations that the GPU renderer would use for 3DOs.
+* Fixed a collision bug that kept the player from jump onto some ledges at certain framerates (including 60 fps). This fixes jumping issues in "DeathStr" and "Lara Hotel".
+
 ### Version 1.09.100
 **Windows Build** [TheForceEngine-v1.09.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.100/TheForceEngine-v1.09.100.zip) <br>
 **Source Code** [v1.09.100.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.100.tar.gz) <br>

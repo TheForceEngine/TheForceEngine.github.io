@@ -11,6 +11,26 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.300
+**Windows Build** [TheForceEngine-v1.09.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.300/TheForceEngine-v1.09.300.zip) <br>
+**Source Code** [v1.09.300.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.300.zip)
+
+Another small bug-fix release.
+
+* Fixed a bug when there are too many entries in Jedi.lvl
+* Fixed a bug with display bounds when selecting the correct display.
+* Fixed a crash if the HUD pieces do not load.
+* Added a confirmation for loading a game from the Load Menu.
+* Added mod filtering for the Mod Loader, to make finding mods easier.
+* Mods are now alphabetically sorted (once the list loading is complete).
+* Fixed issues with the "No Game Data" message being incorrectly displayed.
+* Separates out errors because files aren't found, versus files are invalid.
+* Fixed a memory overwrite bug in Dark Tide 4, level 3 - due to having too few "texture vertices" set.
+* Fixed Vue Logic sprite yaw to match vanilla.
+* Hopefully fixed Steam path detection when the game is installed on a different driver than Steam itself or the ACF files cannot be found.
+* IMuse: clamp priority parameter to 127 (Manuel Lauss)
+* Linux: improve crash handler (Manuel Lauss)
+
 ### Version 1.09.200
 **Windows Build** [TheForceEngine-v1.09.200.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.200/TheForceEngine-v1.09.200.zip) <br>
 **Source Code** [v1.09.200.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.200.zip)

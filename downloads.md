@@ -27,7 +27,7 @@ Another small bug-fix release.
 * Separates out errors because files aren't found, versus files are invalid.
 * Fixed a memory overwrite bug in Dark Tide 4, level 3 - due to having too few "texture vertices" set.
 * Fixed Vue Logic sprite yaw to match vanilla.
-* Hopefully fixed Steam path detection when the game is installed on a different driver than Steam itself or the ACF files cannot be found.
+* Hopefully fixed Steam path detection when the game is installed on a different drive than Steam itself or the ACF files cannot be found.
 * IMuse: clamp priority parameter to 127 (Manuel Lauss)
 * Linux: improve crash handler (Manuel Lauss)
 

@@ -11,6 +11,23 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.400
+**Windows Build** [TheForceEngine-v1.09.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.400/TheForceEngine-v1.09.400.zip) <br>
+**Source Code** [v1.09.400.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.400.zip)
+
+This build introduces several new features as part of the set of releases leading up to version 1.10. Features include Bloom, Colormap Interpolation, Smooth Vue animations, and a Closed Caption system for accessibility.
+
+* Smooth Vue Animations (optional).
+* Fixed color flashing when switching between levels.
+* Ported over GPU Renderer portal fixes - now supports up to 65536 visible portals as originally intended.
+* Fixed GPU Renderer issues when using more than 65536 vertices for sector or sprite geometry in a frame.
+* Fixed Wireframe so it works correctly in release mode, and made 3DOs solid color when in wireframe.
+* Added a new "Retro" settings template which matches the "Modern" template from previous versions, where "Modern" enables new features, such as Bloom by default.
+* Added an "8-bit Interpolated" color mode, which smooths out colormap-based shading and removes most of the banding.
+* Added a new console command **exportTexture** that will export the texture on the surface the camera is currently pointing at.
+* Added a bloom option, with the ability to adjust its strength and spread.
+* Added Accessibility options, starting out with Closed Captions / Subtitles (Beta).
+
 ### Version 1.09.300
 **Windows Build** [TheForceEngine-v1.09.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.300/TheForceEngine-v1.09.300.zip) <br>
 **Source Code** [v1.09.300.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.300.zip)

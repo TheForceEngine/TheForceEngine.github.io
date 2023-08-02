@@ -11,6 +11,18 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.410
+**Windows Build** [TheForceEngine-v1.09.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.410/TheForceEngine-v1.09.410.zip) <br>
+**Source Code** [v1.09.410.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.410.zip)
+
+A quick bug-fix release following up version 1.09.4.
+
+* Fixed the Linux build.
+* Fixed a crash on some graphics drivers when creating textures for bloom.
+* Color correction and bloom can now be used at the same time.
+* Fixed captions and subtitles both showing if you had either one or the other enabled.
+* Fixed a timing issue with subtitles when running at very high framerates (the subtitles would never disappear and become "stuck").
+
 ### Version 1.09.400
 **Windows Build** [TheForceEngine-v1.09.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.400/TheForceEngine-v1.09.400.zip) <br>
 **Source Code** [v1.09.400.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.400.zip)

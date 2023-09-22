@@ -11,6 +11,29 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.500
+**Windows Build** [TheForceEngine-v1.09.500.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.500/TheForceEngine-v1.09.500.zip) <br>
+**Source Code** [v1.09.500.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.500.zip)
+
+The "True Color" release.
+
+* Automap is no longer affected by Bloom.
+* Fixed several GPU renderer bugs.
+* Fixed serialization of Vue state for save games when using Vue smoothing.
+* Added the "True color" (non-palettized) colormode, including settings and UI.
+* Added support mipmapping and anisotropic filtering.
+* Added support for bilinear filtering with sharpness setting.
+* Added approximate true-color to colormap mapping.
+* FOV is now adjustable with UI slider.
+* Three settings templates, instead of two: Vanilla, Retro, Modern.
+* Added "LVB" level format loading as work towards future Dark Forces demo support.
+* Added support for custom caption files and fonts, with UTF-8 Unicode support. Caption and font files can be added to the program or documents directory in the corresponding folder. This makes it possible to translate * the captions into other languages, even languages that use a non-ASCII character set, as long as a compatible font is used.
+* Added Noto Sans as the new default font for captions. It includes Latin, Cyrillic, and Greek character sets, as well as the Devanagari alphabet (most notably used for Hindi).
+* Added a section about caption customization to the in-game manual
+* Added captions for enemy death sound effects (these help with situational awareness)
+* Added missing captions for Kyle's voice-over on M11 Imperial City
+* New cheats LAADDLIFE and LASUBLIFE for adding and subtracting lives.
+
 ### Version 1.09.410
 **Windows Build** [TheForceEngine-v1.09.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.410/TheForceEngine-v1.09.410.zip) <br>
 **Source Code** [v1.09.410.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.410.zip)

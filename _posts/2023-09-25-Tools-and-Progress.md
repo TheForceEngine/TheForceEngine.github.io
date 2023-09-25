@@ -10,7 +10,8 @@ Recently, the True Color build was released. With it, several features were adde
 Since then, a number of bugs are been addressed. One large issue people found with the true color mode is that some textures did not have the correct hue and saturation at low light values (roughly half and lower). So I have been working on a new experimental automatic "per-texture" adjustment, which works well in most cases though there are some textures in some mods that still have issues.
 
 *Left is adjusted, and right is without the per-texture adjustment*
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/TextureAdjustments.jpg?raw=true" alt="Comparison" class="inline"/>
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/TextureAdjustments.jpg?raw=true" alt="TextureAdjustments" class="inline"/>
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/TextureAdjustments2.jpg?raw=true" alt="TextureAdjustments2" class="inline"/>
 
 ## Moving Forward
 Moving forward, I plan on taking a break from feature work to instead focus on restoring and improving on the built-in tools. There are multiple reasons for this:
@@ -29,9 +30,9 @@ I have restored the **Editor** option in the menu and have a first-pass implemen
 * Palettes and colormaps can be viewed.
 * Assets shown can be limited to those that are used in specific levels.
 
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/AssetBrowser1.jpg?raw=true" alt="Comparison" class="inline"/>
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/AssetBrowser2.jpg?raw=true" alt="Comparison" class="inline"/>
-<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/AssetBrowser3.jpg?raw=true" alt="Comparison" class="inline"/>
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/AssetBrowser1.jpg?raw=true" alt="AssetBrowser1" class="inline"/>
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/AssetBrowser2.jpg?raw=true" alt="AssetBrowser2" class="inline"/>
+<img src="https://github.com/TheForceEngine/TheForceEngine.github.io/blob/master/screenshots/AssetBrowser3.jpg?raw=true" alt="AssetBrowser3" class="inline"/>
 
 ## Current Plans
 Rough editor plans going forward. This isn't *all* of the work needed, but instead captures the initial chunk of

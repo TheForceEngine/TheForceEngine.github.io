@@ -12,7 +12,7 @@ This means that you will need to check for new versions of TFE manually for now.
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
 ### Version 1.09.520
-**Windows Build** [TheForceEngine-v1.09.520.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.500/TheForceEngine-v1.09.520.zip) <br>
+**Windows Build** [TheForceEngine-v1.09.520.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.520/TheForceEngine-v1.09.520.zip) <br>
 **Source Code** [v1.09.520.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.520.zip)
 
 Bug-fix release, but it includes the per-texture color adjustment when using the true color renderer.

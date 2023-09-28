@@ -11,6 +11,26 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.530
+**Windows Build** [TheForceEngine-v1.09.530.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.530/TheForceEngine-v1.09.530.zip) <br>
+**Source Code** [v1.09.530.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.530.zip)
+
+A bug-fix release, with some improvements to the Accessibility UI, slight improvements to true color texture color accuracy, more work on the TFE editor, and mostly bug fixes.
+
+**TFE Editor**
+* Implemented Editor Config with font/UI size and thumbnail size options.
+* Improved the Asset Browser UI.
+* Added support for Frames and Sprites.
+* Factored out Asset system to reduce code and data duplication.
+
+**Game**
+* Removed RTAudio and uses SDL audio instead, which fixes a number of audio issues on Linux (@mlauss2).
+* Replaced different Windows/Linux Mutex/Thread code with SDL equivalents (@mlauss2).
+* Improved German subtitles (@mlauss2).
+* Improved Accessibility UI (@kevinfoley).
+* Fixed game settings text getting cutoff (@kevinfoley).
+* Improved discoloration that can occur to some textures when using the true color mode.
+
 ### Version 1.09.521
 **Windows Build** [TheForceEngine-v1.09.521.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.521/TheForceEngine-v1.09.521.zip) <br>
 **Source Code** [v1.09.521.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.521.zip)

@@ -27,10 +27,10 @@ Another small release that fixes some issues and releases another iteration of t
 * Added central error handling and modal message box functionality for errors/warnings.
 
 **General**
-* Linux: Make RtMidi optional - this allows for OPL 3 and SF 2 synth but disables system midi (@mlauss2).
-* This should make it easier to compile in some cases.
-* Replace DeviL with SDL Image to make future Linux packages easier (@mlauss2 / @luciusDXL).
-* Small PNG issues fixed (@mlauss2).
+* Linux: Make RtMidi optional - this allows for OPL 3 and SF 2 synth but disables system midi.
+  * This should make it easier to compile in some cases.
+* Replace DeviL with SDL Image to make future Linux packages easier.
+* Small PNG issues fixed.
 
 
 ### Version 1.09.530

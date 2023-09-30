@@ -11,6 +11,28 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.09.540
+**Windows Build** [TheForceEngine-v1.09.540.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.540/TheForceEngine-v1.09.540.zip) <br>
+**Source Code** [v1.09.540.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.540.zip)
+
+Another small release that fixes some issues and releases another iteration of the editor (still early WIP).
+
+**Editor**
+* Fixed a crash when returning from the Editor the menu, and then selecting editor again.
+* Escape now exits the editor, unless a modal dialog is active in which case it closes that dialog instead.
+* Levels and 3DOs are listed in the Asset Browser, but functionality is somewhat limited.
+* Added multi-select.
+* Added the ability to force selected assets to use an alternate palette for testing.
+* Added export selected - allowing for assets to be exported and PNGs to be generated where appropriate for viewing.
+* Added central error handling and modal message box functionality for errors/warnings.
+
+**General**
+* Linux: Make RtMidi optional - this allows for OPL 3 and SF 2 synth but disables system midi (@mlauss2).
+* This should make it easier to compile in some cases.
+* Replace DeviL with SDL Image to make future Linux packages easier (@mlauss2 / @luciusDXL).
+* Small PNG issues fixed (@mlauss2).
+
+
 ### Version 1.09.530
 **Windows Build** [TheForceEngine-v1.09.530.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.530/TheForceEngine-v1.09.530.zip) <br>
 **Source Code** [v1.09.530.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.530.zip)

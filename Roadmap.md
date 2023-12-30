@@ -11,9 +11,9 @@ With this release, TFE is a complete replacement for DosBox for most players. Th
 *Finished*<br>
 Basic Linux support has been completed, though Flatpaks and other distribution methods still need to be done.
 
-## Post Process and Bloom
+## Post Processing and Bloom
 *Finished*<br>
-Post-processing was implemented, including a bloom effect that can be adjusted to taste.
+The Post-processing pipeline was implemented, including a bloom effect that can be adjusted to taste.
 
 ## True Color Support
 *Finished*<br>

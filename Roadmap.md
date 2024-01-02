@@ -37,7 +37,7 @@ Quite some time ago now, I implemented an experimental voxel renderer that integ
 
 ## Dynamic Lighting
 ### Estimated Release: Early 2024
-Dynamic light was implemented in a branch along with true color rendering. But it needs to be cleaned up and some tweaks need to be made for release. This will include shadows, the ability to attach lights to objects/frames, and shadows.
+Dynamic light was implemented in a branch along with true color rendering. But it needs to be cleaned up and some tweaks need to be made for release. This will include shadows, and the ability to attach lights to objects/frames.
 
 ## Towards Version 2.0
 ### Estimated Release: Late 2024

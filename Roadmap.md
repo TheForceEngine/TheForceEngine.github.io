@@ -36,7 +36,7 @@ With the tools in place, the plan is to support higher resolution and true-color
 Quite some time ago now, I implemented an experimental voxel renderer that integrated seamlessly with the Jedi classic renderer. However, there were some loose ends to deal with, such as not supporting the full VOX format and dealing with some palette issues. This release will integrate that code with the main branch and add support for replacing objects with their voxel counterpart.
 
 ## Dynamic Lighting
-### Estimated Release: Early 2024
+### Estimated Release: Early to Mid 2024
 Dynamic light was implemented in a branch along with true color rendering. But it needs to be cleaned up and some tweaks need to be made for release. This will include shadows, and the ability to attach lights to objects/frames.
 
 ## Towards Version 2.0

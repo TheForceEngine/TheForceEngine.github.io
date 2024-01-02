@@ -19,9 +19,13 @@ The Post-processing pipeline was implemented, including a bloom effect that can 
 *Finished*<br>
 True-color support was implemented with options for colormap blending, full true-color rendering, and texture filtering.
 
-## Tools
+## Level Editor - Early 2024
 ### Estimated Release: Early 2024
-These releases focus on getting the tools working again with the reverse-engineered code. This will include basic functionality like importing, exporting, viewing, and editing assets. This will include a built-in level editor that will initially support Dark Forces but will eventually include Outlaws and Outlaws asset types.
+Built-in **level editor** for Dark Forces that can be used to make complete levels with goals, INF support, editable entities, and everything else needed. Support for **Outlaws** levels will be coming later.
+
+## Asset Editor - Early 2024
+### Estimated Release: Early 2024
+Finish the Asset Browser, started in 2023. In addition to the formats currently supported, support will be added for formats needed for cutscenes, and UI. And finally new assets - such as HD assets and voxels.
 
 ## HD Asset Support
 ### Estimated Release: Early 2024

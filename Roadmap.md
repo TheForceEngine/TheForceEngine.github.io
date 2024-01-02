@@ -17,7 +17,7 @@ The Post-processing pipeline was implemented, including a bloom effect that can 
 
 ## True Color Support
 *Finished*<br>
-True color support was implemented with options for colormap blending, full true-color rendering, and texture filtering.
+True-color support was implemented with options for colormap blending, full true-color rendering, and texture filtering.
 
 ## Tools
 ### Estimated Release: Early 2024

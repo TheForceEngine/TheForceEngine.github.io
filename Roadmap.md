@@ -32,7 +32,7 @@ Finish the Asset Browser, started in 2023. In addition to the formats currently 
 With the tools in place, the plan is to support higher resolution and true-color assets. This includes textures, already includes models (3DO limits were removed previously as an option), and 44.1kHz audio (wave files).
 
 ## Voxels
-### Estimated Release: Early 2024
+### Estimated Release: Early to Mid 2024
 Quite some time ago now, I implemented an experimental voxel renderer that integrated seamlessly with the Jedi classic renderer. However, there were some loose ends to deal with, such as not supporting the full VOX format and dealing with some palette issues. This release will integrate that code with the main branch and add support for replacing objects with their voxel counterpart.
 
 ## Dynamic Lighting

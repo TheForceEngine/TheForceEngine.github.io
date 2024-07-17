@@ -11,6 +11,83 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Version 1.10.000
+**Windows Build** [TheForceEngine-v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.10.000/TheForceEngine-v1.10.000.zip) <br>
+**Source Code** [v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.10.000.zip)
+
+It has been months since the last official release. While most of my work has been directed towards the Level Editor, there still have been a large number of changes and improvements that have accumulated in that time frame, many from contributors.
+
+Below I list the user facing improvements, it is a summary so doesn't go into detail about many GitHub changes, or enumerate every change that went into a feature (such as HD Assets). It also doesn't enumerate the work done on the Level Editor, that will be discussed in the next major release. However you can see all the commits, pull requests and work done on GitHub.
+
+## User Facing Changes (Summarized)
+* Added Remaster HD Asset support (textures, sprites, and HUD - cutscenes and briefings coming in the future)
+	* Three categories (textures, sprites, HUD)
+	* Can be toggled at runtime.
+	* Only enabled in "true color" mode.
+* Added support for MOD_CONF.txt overrides:
+	* TFE option overrides, so mods can enable or disable options as needed.
+	* HD Asset opt-out overrides.
+* The Dark Forces Remaster is now automatically detected as a valid game data source.
+* Mod description text should no longer be cut off in the mod loader.
+* Added an option to enable the player to step up onto second altitudes, similar to normal height changes.
+* Added a crouch toggle in Game options.
+* Cycle next/previous weapon inputs now need to be pressed, making weapon cycling easier using a controller.
+* Asset Browser - "resources" can be added (such as gobs/zips).
+* Added per-asset editor support.
+* Fixed a bug where the weapon muzzle flash would be "stuck" after loading from a save.
+* Fixed a true color crash in Imperial Library.
+* Fixed a crash in Raid to Ovarid.
+* Fixed alpha blending/sorting issues in true color mode.
+* Fixed visual issues when using anisotropic filtering.
+
+*Manuel Lauss (mlauss2)*
+* Midi fixes
+	* Cross platform method for pausing/running midi thread.
+	* Introduced "Disabled" device.
+	* Fixed midi buffer overrun
+* SDL2 fixes on Linux
+* Handle Type 2 VOC chunks and avoid spam for unsupported chunk types
+* Landru/Music: fixed sequence error in Cutscene Music File parser (mlauss2)
+* Fixed numerous clang/gcc warnings, Linux issues, 32-bit issues (though no 32-bit support on Windows is planned), and enabled GCC LTO (Link Time Optimizations).
+
+*Kevin Foley (Kevinfoley)*
+* Added one-hit-kill cheat (LAIMDEATH)
+* Added one-hit-death cheat (LAHARDCORE)
+* "Hardcore" mode cheat: Per request, only projectile and explosive damage will one hit kill the player.
+* LAIMDEATH and LAHARDCORE status is now serialized
+* Added A11y setting to disable screen flashes (on item pickup and when taking damage)
+* Added a slider to System Settings for adjusting GIF recording framerate
+* Added Dark Forces cheat menu
+* Added new cheat LACAT (gives you 9 lives)
+* Added Dark Forces cheat menu (under Game settings)
+* Added a new A11y photosensitivity setting to disable player weapon lighting (illumination caused by firing the player's weapons)
+* subtitles-en.txt: Add missing end quote to m01reb02 (thanks Doctor Octogonapus)
+* A11y: added a "Refresh caption/font files" button to settings menu.
+* Added new cheat LABRIGHT; when enabled, renders everything at fullbright.
+
+*Jake Smarter (JakeSmarter)*
+* Update AppStream metadata (rename file to match app's component id, drop depracated application element, add more url types, add a number of other elements, add de, en-US, pl translations)
+* Desktop Entry updates (rename file to conform to spec, add keywords)
+* Improved and updated TFE About text
+* Clear color buffers with opaque black instead of transparent black
+
+*Rosalie (Rosalie241)*
+* Added workaround for GLEW on Wayland (Linux) (Rosalie241)
+
+*Jerethk*
+* New optional setting: observe "solid wall" flag when testing if object overlaps a wall (fixes maps like Harkov and Dark Tide 3 when riding on moving or rotating sectors).
+## Other Efforts
+Ongoing work not yet publicly facing, GitHub changes, and other backend efforts.
+
+* Level Editor work.
+* Work on "Force Script" - which will be used in the editor first to enable custom functionality.
+* Integrating Outlaws features into TFE in preparation for Outlaws support (vertical adjoins, dual adjoins, etc.).
+* TFE is now on Flathub thanks to contributor efforts.
+* Ubuntu Workflow to test compilation on Linux for every diff (Manuel Lauss)
+* GitHub Readme updated.
+
+
+
 ### Version 1.09.540
 **Windows Build** [TheForceEngine-v1.09.540.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.540/TheForceEngine-v1.09.540.zip) <br>
 **Source Code** [v1.09.540.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.540.zip)

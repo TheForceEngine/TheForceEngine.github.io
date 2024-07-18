@@ -11,6 +11,14 @@ This means that you will need to check for new versions of TFE manually for now.
 ### Timeline
 The release of version 1.0 is a momentus event but it is not the end of the road. Outlaws support will be coming in version 2.0 and before that there will be new features, bug fixes, cross-platform support, and the built-in editors (including the level editor). See the [TFE Roadmap](Roadmap.md) for more information.
 
+### Having Issues Running TFE?
+* If TFE does not start, you may need to install the VC++ Redistributable Package. Install the latest version, x64 only.
+[https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+* If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*
+
+* If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
+
 ### Version 1.10.000
 **Windows Build** [TheForceEngine-v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.10.000/TheForceEngine-v1.10.000.zip) <br>
 **Source Code** [v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.10.000.zip)

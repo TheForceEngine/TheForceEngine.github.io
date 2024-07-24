@@ -15,7 +15,7 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If TFE does not start, you may need to install the VC++ Redistributable Package. Install the latest version, x64 only.
 [https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-* If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*
+* If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*.
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
 

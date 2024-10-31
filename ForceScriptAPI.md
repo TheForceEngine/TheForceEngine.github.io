@@ -171,19 +171,19 @@ If a getter is set, but a setter is missing - then the script will return an err
 
 The Lambda versions are very useful when wrapping game or engine state in a way that looks like normal member variable access.
 ```
-ScriptLambdaPropertyGet(Declaration, (Argument List), Return Type, { function body });
-ScriptLambdaPropertySet(Declaration, (Argument List), Return Type, { function body });
+ScriptLambdaPropertyGet(Declaration, Return Type, { function body });
+ScriptLambdaPropertySet(Declaration, (Argument List), { function body });
 ```
-Otherwise the rules are exactly the same as Lambda member functions and member properties.
+Otherwise, the rules are the same as Lambda member functions and member properties.
 Examples:
 ```
-ScriptLambdaPropertyGet("string get_name()", (), std::string, { return s_level.name; });
+ScriptLambdaPropertyGet("string get_name()", std::string, { return s_level.name; });
 
-ScriptLambdaPropertyGet("string get_slot()", (), std::string, { return s_level.slot; });
+ScriptLambdaPropertyGet("string get_slot()", std::string, { return s_level.slot; });
 
-ScriptLambdaPropertySet("void set_name(const string &in)", (std::string& name), void, { s_level.name = name; });
+ScriptLambdaPropertySet("void set_name(const string &in)", (std::string& name), { s_level.name = name; });
 
-ScriptLambdaPropertySet("void set_palette(const string &in)", (std::string& palette), void, { s_level.palette = palette; });
+ScriptLambdaPropertySet("void set_palette(const string &in)", (std::string& palette), { s_level.palette = palette; });
 ```
 Even though it is reading from and writing to state outside of the class, it will be accessed through the class just like member variables in the scripts:
 ```

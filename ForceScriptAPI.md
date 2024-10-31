@@ -107,11 +107,86 @@ ScriptLambdaMethod("void setPalette(const string &in)", (std::string& palette), 
 Notice that if no arguments are needed **()** should be used. Also, notice that getters and setters can be implemented in this way. In this case **s_level** is the level data used by the Level Editor.
 
 ### Member Variables
-Exposing class member variables allows them to be read and written to by scripts. If specific access control is needed, or if the variables are wrapping game/engine variables directly then **Accessors** should be used instead (see below).
+Exposing class member variables allow them to be read and written to by scripts. If specific access control is needed, or if the variables are wrapping game/engine variables directly than **Accessors** should be used instead (see below).
 
-`TODO`
+```
+ScriptMemberVariable(decl, var)
+```
+**Decl** is the declaration as seen by the Script and **var** is the member variable. For example:
+C++ header:
+```
+class ...
+{
+  ...
+  s32 m_index;
+}
+```
+Script interface:
+```
+ScriptMemberVariable("int index", m_index);
+```
+And then using it in a script, for API **level**.
+```
+level.index = 37;
+system.print("{}", level.index);
+```
+This will print out **37**.
 
 ### Accessors
-Accessors allow more controlled access to variables. In the script, it will look like direct access to member variables, but on the C++ side read/write can be controlled, and non-member variables can be wrapped to avoid extra boilerplate.
+Accessors allow more controlled access to variables. In the script it will look like direct access to member variables, but on the C++ side read/write can be controlled, and non-member variables can be wrapped to avoid extra boilerplate.
 
-`TODO`
+There are two methods for creating setters and getters:
+1. Member Functions - use this for longer functions or if member variables need to be accessed.
+2. Lambdas - use this when wrapping game/engine state and using short functions.
+
+Getter as member function:
+C++ code example:
+```
+std::string get_name() { return m_name; }
+```
+Script Interface:
+```
+ScriptPropertyGet(decl, funcName)
+```
+This is similar to normal member functions, but must be in the form of **get_varname()** where **varname** is the member variable as seen in the script. For example if the function is **get_value()** then in the script it will be accessed as `myAPI.value`.
+
+Setter as a member function:
+C++ code example:
+```
+void set_name(const std::string& name) { m_name = name; }
+```
+Script Interface:
+```
+ScriptPropertySet(decl, funcName)
+```
+And the format of the function is **set_varname()**.
+
+Examples:
+```
+ScriptPropertyGet("string get_name()", get_name);
+ScriptPropertySet("void set_name(const string &in)", set_name);
+```
+
+If a getter is set, but a setter is missing - then the script will return an error if attempted to write to the value. In this way you can use Accessor to control read/write access to variables.
+
+The Lambda versions are very useful when wrapping game or engine state in a way that looks like normal member variable access.
+```
+ScriptLambdaPropertyGet(Declaration, (Argument List), Return Type, { function body });
+ScriptLambdaPropertySet(Declaration, (Argument List), Return Type, { function body });
+```
+Otherwise the rules are exactly the same as Lambda member functions and member properties.
+Examples:
+```
+ScriptLambdaPropertyGet("string get_name()", (), std::string, { return s_level.name; });
+
+ScriptLambdaPropertyGet("string get_slot()", (), std::string, { return s_level.slot; });
+
+ScriptLambdaPropertySet("void set_name(const string &in)", (std::string& name), void, { s_level.name = name; });
+
+ScriptLambdaPropertySet("void set_palette(const string &in)", (std::string& palette), void, { s_level.palette = palette; });
+```
+Even though it is reading from and writing to state outside of the class, it will be accessed through the class just like member variables in the scripts:
+```
+system.print("Name: {}", level.name);
+level.name = "Moon Base";
+```

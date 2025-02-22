@@ -2,7 +2,9 @@
 layout: page
 title: Downloads
 ---
-[Download Windows - version 1.15](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip)<br>
+**Downloads**
+* [Version 1.15, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip)<br>
+* [Version 1.15, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.15.000.zip)
 
 **A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces.
 

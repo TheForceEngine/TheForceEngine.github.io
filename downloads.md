@@ -2,6 +2,8 @@
 layout: page
 title: Downloads
 ---
+[Download Windows - version 1.15](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip)<br>
+
 **A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces.
 
 Generally it is a good idea to download the latest available version. Previous builds are mainly for archival purposes. When downloading a new version, simply copying over an existing install will work fine. Note that there are no automatic downloads and TFE does not currently connect to the internet in any way. However, optional features such as checking for the latest version, directly downloading new versions and mods, and similar features will be added later.
@@ -18,6 +20,53 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*.
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
+
+### Version 1.15.000
+**Windows Build** [TheForceEngine-v1.15.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip) <br>
+**Source Code** [v1.15.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.15.000.zip)
+
+This release improves moddability by externalizing previously hard-coded data into ExternalData/DarkForces/ and allows for many properties of effects, pickups, projectiles, and weapons to be changed. In addition, first pass scripting integration has been implemented in the form of script functions that can be called from INF.
+
+**What's Changed**
+* Numerous bug fixes (everyone)
+* Many editor changes @luciusDXL
+* ForceScript API work @luciusDXL
+* ScriptCall functionality in INF (with editor support) @luciusDXL
+* Script state serialization for save games @luciusDXL
+* CMake: automatically make system midi optional by @mlauss2
+* Update Dear ImGUI to 1.90.9 by @mlauss2
+* Use external release metadata XML for Flathub info by @fpiesche
+* Replace GLEW with built-in GLAD by @mlauss2
+* Fixes for GCC LTO (Link Time Optimizations) by @mlauss2
+* Enable item ten by @jerethk
+* Adding logging timestamps by @ifeldshteyn
+* Ading new input buttons such as HD, screenshot and GIF recording. by @ifeldshteyn
+* Mod conf overrides by @ifeldshteyn
+* Adding Mouse panning to the PDA by @ifeldshteyn
+* Custom logic proposal by @jerethk
+* Add mod directory to s_searchPaths when loading from a custom GOB by @jerethk
+* Adding open folder button for mods. by @ifeldshteyn
+* GIF capture feedback messages by @kevinfoley
+* actor.cpp, flyers.cpp, sewer.cpp: replace anim.state magic numbers ... by @kevinfoley
+* dragon, phaseOne: replace anim.state magic numbers with enum values… by @kevinfoley
+* Switch mod conf versioning to 1 by @ifeldshteyn
+* Weapon data externalisation by @jerethk
+* Fixes for TELEPORTER BASIC by @jerethk
+* Make sure we can fly over water sectors. by @ifeldshteyn
+* Change to forward slash for paths by @jerethk
+* Custom logics fix by @jerethk
+* New Dev panel with lighting controls by @kevinfoley
+* Fix VUE camera by @jerethk
+* Subdirectory related amendments by @jerethk
+* Externalise pickups by @jerethk
+* Fix custom logics serialisation by @jerethk
+* Add svg redraw of app icon following modern icon guidelines by @fpiesche
+* Check for FME extension before attempting to load a FME by @jerethk
+* Externalise weapons by @jerethk
+* Actor code readability amendments by @jerethk
+* Fix building on Linux by @sotpapathe
+* Fix for fist ammo by @jerethk
+
 
 ### Version 1.10.000
 **Windows Build** [TheForceEngine-v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.10.000/TheForceEngine-v1.10.000.zip) <br>

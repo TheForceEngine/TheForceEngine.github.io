@@ -8,8 +8,8 @@ title: Downloads
  
 **Editor Documentation**
 This is still WIP and incomplete
-* Manual (WIP): https://df-21.net/wiki/?title=TFE-EDITOR
-* Tutorials (WIP): https://youtube.com/playlist?list=PLz1JY7gjEDQQa-IgwVznTOXdjmBqDHSCm&si=BQpxruRilQMC-NxR
+* [Manual (WIP)](https://df-21.net/wiki/?title=TFE-EDITOR)
+* [Tutorials (WIP)](https://youtube.com/playlist?list=PLz1JY7gjEDQQa-IgwVznTOXdjmBqDHSCm&si=BQpxruRilQMC-NxR)
 
 **A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces.
 
@@ -33,8 +33,8 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 **Source Code** [v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.000.zip)
 
 With this release the **TFE Editor** finally hits the **Alpha** phase. Documentation and tutorials are still being worked on - but here is what is currently available:
-* Manual (WIP): https://df-21.net/wiki/?title=TFE-EDITOR
-* Tutorials (WIP): https://youtube.com/playlist?list=PLz1JY7gjEDQQa-IgwVznTOXdjmBqDHSCm&si=BQpxruRilQMC-NxR
+* [Manual (WIP)](https://df-21.net/wiki/?title=TFE-EDITOR)
+* [Tutorials (WIP)](https://youtube.com/playlist?list=PLz1JY7gjEDQQa-IgwVznTOXdjmBqDHSCm&si=BQpxruRilQMC-NxR)
 
 **What's Changed**
 * TFE Editor Alpha Release @luciusDXL 

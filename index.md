@@ -7,7 +7,7 @@ title: Home
 **A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces. TFE is **not** a remaster, it is essentially a source port designed to run the *original* game natively on modern systems with quality of life improvements and optional enhancements. Dark Forces and Outlaws are owned by Disney and are still active, commercial products. The IP is owned solely by Disney.
 
 ## Current Version
-Version 1.15.000
+Version 1.22.000
 
 ## Current Features
 * Full Dark Forces support, including mods. Outlaws support is coming in version 2.0.
@@ -21,6 +21,7 @@ Version 1.15.000
 * OPL3 emulation and Sound Font 2 midi synthesis support.
 * Optional and quality of life features, even mouselook, can be disabled if you want the original experience. Play in 320x200, turn the mouse mode (Input menu) to Menus only or horizontal, and enable the Classic (software) renderer - and it will look and play just like DOS, but with a higher framerate and without needing to adjust cycles in DosBox.
 * Support for the Dark Forces Remaster HD assets.
+* Built in Editor (Alpha).
 
 ## About
 The Force Engine is a project with the goal to reverse engineer and rebuild the Jedi Engine for modern systems and the games that used that engine - **Dark Forces** and **Outlaws**. The project will include modern, built-in tools, such as a level editor and will make it easy to play **Dark Forces** and **Outlaws** on modern systems as well as the many community **mods** designed to work with the original games.

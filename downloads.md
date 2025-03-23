@@ -3,8 +3,13 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.15, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip)<br>
-* [Version 1.15, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.15.000.zip)
+* [Version 1.22, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.000/TheForceEngine-v1.22.000.zip)<br>
+* [Version 1.22, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.000.zip)
+ 
+**Editor Documentation**
+This is still WIP and incomplete
+* Manual (WIP): https://df-21.net/wiki/?title=TFE-EDITOR
+* Tutorials (WIP): https://youtube.com/playlist?list=PLz1JY7gjEDQQa-IgwVznTOXdjmBqDHSCm&si=BQpxruRilQMC-NxR
 
 **A purchased copy of the original game is required and is not provided by The Force Engine.** The [documentation](https://theforceengine.github.io/Documentation.html) has information on how to legally purchase Dark Forces.
 
@@ -22,6 +27,26 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*.
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
+
+### Version 1.22.000
+**Windows Build** [TheForceEngine-v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.000/TheForceEngine-v1.22.000.zip) <br>
+**Source Code** [v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.000.zip)
+
+With this release the **TFE Editor** finally hits the **Alpha** phase. Documentation and tutorials are still being worked on - but here is what is currently available:
+* Manual (WIP): https://df-21.net/wiki/?title=TFE-EDITOR
+* Tutorials (WIP): https://youtube.com/playlist?list=PLz1JY7gjEDQQa-IgwVznTOXdjmBqDHSCm&si=BQpxruRilQMC-NxR
+
+**What's Changed**
+* TFE Editor Alpha Release @luciusDXL 
+* Replay support @ifeldshteyn 
+* Fix building on ARM and make CI run on x86 and aarch64 Linux by @fpiesche
+* Add GS_Player class by @jerethk
+* Fixed JSon/External data pathing on Linux @jerethk 
+* Fixed Pickup serialization issue @jerethk 
+* Cleaned up Linux build - removed option for scripting (always enabled), fixed related issues. @luciusDXL 
+* Various bug fixes, such as weapons not showing fullbright pixels correctly in true color. @luciusDXL 
+* Added GS_Player class @jerethk 
+* Added more Mod-Conf overrides @jerethk 
 
 ### Version 1.15.000
 **Windows Build** [TheForceEngine-v1.15.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip) <br>

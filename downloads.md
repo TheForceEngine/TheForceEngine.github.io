@@ -28,6 +28,25 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
 
+### Version 1.22.100
+**Windows Build** [TheForceEngine-v1.22.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.100/TheForceEngine-v1.22.100.zip) <br>
+**Source Code** [v1.22.100.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.100.zip)
+
+A small iterative release with early TFE Editor improvements.
+
+## Changes
+* Added option to avoid waiting for process completion, this process is not completing correctly for at least one user.
+  * If the Level Editor is crashing when you hit play to test, go to the **Level** menu > **User Preferences** > **Editing** > disable **On Play, wait for process completion**.
+* Cleans up the curve segment controls, so the number of segments is properly clamped (no more having to hit the key multiple times to see a change).
+* Changed the "Lock movement" shortcut text to be more clear.
+* Added shortcuts to move the camera up and down in the 3D view (Space, Ctrl+Space by default).
+* Fixed a crash trying loading a sprite when an Archive is null.
+* Added support for mouse buttons to be used for shortcuts (except for left-mouse).
+* Added editable shortcuts for
+  * Texture mouse panning.
+  * 2D viewport panning.
+  * 3D camera rotation.
+
 ### Version 1.22.000
 **Windows Build** [TheForceEngine-v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.000/TheForceEngine-v1.22.000.zip) <br>
 **Source Code** [v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.000.zip)

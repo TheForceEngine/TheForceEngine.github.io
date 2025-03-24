@@ -3,8 +3,8 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.22, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.000/TheForceEngine-v1.22.000.zip)<br>
-* [Version 1.22, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.000.zip)
+* [Version 1.22.1, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.100/TheForceEngine-v1.22.100.zip)<br>
+* [Version 1.22.1, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.100.zip)
  
 **Editor Documentation**
 This is still WIP and incomplete

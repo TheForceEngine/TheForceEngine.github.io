@@ -3,8 +3,8 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.22.1, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.100/TheForceEngine-v1.22.100.zip)<br>
-* [Version 1.22.1, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.100.zip)
+* [Version 1.22.2, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.200/TheForceEngine-v1.22.200.zip)<br>
+* [Version 1.22.2, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.200.zip)
  
 **Editor Documentation**
 This is still WIP and incomplete
@@ -27,6 +27,28 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*.
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
+
+### Version 1.22.200
+**Windows Build** [TheForceEngine-v1.22.200.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.200/TheForceEngine-v1.22.200.zip) <br>
+**Source Code** [v1.22.200.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.200.zip)
+
+Another small iterative release with TFE Editor improvements.
+
+## Changes
+* Added the ability to invert the Y axis for camera rotation.
+* Added shortcuts for edit modes: draw, vertex, wall/surface, sector, and entity.
+* Added shortcuts for Resetting and Aligning the grid.
+* Added a shortcut to reset texture offsets.
+* Added a shortcut for Join Sectors.
+* Added a confirmation dialog for Reloading a level.
+* Added a confirmation dialog when trying to close the level editor or exit when there are unsaved changes.
+* A popup error message is now shown when trying to test a level with no source port set.
+* Added an option to make new sectors use the DEFAULT texture (Level menu -> User Preferences -> Editing: New sectors use DEFAULT texture.
+* Double-click selection and Auto-align properly respect Group locked and hidden states.
+* In the INF editor it is now much easier to select an elevator, trigger, or teleporter - just click on the Class: Type labels.
+* In the INF editor, you can now delete selected elevators, triggers and teleporters.
+* Fix WAX packing to account for rows not perfectly fitting into the rows - this was causing a crash.
+* Fixed a crash in level_unpackSectorAttribSnapshot() when the group ID is not valid, but an error is written instead.
 
 ### Version 1.22.100
 **Windows Build** [TheForceEngine-v1.22.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.100/TheForceEngine-v1.22.100.zip) <br>

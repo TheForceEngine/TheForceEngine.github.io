@@ -28,6 +28,7 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
 
+## Download TFE Versions
 ### Version 1.22.300
 **Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip) <br>
 **Source Code** [v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.300.zip)
@@ -58,7 +59,7 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 
 Another small iterative release with TFE Editor improvements.
 
-## Changes
+### Changes
 * Added the ability to invert the Y axis for camera rotation.
 * Added shortcuts for edit modes: draw, vertex, wall/surface, sector, and entity.
 * Added shortcuts for Resetting and Aligning the grid.
@@ -80,7 +81,7 @@ Another small iterative release with TFE Editor improvements.
 
 A small iterative release with early TFE Editor improvements.
 
-## Changes
+### Changes
 * Added option to avoid waiting for process completion, this process is not completing correctly for at least one user.
   * If the Level Editor is crashing when you hit play to test, go to the **Level** menu > **User Preferences** > **Editing** > disable **On Play, wait for process completion**.
 * Cleans up the curve segment controls, so the number of segments is properly clamped (no more having to hit the key multiple times to see a change).

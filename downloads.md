@@ -3,8 +3,8 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.22.2, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.200/TheForceEngine-v1.22.200.zip)<br>
-* [Version 1.22.2, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.200.zip)
+* [Version 1.22.3, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip)<br>
+* [Version 1.22.3, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.300.zip)
  
 **Editor Documentation**
 This is still WIP and incomplete
@@ -27,6 +27,30 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If you get a message saying *MFPlat.DLL was not found* you may not have the *Media Feature Pack* installed, which is the default. To fix *Open Settings, Apps & features. On the right side, click Optional features. Install “Media Feature Pack”*.
 
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
+
+### Version 1.22.300
+**Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip) <br>
+**Source Code** [v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.300.zip)
+**Visual Studio PDB** [TheForceEngine-PDB-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-PDB-v1.22.300.zip)
+
+### General Changes
+* gs_player: Replace individual ammo and weapon get/set functions with a single get/set function that takes an enum.
+* Give items and code keys.
+* Added the ability to set player position and velocity in scripts.
+* Added the ability to set elevator speed in scripts.
+* Harkov Replay fix.
+
+### Editor Changes
+* Level save confirmation dialog when trying to exit the level editor with unsaved changes improved.
+* Fixed a ini saving bug with "addRecents".
+* The editor no longer autosaves when a popup window is open or the editor is minimized.
+* Honor Text Input focus, so that shortcuts and other controls don't work while typing in an edit box but the mouse is hovering over the viewport.
+* Level is only marked as dirty if it can be saved (aka not read-only).
+* Added a shortcut that when held, adjust sector or wall lighting with the mousewheel in the viewport.
+* Fixed a crash when changing the edit mode to select a surface/sector in the INF editor.
+* Wall tooltips now show the height of the surface (3D) or sector (2D).
+* The total sector height is displayed in the tooltip when moving floors and ceilings in the 3D view.
+* Tooltips are shown for textures in the Right Edit Panel (wall or sector) that show the texture name, width and height.
 
 ### Version 1.22.200
 **Windows Build** [TheForceEngine-v1.22.200.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.200/TheForceEngine-v1.22.200.zip) <br>

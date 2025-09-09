@@ -3,8 +3,8 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.22.3, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip)<br>
-* [Version 1.22.3, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.300.zip)
+* [Version 1.22.4, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip)<br>
+* [Version 1.22.4, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/1.22.400.zip)
  
 **Editor Documentation**
 This is still WIP and incomplete
@@ -29,6 +29,38 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
 
 ## Download TFE Versions
+### Version 1.22.400
+**Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip) <br>
+**Source Code** [v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/1.22.400.zip) <br>
+
+### About
+Ongoing changes to the level editor and renderer, such as slope support, are not included in this release - they are still a work in progress. Instead this release is meant to capture many community contributions made in the last few months, especially the numerous modding enhancements by jereth and fixes and quality of life improvements by @karjala.
+
+### Changes
+* Animated textures no longer automatically animate when placed on Mid, Bottom or Top textures.
+* Fix for quickload bug #521 by @Karjala
+* Fix the corpse & second height vanilla bug by @jereth
+* Add ability to disable player movement/rotation/fire via scripting by @jereth
+* Scripting get sector by name by @jereth
+* Fix for remaster darkpilo.cfg which is not located in the game folder. by @Karjala
+* Script enhancements by @Karjala
+* Autoexit by @Karjala
+* Don't validate the eye object when loading a savegame by @jereth
+* Introduce ScriptObject class for object scripting by @jereth
+* Door keys by @Karjala
+* Animate actors while idle by @jereth
+* Custom logic additions by @jereth
+* Rotating logs by @Karjala
+* Trademark fix #534 by @Karjala
+* Reset Settings option by @Karjala
+* Mod menu updates by @Karjala
+* Savefile fix patch by @Karjala
+* Fix missing input remap entries in Settings GUI (Weapon6-10, Imgui child window height) by @omeckman
+* Enable moving the camera to a different object by @jereth
+* Tfe message mod support by @Karjala
+* Fix for external pickups by @jereth
+* Door key announce by @Karjala
+
 ### Version 1.22.300
 **Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip) <br>
 **Source Code** [v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.300.zip) <br>

@@ -3,8 +3,8 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.22.4, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip)<br>
-* [Version 1.22.4, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/1.22.400.zip)
+* [Version 1.22.41, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.410/TheForceEngine-v1.22.410.zip)<br>
+* [Version 1.22.41, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.410.zip)
  
 **Editor Documentation**
 This is still WIP and incomplete
@@ -29,9 +29,18 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 * If you run into other issues, see [documentation](https://theforceengine.github.io/Documentation.html).
 
 ## Download TFE Versions
+## Version 1.22.410
+**Windows Build** [TheForceEngine-v1.22.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.410/TheForceEngine-v1.22.410.zip) <br>
+**Source Code** [v1.22.410.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.410.zip) <br>
+**Visual Studio PDB** [TheForceEngine-PDB-v1.22.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.410/TheForceEngine-PDB-v1.22.410.zip)
+
+Hot-fix release.
+* Creating new saves now works correctly again.
+* Custom HD (RAW) textures can now be loaded.
+
 ### Version 1.22.400
-**Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip) <br>
-**Source Code** [v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/1.22.400.zip) <br>
+**Windows Build** [TheForceEngine-v1.22.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip) <br>
+**Source Code** [v1.22.400.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/1.22.400.zip) <br>
 **Visual Studio PDB** [TheForceEngine-PDB-v1.22.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-PDB-v1.22.400.zip)
 
 ### About

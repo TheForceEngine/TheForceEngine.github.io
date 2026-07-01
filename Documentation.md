@@ -56,4 +56,4 @@ Select a mod to play, uses the currently selected game as the base. To get mods 
 Open the built-in editors. Note that the editors are currently disabled due to large changes code structure changes that were required during development. The editors will be returning soon, however, so the option remains in the menu.
 
 ### Exit
-Exit the application..
+Exit the application.

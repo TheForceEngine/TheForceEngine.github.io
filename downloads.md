@@ -3,8 +3,8 @@ layout: page
 title: Downloads
 ---
 **Downloads**
-* [Version 1.22.42, Windows Build](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.420/TheForceEngine-v1.22.420.zip)<br>
-* [Version 1.22.42, Source Code](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.420.zip)
+* [Version 1.22.42, Windows Build](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-v1.22.420.zip)<br>
+* [Version 1.22.42, Source Code](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.420.zip)
  
 **Editor Documentation**
 This is still WIP and incomplete
@@ -30,9 +30,9 @@ The release of version 1.0 is a momentus event but it is not the end of the road
 
 ## Download TFE Versions
 ## Version 1.22.420
-**Windows Build** [TheForceEngine-v1.22.420.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.420/TheForceEngine-v1.22.420.zip) <br>
-**Source Code** [v1.22.420.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.420.zip) <br>
-**Visual Studio PDB** [TheForceEngine-PDB-v1.22.420.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.420/TheForceEngine-PDB-v1.22.420.zip)
+**Windows Build** [TheForceEngine-v1.22.420.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-v1.22.420.zip) <br>
+**Source Code** [v1.22.420.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.420.zip) <br>
+**Visual Studio PDB** [TheForceEngine-PDB-v1.22.420.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-PDB-v1.22.420.zip)
 
 Hot-fix 2.
 * Do not display the "Key Used" message when an elevator receives the Master_Off message.
@@ -42,18 +42,18 @@ Hot-fix 2.
 * Allow user to load difficulty by @Karjala
 
 ## Version 1.22.410
-**Windows Build** [TheForceEngine-v1.22.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.410/TheForceEngine-v1.22.410.zip) <br>
-**Source Code** [v1.22.410.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.410.zip) <br>
-**Visual Studio PDB** [TheForceEngine-PDB-v1.22.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.410/TheForceEngine-PDB-v1.22.410.zip)
+**Windows Build** [TheForceEngine-v1.22.410.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.410/TheForceEngine-v1.22.410.zip) <br>
+**Source Code** [v1.22.410.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.410.zip) <br>
+**Visual Studio PDB** [TheForceEngine-PDB-v1.22.410.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.410/TheForceEngine-PDB-v1.22.410.zip)
 
 Hot-fix release.
 * Creating new saves now works correctly again.
 * Custom HD (RAW) textures can now be loaded.
 
 ### Version 1.22.400
-**Windows Build** [TheForceEngine-v1.22.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip) <br>
-**Source Code** [v1.22.400.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/1.22.400.zip) <br>
-**Visual Studio PDB** [TheForceEngine-PDB-v1.22.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/1.22.400/TheForceEngine-PDB-v1.22.400.zip)
+**Windows Build** [TheForceEngine-v1.22.400.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/1.22.400/TheForceEngine-v1.22.400.zip) <br>
+**Source Code** [v1.22.400.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/1.22.400.zip) <br>
+**Visual Studio PDB** [TheForceEngine-PDB-v1.22.400.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/1.22.400/TheForceEngine-PDB-v1.22.400.zip)
 
 ### About
 Ongoing changes to the level editor and renderer, such as slope support, are not included in this release - they are still a work in progress. Instead this release is meant to capture many community contributions made in the last few months, especially the numerous modding enhancements by jereth and fixes and quality of life improvements by @karjala.
@@ -84,9 +84,9 @@ Ongoing changes to the level editor and renderer, such as slope support, are not
 * Door key announce by @Karjala
 
 ### Version 1.22.300
-**Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip) <br>
-**Source Code** [v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.300.zip) <br>
-**Visual Studio PDB** [TheForceEngine-PDB-v1.22.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.300/TheForceEngine-PDB-v1.22.300.zip)
+**Windows Build** [TheForceEngine-v1.22.300.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.300/TheForceEngine-v1.22.300.zip) <br>
+**Source Code** [v1.22.300.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.300.zip) <br>
+**Visual Studio PDB** [TheForceEngine-PDB-v1.22.300.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.300/TheForceEngine-PDB-v1.22.300.zip)
 
 ### General Changes
 * gs_player: Replace individual ammo and weapon get/set functions with a single get/set function that takes an enum.
@@ -108,8 +108,8 @@ Ongoing changes to the level editor and renderer, such as slope support, are not
 * Tooltips are shown for textures in the Right Edit Panel (wall or sector) that show the texture name, width and height.
 
 ### Version 1.22.200
-**Windows Build** [TheForceEngine-v1.22.200.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.200/TheForceEngine-v1.22.200.zip) <br>
-**Source Code** [v1.22.200.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.200.zip)
+**Windows Build** [TheForceEngine-v1.22.200.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.200/TheForceEngine-v1.22.200.zip) <br>
+**Source Code** [v1.22.200.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.200.zip)
 
 Another small iterative release with TFE Editor improvements.
 
@@ -130,8 +130,8 @@ Another small iterative release with TFE Editor improvements.
 * Fixed a crash in level_unpackSectorAttribSnapshot() when the group ID is not valid, but an error is written instead.
 
 ### Version 1.22.100
-**Windows Build** [TheForceEngine-v1.22.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.100/TheForceEngine-v1.22.100.zip) <br>
-**Source Code** [v1.22.100.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.100.zip)
+**Windows Build** [TheForceEngine-v1.22.100.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.100/TheForceEngine-v1.22.100.zip) <br>
+**Source Code** [v1.22.100.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.100.zip)
 
 A small iterative release with early TFE Editor improvements.
 
@@ -149,8 +149,8 @@ A small iterative release with early TFE Editor improvements.
   * 3D camera rotation.
 
 ### Version 1.22.000
-**Windows Build** [TheForceEngine-v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.22.000/TheForceEngine-v1.22.000.zip) <br>
-**Source Code** [v1.22.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.22.000.zip)
+**Windows Build** [TheForceEngine-v1.22.000.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.000/TheForceEngine-v1.22.000.zip) <br>
+**Source Code** [v1.22.000.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.22.000.zip)
 
 With this release the **TFE Editor** finally hits the **Alpha** phase. Documentation and tutorials are still being worked on - but here is what is currently available:
 * [Manual (WIP)](https://df-21.net/wiki/?title=TFE-EDITOR)
@@ -169,8 +169,8 @@ With this release the **TFE Editor** finally hits the **Alpha** phase. Documenta
 * Added more Mod-Conf overrides @jerethk 
 
 ### Version 1.15.000
-**Windows Build** [TheForceEngine-v1.15.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip) <br>
-**Source Code** [v1.15.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.15.000.zip)
+**Windows Build** [TheForceEngine-v1.15.000.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.15.000/TheForceEngine-v1.15.000.zip) <br>
+**Source Code** [v1.15.000.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.15.000.zip)
 
 This release improves moddability by externalizing previously hard-coded data into ExternalData/DarkForces/ and allows for many properties of effects, pickups, projectiles, and weapons to be changed. In addition, first pass scripting integration has been implemented in the form of script functions that can be called from INF.
 
@@ -216,8 +216,8 @@ This release improves moddability by externalizing previously hard-coded data in
 
 
 ### Version 1.10.000
-**Windows Build** [TheForceEngine-v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.10.000/TheForceEngine-v1.10.000.zip) <br>
-**Source Code** [v1.10.000.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.10.000.zip)
+**Windows Build** [TheForceEngine-v1.10.000.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.10.000/TheForceEngine-v1.10.000.zip) <br>
+**Source Code** [v1.10.000.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.10.000.zip)
 
 It has been months since the last official release. While most of my work has been directed towards the Level Editor, there still have been a large number of changes and improvements that have accumulated in that time frame, many from contributors.
 
@@ -293,8 +293,8 @@ Ongoing work not yet publicly facing, GitHub changes, and other backend efforts.
 
 
 ### Version 1.09.540
-**Windows Build** [TheForceEngine-v1.09.540.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.540/TheForceEngine-v1.09.540.zip) <br>
-**Source Code** [v1.09.540.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.540.zip)
+**Windows Build** [TheForceEngine-v1.09.540.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.540/TheForceEngine-v1.09.540.zip) <br>
+**Source Code** [v1.09.540.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.540.zip)
 
 Another small release that fixes some issues and releases another iteration of the editor (still early WIP).
 
@@ -315,8 +315,8 @@ Another small release that fixes some issues and releases another iteration of t
 
 
 ### Version 1.09.530
-**Windows Build** [TheForceEngine-v1.09.530.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.530/TheForceEngine-v1.09.530.zip) <br>
-**Source Code** [v1.09.530.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.530.zip)
+**Windows Build** [TheForceEngine-v1.09.530.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.530/TheForceEngine-v1.09.530.zip) <br>
+**Source Code** [v1.09.530.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.530.zip)
 
 A bug-fix release, with some improvements to the Accessibility UI, slight improvements to true color texture color accuracy, more work on the TFE editor, and mostly bug fixes.
 
@@ -335,8 +335,8 @@ A bug-fix release, with some improvements to the Accessibility UI, slight improv
 * Improved discoloration that can occur to some textures when using the true color mode.
 
 ### Version 1.09.521
-**Windows Build** [TheForceEngine-v1.09.521.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.521/TheForceEngine-v1.09.521.zip) <br>
-**Source Code** [v1.09.521.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.521.zip)
+**Windows Build** [TheForceEngine-v1.09.521.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.521/TheForceEngine-v1.09.521.zip) <br>
+**Source Code** [v1.09.521.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.521.zip)
 
 Bug-fix release, but it includes the per-texture color adjustment when using the true color renderer.
 
@@ -354,8 +354,8 @@ Bug-fix release, but it includes the per-texture color adjustment when using the
 * Fixed various shader compile issues.
 
 ### Version 1.09.500
-**Windows Build** [TheForceEngine-v1.09.500.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.500/TheForceEngine-v1.09.500.zip) <br>
-**Source Code** [v1.09.500.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.500.zip)
+**Windows Build** [TheForceEngine-v1.09.500.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.500/TheForceEngine-v1.09.500.zip) <br>
+**Source Code** [v1.09.500.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.500.zip)
 
 The "True Color" release.
 
@@ -377,8 +377,8 @@ The "True Color" release.
 * New cheats LAADDLIFE and LASUBLIFE for adding and subtracting lives.
 
 ### Version 1.09.410
-**Windows Build** [TheForceEngine-v1.09.410.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.410/TheForceEngine-v1.09.410.zip) <br>
-**Source Code** [v1.09.410.zip](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.410.zip)
+**Windows Build** [TheForceEngine-v1.09.410.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.410/TheForceEngine-v1.09.410.zip) <br>
+**Source Code** [v1.09.410.zip](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.410.zip)
 
 A quick bug-fix release following up version 1.09.4.
 
@@ -389,8 +389,8 @@ A quick bug-fix release following up version 1.09.4.
 * Fixed a timing issue with subtitles when running at very high framerates (the subtitles would never disappear and become "stuck").
 
 ### Version 1.09.400
-**Windows Build** [TheForceEngine-v1.09.400.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.400/TheForceEngine-v1.09.400.zip) <br>
-**Source Code** [v1.09.400.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.400.zip)
+**Windows Build** [TheForceEngine-v1.09.400.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.400/TheForceEngine-v1.09.400.zip) <br>
+**Source Code** [v1.09.400.tar.gz](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.400.zip)
 
 This build introduces several new features as part of the set of releases leading up to version 1.10. Features include Bloom, Colormap Interpolation, Smooth Vue animations, and a Closed Caption system for accessibility.
 
@@ -406,8 +406,8 @@ This build introduces several new features as part of the set of releases leadin
 * Added Accessibility options, starting out with Closed Captions / Subtitles (Beta).
 
 ### Version 1.09.300
-**Windows Build** [TheForceEngine-v1.09.300.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.300/TheForceEngine-v1.09.300.zip) <br>
-**Source Code** [v1.09.300.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.300.zip)
+**Windows Build** [TheForceEngine-v1.09.300.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.300/TheForceEngine-v1.09.300.zip) <br>
+**Source Code** [v1.09.300.tar.gz](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.300.zip)
 
 Another small bug-fix release.
 
@@ -426,8 +426,8 @@ Another small bug-fix release.
 * Linux: improve crash handler (Manuel Lauss)
 
 ### Version 1.09.200
-**Windows Build** [TheForceEngine-v1.09.200.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.200/TheForceEngine-v1.09.200.zip) <br>
-**Source Code** [v1.09.200.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.200.zip)
+**Windows Build** [TheForceEngine-v1.09.200.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.200/TheForceEngine-v1.09.200.zip) <br>
+**Source Code** [v1.09.200.tar.gz](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.200.zip)
 
 A small bug fix release with fixes backported from the "True Color Renderer" branch, as well as other fixes. The "True Color Renderer" release will be the next major build.
 
@@ -449,25 +449,25 @@ A small bug fix release with fixes backported from the "True Color Renderer" bra
 * Fixed a collision bug that kept the player from jump onto some ledges at certain framerates (including 60 fps). This fixes jumping issues in "DeathStr" and "Lara Hotel".
 
 ### Version 1.09.100
-**Windows Build** [TheForceEngine-v1.09.100.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.100/TheForceEngine-v1.09.100.zip) <br>
-**Source Code** [v1.09.100.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.100.tar.gz) <br>
+**Windows Build** [TheForceEngine-v1.09.100.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.100/TheForceEngine-v1.09.100.zip) <br>
+**Source Code** [v1.09.100.tar.gz](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.100.tar.gz) <br>
 Hotfix release that addresses critical issues with version 1.09.
 
 #### Note For Linux Users
-Linux is now supported but it requires additional setup. For now, you will need to compile from the source in order to run Linux. For more information, see the Linux section of the GitHub [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md).
+Linux is now supported but it requires additional setup. For now, you will need to compile from the source in order to run Linux. For more information, see the Linux section of the GitHub [README](https://github.com/TheForceEngine/TheForceEngine/blob/master/README.md).
 
 In addition, a Flatpak/snap (or similar) package is planned for version 1.10, alleviating the need to manually compile the project. **If you don't want to compile the code, it might be better to use Windows for now or wait for version 1.10.**
 
-* [GitHub Repository](https://github.com/luciusDXL/TheForceEngine)
-* [README](https://github.com/luciusDXL/TheForceEngine/blob/master/README.md)
+* [GitHub Repository](https://github.com/TheForceEngine/TheForceEngine)
+* [README](https://github.com/TheForceEngine/TheForceEngine/blob/master/README.md)
 
 **Changes**
 * System Midi volume bugs, causing notes not to play properly on some midi devices and volume issues with Windows GM synth.
 * Linux crashes when not specifying the build type.
 
 ### Version 1.09.000
-**Windows Build** [TheForceEngine-v1.09.000.zip](https://github.com/luciusDXL/TheForceEngine/releases/download/v1.09.000/TheForceEngine-v1.09.000.zip) <br>
-**Source Code** [v1.09.000.tar.gz](https://github.com/luciusDXL/TheForceEngine/archive/refs/tags/v1.09.000.tar.gz) <br>
+**Windows Build** [TheForceEngine-v1.09.000.zip](https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.09.000/TheForceEngine-v1.09.000.zip) <br>
+**Source Code** [v1.09.000.tar.gz](https://github.com/TheForceEngine/TheForceEngine/archive/refs/tags/v1.09.000.tar.gz) <br>
 This build adds both Sound Font (sf2) and OPL3 midi synthesis. External midi is no longer required on Linux. Note that midi settings will be reset with this build, if you want to change from the default (OPL3 emulation) - than use the Sound menu.
 
 **Changes**
